@@ -616,13 +616,13 @@ def is_my_company(name: str | None) -> bool:
 # Отправка почты
 # ---------------------------------------------------------------------------
 
-def send_email(subject: str, html_body: str) -> None:
+def send_email(subject: str, html_body: str) -> bool:
     if not TO_EMAILS:
         log.warning("TO_EMAILS пуст — письмо не отправлено: %s", subject)
-        return
+        return False
     if not GMAIL_USER or not GMAIL_APP_PASSWORD:
         log.error("GMAIL_USER / GMAIL_APP_PASSWORD не заданы — письмо не отправлено")
-        return
+        return False
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
@@ -641,8 +641,10 @@ def send_email(subject: str, html_body: str) -> None:
             server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
             server.sendmail(GMAIL_USER, all_recipients, msg.as_string())
         log.info("Письмо отправлено: %s (получателей: %d)", subject, len(TO_EMAILS))
+        return True
     except smtplib.SMTPException as e:
         log.error("Ошибка отправки письма: %s", e)
+        return False
 
 
 def render_tender_html(t: dict) -> str:
@@ -736,9 +738,15 @@ def run() -> None:
         body = "<h2>Новые тендеры по вашим темам</h2>" + "".join(
             render_tender_html(t) for t in new_tenders
         )
-        send_email(f"🆕 Новые тендеры: {len(new_tenders)} шт.", body)
-        for t in new_tenders:
-            db[t["id"]]["notified"] = True
+        email_sent = send_email(f"🆕 Новые тендеры: {len(new_tenders)} шт.", body)
+        if email_sent:
+            for t in new_tenders:
+                db[t["id"]]["notified"] = True
+        else:
+            log.warning(
+                "Письмо о новых тендерах не отправлено — они останутся "
+                "непомеченными и попробуют отправиться на следующем запуске."
+            )
 
     for t in cancelled_alerts:
         body = (
