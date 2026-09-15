@@ -38,6 +38,16 @@ from email.mime.multipart import MIMEMultipart
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 
+try:
+    # Опционально: если рядом с bot.py лежит файл .env (только для
+    # локального запуска — см. run_local.ps1/run_local.sh), подгружаем
+    # из него переменные окружения. В GitHub Actions файла .env нет,
+    # и эта строка просто ничего не делает.
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -515,6 +525,16 @@ PARSERS = [
     parse_goszakupki_okmot_kg,
     parse_procurement_kg,
 ]
+
+# Позволяет запускать бота только для части площадок — используется для
+# локального запуска (см. run_local.ps1 / run_local.sh), где обрабатываются
+# только площадки, заблокированные для IP-адресов GitHub Actions
+# (tenders_kg, procurement_kg), в то время как остальные три продолжают
+# работать в облаке по прежнему расписанию.
+_ONLY_SOURCES = _split_env_list("ONLY_SOURCES")
+if _ONLY_SOURCES:
+    PARSERS = [p for p in PARSERS if any(name in p.__name__ for name in _ONLY_SOURCES)]
+    log.info("ONLY_SOURCES активен, обрабатываются только: %s", [p.__name__ for p in PARSERS])
 
 
 def _normalize_status(raw: str) -> str | None:
