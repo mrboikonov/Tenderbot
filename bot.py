@@ -197,6 +197,29 @@ def _get_soup(url: str, referer: str | None = None) -> BeautifulSoup | None:
         return None
 
 
+def _get_json(url: str, referer: str | None = None) -> dict | list | None:
+    """Как _get_soup, но для JSON API-эндпоинтов (без HTML-парсинга)."""
+    domain = re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
+    verify_ssl = domain not in INSECURE_DOMAINS
+
+    headers = {"Accept": "application/json"}
+    if referer:
+        headers["Referer"] = referer
+
+    try:
+        resp = SESSION.get(
+            url,
+            headers=headers,
+            timeout=REQUEST_TIMEOUT,
+            verify=verify_ssl,
+        )
+        resp.raise_for_status()
+        return resp.json()
+    except (requests.RequestException, ValueError) as e:
+        log.error("Ошибка запроса JSON %s: %s", url, e)
+        return None
+
+
 def parse_zakupki_gov_kg() -> list[dict]:
     """
     zakupki.gov.kg — портал на JSF/PrimeFaces (НЕ SPA, серверный рендер,
@@ -370,34 +393,61 @@ def parse_aris_kg() -> list[dict]:
     return results
 
 
+def _normalize_goszakupki_status(raw: str) -> str:
+    raw_u = (raw or "").upper()
+    if "CANCEL" in raw_u or "REJECT" in raw_u:
+        return STATUS_CANCELLED
+    if any(w in raw_u for w in ["COMPLETE", "FINISH", "CLOSED", "ARCHIVE", "SIGNED"]):
+        return STATUS_COMPLETED
+    return STATUS_ACTIVE
+
+
 def parse_goszakupki_okmot_kg() -> list[dict]:
     """
-    goszakupki.okmot.kg — портал электронных госзакупок кабинета министров.
-    TODO: часто такие ЕИС рендерят список через JS/API (XHR к /api/...).
-    Если requests.get() возвращает пустой HTML, посмотрите вкладку Network
-    в браузере — вероятно, есть отдельный JSON-эндпоинт, который проще
-    и надёжнее парсить напрямую (requests.get(api_url).json()).
+    goszakupki.okmot.kg — React SPA, но данные приходят через открытый
+    JSON API (найдено вручную через DevTools -> Network, 2026-09-15):
+        GET /api/public_tender/published?first=0&rows=N
+    Возвращает {"content": [ {id, number, companyName, name, method,
+    amount, datePublished, dateContest, status}, ... ]}.
+
+    Статусы наблюдались как "VERIFIED_PUBLISHED" (активно) в самом списке
+    /published. На детальной странице конкретного тендера видели бейдж
+    "Не состоялся" (тендер, скорее всего, был отменён/не собрал заявок) —
+    это подтверждает, что другие статусы существуют, но раз "published"
+    эндпоинт, судя по всему, отдаёт только активные объявления, для
+    надёжного отслеживания смены статуса, вероятно, нужен ещё один
+    API-эндпоинт (что-то вроде /api/public_tender/completed или
+    /failed) — стоит поискать его так же через DevTools -> Network,
+    открыв фильтр статуса на сайте (если он есть в разделе "Объявления").
+
+    Ссылка на детальную страницу подтверждена вручную 2026-09-15:
+        https://goszakupki.okmot.kg/public/order/view/<id>?tab=tender
     """
     base = "https://goszakupki.okmot.kg"
-    soup = _get_soup(f"{base}/public/home")
+    api_url = f"{base}/api/public_tender/published?first=0&rows=50"
+    # Формат подтверждён вручную 2026-09-15 (реальная страница тендера):
+    # https://goszakupki.okmot.kg/public/order/view/<id>?tab=tender
+    DETAIL_URL_TEMPLATE = base + "/public/order/view/{id}?tab=tender"
+
+    data = _get_json(api_url, referer=f"{base}/public/home")
     results = []
-    if not soup:
+    if not data:
         return results
 
-    for card in soup.select("div.tender-card, tr.procurement-row"):
-        link_tag = card.select_one("a")
-        if not link_tag or not link_tag.get("href"):
+    items = data.get("content", []) if isinstance(data, dict) else data
+    for item in items:
+        tender_id = item.get("id") or item.get("number")
+        if not tender_id:
             continue
-        url = link_tag["href"]
-        if url.startswith("/"):
-            url = base + url
-        title = link_tag.get_text(strip=True)
         results.append({
-            "id": url,
-            "url": url,
-            "title": title,
+            "id": f"goszakupki:{tender_id}",
+            "url": DETAIL_URL_TEMPLATE.format(id=tender_id),
+            "title": item.get("name", "").strip() or f"Тендер №{item.get('number', tender_id)}",
             "source": "goszakupki.okmot.kg",
-            "status": STATUS_ACTIVE,
+            "status": _normalize_goszakupki_status(item.get("status", "")),
+            "customer": item.get("companyName", ""),
+            "deadline": item.get("dateContest", ""),
+            "published": item.get("datePublished", ""),
         })
     return results
 
@@ -480,11 +530,12 @@ def parse_tender_results(tender: dict) -> dict:
     Пытается открыть страницу конкретного тендера и вытащить победителя
     и список участников. Возвращает dict с ключами winner/participants
     (пустые значения, если не найдено или структура не распознана).
-
-    TODO: под каждую площадку селекторы для блока "Результаты"/"Протокол"
-    свои — этот шаблон ищет наиболее общие текстовые маркеры
-    ("Победитель:", "Участники:") и должен быть уточнён вручную.
     """
+    if tender.get("source") == "goszakupki.okmot.kg":
+        return _parse_goszakupki_results(tender)
+
+    # Универсальный HTML-путь для остальных площадок (см. комментарий
+    # в начале функции файла — TODO под каждую площадку свои селекторы).
     soup = _get_soup(tender["url"])
     winner = None
     participants: list[str] = []
@@ -501,6 +552,55 @@ def parse_tender_results(tender: dict) -> dict:
     if m:
         raw = m.group(1)
         participants = [p.strip() for p in re.split(r"[;,]", raw) if p.strip()]
+
+    return {"winner": winner, "participants": participants}
+
+
+def _parse_goszakupki_results(tender: dict) -> dict:
+    """
+    goszakupki.okmot.kg — победитель/участники через найденный вручную
+    API (проверено 2026-09-15):
+        GET /api/public_submission/getSubmissionsbyTenderId?tenderId=<id>
+    На момент проверки этот эндпоинт для тестового тендера вернул
+    пустой список `[]` (у тендера ещё не было заявок), поэтому точная
+    структура объекта одной заявки (какое поле содержит название
+    компании-участника и как помечен победитель) НЕ подтверждена
+    напрямую. Ниже — код, который пробует несколько наиболее вероятных
+    названий полей (`companyName`, `supplierName`, `name`, флаги
+    `isWinner`/`winner`/`status`). Если после реального запуска бота
+    победитель/участники будут пустыми для тендера, который явно завершён
+    с результатом — откройте такой тендер на сайте, найдите в Network тот
+    же запрос `getSubmissionsbyTenderId` и пришлите содержимое Response —
+    поля будут скорректированы.
+    """
+    base = "https://goszakupki.okmot.kg"
+    raw_id = tender["id"].split(":", 1)[1] if ":" in tender["id"] else tender["id"]
+    url = f"{base}/api/public_submission/getSubmissionsbyTenderId?tenderId={raw_id}"
+
+    data = _get_json(url, referer=tender["url"])
+    winner = None
+    participants: list[str] = []
+
+    if isinstance(data, list):
+        for sub in data:
+            if not isinstance(sub, dict):
+                continue
+            name = (
+                sub.get("companyName")
+                or sub.get("supplierName")
+                or sub.get("name")
+                or sub.get("participantName")
+            )
+            if not name:
+                continue
+            participants.append(name)
+            is_winner = (
+                sub.get("isWinner") is True
+                or sub.get("winner") is True
+                or str(sub.get("status", "")).upper() in ("WINNER", "SELECTED", "WON")
+            )
+            if is_winner:
+                winner = name
 
     return {"winner": winner, "participants": participants}
 
