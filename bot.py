@@ -246,10 +246,10 @@ def parse_zakupki_gov_kg() -> list[dict]:
     reject_url = f"{base}/popp/view/order/rejectList.xhtml"
 
     LABEL_MAP = {
-        "name of company": "customer",
-        "purchase name": "title",
-        "bids submission deadline": "deadline",
-        "date published": "published",
+        "наименование организации": "customer",
+        "наименование закупки": "title",
+        "срок подачи предложений": "deadline",
+        "дата публикации": "published",
     }
 
     def _strip_leading_label(text: str) -> str:
