@@ -507,6 +507,15 @@ def fetch_all_tenders() -> list[dict]:
         try:
             found = parser()
             log.info("%s: найдено %d записей", parser.__name__, len(found))
+            # Временная диагностика: показываем первые 3 названия, чтобы
+            # проверить, правильно ли извлекается title (а не заглушка
+            # вида "Тендер №..."). Можно убрать после проверки.
+            for sample in found[:3]:
+                log.info(
+                    "  пример: [%s] %r",
+                    sample.get("source"),
+                    sample.get("title"),
+                )
             all_tenders.extend(found)
         except Exception as e:
             log.exception("Парсер %s упал с ошибкой: %s", parser.__name__, e)
