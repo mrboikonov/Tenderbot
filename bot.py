@@ -246,16 +246,27 @@ def parse_zakupki_gov_kg() -> list[dict]:
     reject_url = f"{base}/popp/view/order/rejectList.xhtml"
 
     LABEL_MAP = {
-        "Name of company": "customer",
-        "purchase Name": "title",
-        "Bids Submission Deadline": "deadline",
-        "Date published": "published",
+        "name of company": "customer",
+        "purchase name": "title",
+        "bids submission deadline": "deadline",
+        "date published": "published",
     }
 
+    def _strip_leading_label(text: str) -> str:
+        """
+        Запасной вариант: убирает ведущий "прилипший" текст лейбла
+        (латиница/пунктуация) до первого кириллического символа.
+        Используется, если точное совпадение по LABEL_MAP не сработало
+        (например, из-за иного регистра/формата лейбла на странице).
+        """
+        m = re.search(r"[А-Яа-яЁё]", text)
+        return text[m.start():].strip() if m else text.strip()
+
     def _extract_field(cell_text: str) -> tuple[str, str] | None:
+        low = cell_text.lower()
         for label, key in LABEL_MAP.items():
-            if cell_text.startswith(label):
-                return key, cell_text[len(label):].strip()
+            if low.startswith(label):
+                return key, cell_text[len(label):].lstrip(" :\t").strip()
         return None
 
     def _parse_list(url: str) -> dict[str, dict]:
@@ -276,10 +287,26 @@ def parse_zakupki_gov_kg() -> list[dict]:
             row = link_tag.find_parent("tr")
             data = {"customer": "", "title": "", "deadline": "", "published": ""}
             if row:
-                for cell in row.select("td"):
-                    field = _extract_field(cell.get_text(strip=True))
+                cells = row.select("td")
+                for cell in cells:
+                    cell_text = cell.get_text(strip=True)
+                    field = _extract_field(cell_text)
                     if field:
                         data[field[0]] = field[1]
+
+                if not data["title"]:
+                    # Запасной вариант: точный лейбл не совпал — берём
+                    # ячейку с наибольшим количеством кириллических
+                    # символов (после отсечения латинского "лейбла" в
+                    # начале) как наиболее вероятное название тендера.
+                    best_text, best_len = "", 0
+                    for cell in cells:
+                        stripped = _strip_leading_label(cell.get_text(strip=True))
+                        cyr_len = len(re.findall(r"[А-Яа-яЁё]", stripped))
+                        if cyr_len > best_len:
+                            best_text, best_len = stripped, cyr_len
+                    if best_text:
+                        data["title"] = best_text
 
             found[tender_id] = {
                 "id": tender_url,
