@@ -54,5 +54,11 @@ jobs:
             echo "Нет изменений в базе — коммит не нужен."
           else
             git commit -m "chore: update tenders_db.json [skip ci]"
+            # Подтягиваем возможные изменения репозитория (например, если
+            # кто-то вручную редактировал файлы через веб-интерфейс во
+            # время выполнения workflow), чтобы push не был отклонён как
+            # non-fast-forward. rebase сохраняет наш коммит поверх свежих
+            # изменений.
+            git pull --rebase origin main
             git push
           fi
