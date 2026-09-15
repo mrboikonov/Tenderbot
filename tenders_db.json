@@ -1,4 +1,604 @@
 {
+  "goszakupki:6aa900ffd5978a4098c1a57a": {
+    "customer": "Майлуу-сууйский Центр общеврачебной практики",
+    "deadline": "2026-09-18 16:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa900ffd5978a4098c1a57a",
+    "notified": true,
+    "published": "2026-09-15 15:43",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение Бензина АИ-92  для транспорта ЦОВП",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa900ffd5978a4098c1a57a?tab=tender"
+  },
+  "goszakupki:6aa90217d5978a4098c1a57d": {
+    "customer": "Учреждение \"Дорожно-эксплутационное учреждение №28 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики\"",
+    "deadline": "2026-09-18 16:35",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90217d5978a4098c1a57d",
+    "notified": true,
+    "published": "2026-09-15 15:35",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение шин для грузовых автомобилей и спец.техники",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90217d5978a4098c1a57d?tab=tender"
+  },
+  "goszakupki:6aa9036bd5978a4098c1a581": {
+    "customer": "Учреждение Центр общеврачебной практики Кара-Кулжинского района Ошской области имени Мамытбека Жунусова",
+    "deadline": "2026-09-18 16:36",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa9036bd5978a4098c1a581",
+    "notified": true,
+    "published": "2026-09-15 16:35",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобритение хоз товаров",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa9036bd5978a4098c1a581?tab=tender"
+  },
+  "goszakupki:6aa9077fd5978a4098c1a590": {
+    "customer": "Учреждение\"Дорожно-эксплуатационное учреждение 35 Департамента дорожного хозяйства при Министерстве транспорта и коммуникации Кыргызской Республикасы\"",
+    "deadline": "2026-09-18 16:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa9077fd5978a4098c1a590",
+    "notified": true,
+    "published": "2026-09-15 15:16",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Покупка строительных материалов на дорожно-ремонтные работы",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa9077fd5978a4098c1a590?tab=tender"
+  },
+  "goszakupki:6aa90903d5978a4098c1a595": {
+    "customer": "Сельская управа Жаны Жер",
+    "deadline": "2026-09-18 15:30",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90903d5978a4098c1a595",
+    "notified": true,
+    "published": "2026-09-15 15:26",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Завершения по ремонту ограждения аллея улицы Раззакова в село Жаштык",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90903d5978a4098c1a595?tab=tender"
+  },
+  "goszakupki:6aa90be9d5978a4098c1a59d": {
+    "customer": "МП Реабилитационный центр для лиц с инвалидностью Аяр Департамента социального развития мэрии г. Бишкек",
+    "deadline": "2026-09-18 16:40",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90be9d5978a4098c1a59d",
+    "notified": true,
+    "published": "2026-09-15 15:24",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "ПРИОБРЕТЕНИЕ   МЕД. АППАРАТ ДАРСОНВАЛИЗАЦИЯ И АКВАРИУМА.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90be9d5978a4098c1a59d?tab=tender"
+  },
+  "goszakupki:6aa90df7d5978a4098c1a5a3": {
+    "customer": "Учреждение Жайылский айыл окмоту",
+    "deadline": "2026-10-01 00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90df7d5978a4098c1a5a3",
+    "notified": true,
+    "published": "2026-09-15 16:31",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Строительство мини-футбольного поля в селе Калдык Жайылского айыл окмоту 2026 год.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90df7d5978a4098c1a5a3?tab=tender"
+  },
+  "goszakupki:6aa90e0ed5978a4098c1a5a5": {
+    "customer": "Учреждение Ошская межобластная объединенная клиническая больница",
+    "deadline": "2026-09-18 16:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90e0ed5978a4098c1a5a5",
+    "notified": true,
+    "published": "2026-09-15 15:53",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение медицинских оборудований и изделий медицинского назначения",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90e0ed5978a4098c1a5a5?tab=tender"
+  },
+  "goszakupki:6aa90eb1d5978a4098c1a5ac": {
+    "customer": "У-е  Достук айыл окмоту айылного аймака Достук Аламудунского района Чуйской области",
+    "deadline": "2026-09-18 16:50",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90eb1d5978a4098c1a5ac",
+    "notified": true,
+    "published": "2026-09-15 16:47",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение представительских услуг по проведению мероприятий, посвящённых Международному дню пожилых людей — 1 октября\nна территории айылного аймака Достук",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90eb1d5978a4098c1a5ac?tab=tender"
+  },
+  "goszakupki:6aa90ec2d5978a4098c1a5ae": {
+    "customer": "Учреждение Айыл окмот Эмгек-Талинского айылного аймака",
+    "deadline": "2026-09-21 08:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90ec2d5978a4098c1a5ae",
+    "notified": true,
+    "published": "2026-09-15 15:29",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Эмгек-Талаа айыл аймагынын айыл окмотуно караштуу 5- бала бакчага тамак-аш сатып алуу.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90ec2d5978a4098c1a5ae?tab=tender"
+  },
+  "goszakupki:6aa90f37d5978a4098c1a5b1": {
+    "customer": "Учреждение Центр общеврачебной практики Ак-Талинского района Нарынской области",
+    "deadline": "2026-09-18 18:26",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90f37d5978a4098c1a5b1",
+    "notified": true,
+    "published": "2026-09-15 15:33",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Покупка сахара и сливочное масло",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90f37d5978a4098c1a5b1?tab=tender"
+  },
+  "goszakupki:6aa90f75d5978a4098c1a5b4": {
+    "customer": "Учреждение Айыл окмот Тогуз-Булакского айылного аймака",
+    "deadline": "2026-09-18 19:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90f75d5978a4098c1a5b4",
+    "notified": true,
+    "published": "2026-09-15 15:57",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "кызматтык унаага амортизатор алуу жана кенсеге канц.товар алуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90f75d5978a4098c1a5b4?tab=tender"
+  },
+  "goszakupki:6aa90fa5d5978a4098c1a5b6": {
+    "customer": "Учреждение \"Майлуу-Сууское управление Министерства финансов Кыргызской Республики\"",
+    "deadline": "2026-09-18 16:27",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa90fa5d5978a4098c1a5b6",
+    "notified": true,
+    "published": "2026-09-15 15:40",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги сметчика",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90fa5d5978a4098c1a5b6?tab=tender"
+  },
+  "goszakupki:6aa9109bd5978a4098c1a5c0": {
+    "customer": "Учреждение Мэрия города Токтогул",
+    "deadline": "2026-09-18 16:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa9109bd5978a4098c1a5c0",
+    "notified": true,
+    "published": "2026-09-15 15:48",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение и установка  камеру для системы контроля и управления и управления доступом (СКУД) фейс-контроль",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa9109bd5978a4098c1a5c0?tab=tender"
+  },
+  "goszakupki:6aa910b3d5978a4098c1a5c2": {
+    "customer": "Учреждение Департамент капитального строительства при мэрии города Базар-Коргон",
+    "deadline": "2026-09-18 15:50",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa910b3d5978a4098c1a5c2",
+    "notified": true,
+    "published": "2026-09-15 15:41",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Строительство тротуара",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa910b3d5978a4098c1a5c2?tab=tender"
+  },
+  "goszakupki:6aa911e9d5978a4098c1a5ce": {
+    "customer": "Учреждение «Дорожно-эксплуатационное учреждение №15 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики»",
+    "deadline": "2026-09-18 17:13",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa911e9d5978a4098c1a5ce",
+    "notified": true,
+    "published": "2026-09-15 16:25",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуга асфальта укладчика",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa911e9d5978a4098c1a5ce?tab=tender"
+  },
+  "goszakupki:6aa91215d5978a4098c1a5cf": {
+    "customer": "Сельская управа имени Абсамата Масалиева",
+    "deadline": "2026-09-18 18:10",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91215d5978a4098c1a5cf",
+    "notified": true,
+    "published": "2026-09-15 18:00",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "А.Масалиев айыл өкмөтүнө караштуу Разьезд айылындагы А.Навои орто мектебине арка куруу үчүн курулуш материалдарын сатып алабыз.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91215d5978a4098c1a5cf?tab=tender"
+  },
+  "goszakupki:6aa914f8d5978a4098c1a5dd": {
+    "customer": "Учреждение Айыл окмоту айылного аймака Кетмен-Добо",
+    "deadline": "2026-09-18 16:30",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa914f8d5978a4098c1a5dd",
+    "notified": true,
+    "published": "2026-09-15 16:06",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Хоз.товар для дет сада Кызгалдак",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa914f8d5978a4098c1a5dd?tab=tender"
+  },
+  "goszakupki:6aa91505d5978a4098c1a5df": {
+    "customer": "Учреждение Центр государственного санитарно-эпидемиологического надзора г. Бишкек",
+    "deadline": "2026-09-18 16:30",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91505d5978a4098c1a5df",
+    "notified": true,
+    "published": "2026-09-15 15:57",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Замена труб теплотрассы",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91505d5978a4098c1a5df?tab=tender"
+  },
+  "goszakupki:6aa915b8d5978a4098c1a5eb": {
+    "customer": "Арашанский айыл окмоту",
+    "deadline": "2026-09-18 16:40",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa915b8d5978a4098c1a5eb",
+    "notified": true,
+    "published": "2026-09-15 16:30",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ремонт дороги на территории Арашанского айыльного аймака 750 метров ул. Титов, Молдобекова и Исабекова",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa915b8d5978a4098c1a5eb?tab=tender"
+  },
+  "goszakupki:6aa91648d5978a4098c1a5f1": {
+    "customer": "Учреждение \"Дорожно-эксплуатационное учреждение №30 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики\"",
+    "deadline": "2026-09-21 09:57",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91648d5978a4098c1a5f1",
+    "notified": true,
+    "published": "2026-09-15 16:10",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение ГСМ",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91648d5978a4098c1a5f1?tab=tender"
+  },
+  "goszakupki:6aa9171fd5978a4098c1a5f9": {
+    "customer": "Учреждение Мырза-Акинский центр общей врачебной практики",
+    "deadline": "2026-09-18 16:20",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa9171fd5978a4098c1a5f9",
+    "notified": true,
+    "published": "2026-09-15 16:15",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ар түрдүү нерселерди сатып алуу (повтор)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa9171fd5978a4098c1a5f9?tab=tender"
+  },
+  "goszakupki:6aa918b6d5978a4098c1a603": {
+    "customer": "Учреждение Управление Государственной пограничной службы Кыргызской Республики по Ошской области (войсковая часть 2024)",
+    "deadline": "2026-09-18 17:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa918b6d5978a4098c1a603",
+    "notified": true,
+    "published": "2026-09-15 16:14",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "ПРИОБРЕТЕНИЕ СТРОИТЕЛЬНО-ХОЗТОВАРОВ, САНТЕХНИЧЕСКИХ МАТЕРИАЛОВ И ПРОТИВОПОЖАРНОГО ИНВЕНТАРЯ",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa918b6d5978a4098c1a603?tab=tender"
+  },
+  "goszakupki:6aa918c3d5978a4098c1a605": {
+    "customer": "Учреждение «Дорожно-эксплуатационное учреждение №37 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики»",
+    "deadline": "2026-09-18 20:02",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa918c3d5978a4098c1a605",
+    "notified": true,
+    "published": "2026-09-15 16:17",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги техники с учетом ГСМ для устройство асфальтобетонного покрытия авто дорого Ноокат-Папан участок 27-30км",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa918c3d5978a4098c1a605?tab=tender"
+  },
+  "goszakupki:6aa91a1dd5978a4098c1a611": {
+    "customer": "Кыргызско-Российский профессиональный лицей № 28",
+    "deadline": "2026-09-18 16:43",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91a1dd5978a4098c1a611",
+    "notified": true,
+    "published": "2026-09-15 16:36",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Тамак-аш сатып алуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91a1dd5978a4098c1a611?tab=tender"
+  },
+  "goszakupki:6aa91b91d5978a4098c1a61b": {
+    "customer": "Учреждение «Дорожно-эксплуатационное учреждение №37 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики»",
+    "deadline": "2026-09-18 20:14",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91b91d5978a4098c1a61b",
+    "notified": true,
+    "published": "2026-09-15 16:28",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги асфальт укладчика комплектами для устройства асфальтобетонного покрытия автодороги Кок-жар-Кызыл-Кыя уч. 2-4км Ноокатского района с. Кок-Жар",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91b91d5978a4098c1a61b?tab=tender"
+  },
+  "goszakupki:6aa91ba5d5978a4098c1a61d": {
+    "customer": "Арашанский айыл окмоту",
+    "deadline": "2026-09-18 16:50",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91ba5d5978a4098c1a61d",
+    "notified": true,
+    "published": "2026-09-15 16:30",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ремонт дороги на территории Арашанского айыльного аймака длиною 450 метров в селе С.Чокморова",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91ba5d5978a4098c1a61d?tab=tender"
+  },
+  "goszakupki:6aa91cf8d5978a4098c1a623": {
+    "customer": "Управление МЧС КР по Таласской области",
+    "deadline": "2026-09-18 17:24",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91cf8d5978a4098c1a623",
+    "notified": true,
+    "published": "2026-09-15 16:41",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Покупка бензин АИ-92 и ДТ по талонам",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91cf8d5978a4098c1a623?tab=tender"
+  },
+  "goszakupki:6aa91d03d5978a4098c1a625": {
+    "customer": "Муниципальное учреждение \"Муниципальное территориальное управление №301\"",
+    "deadline": "2026-10-01 15:30",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91d03d5978a4098c1a625",
+    "notified": true,
+    "published": "2026-09-15 16:57",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Установка мини фут поля и детских площадок",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91d03d5978a4098c1a625?tab=tender"
+  },
+  "goszakupki:6aa91d59d5978a4098c1a628": {
+    "customer": "Жалал-Абадский областной центр по борьбе и профилактике со СПИДом",
+    "deadline": "2026-09-21 09:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91d59d5978a4098c1a628",
+    "notified": true,
+    "published": "2026-09-15 18:22",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ремонт складских помещений замена кровли водоконолисационных систем по адресу город Манас ул Курортная №37",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91d59d5978a4098c1a628?tab=tender"
+  },
+  "goszakupki:6aa91e6cd5978a4098c1a632": {
+    "customer": "Учреждение \"Дорожно-эксплуатационное учреждение №33 Департамента дорожного хозяйство при Министерстве транспорта и коммуникации Кыргызской Республики\"",
+    "deadline": "2026-09-21 08:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91e6cd5978a4098c1a632",
+    "notified": true,
+    "published": "2026-09-15 16:52",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Нанесение дорожной разметки пешеходных переходов термопластичным материалом.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91e6cd5978a4098c1a632?tab=tender"
+  },
+  "goszakupki:6aa91e94d5978a4098c1a635": {
+    "customer": "Учреждение «Дорожно-эксплуатационное учреждение №37 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики»",
+    "deadline": "2026-09-18 20:27",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91e94d5978a4098c1a635",
+    "notified": true,
+    "published": "2026-09-15 16:41",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Покупка смесь асфальтобетонная горячая плотная мелкозернистая Типа Б марки I для верхнего слоя для устройства асфальтобетонного покрытия а/д Ноокат-Папан уч.27-30км",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91e94d5978a4098c1a635?tab=tender"
+  },
+  "goszakupki:6aa91ed9d5978a4098c1a63a": {
+    "customer": "Учреждение «Дорожно-эксплуатационное учреждение №15 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики»",
+    "deadline": "2026-09-18 16:45",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa91ed9d5978a4098c1a63a",
+    "notified": true,
+    "published": "2026-09-15 16:43",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Перевозка Асфальта",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa91ed9d5978a4098c1a63a?tab=tender"
+  },
+  "goszakupki:6aa92094d5978a4098c1a63e": {
+    "customer": "Учреждение \"Дорожно-эксплуатационное учреждение №11 Департамента дорожного хозяйство при Министерстве транспорта и коммуникации КР\"",
+    "deadline": "2026-09-21 09:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa92094d5978a4098c1a63e",
+    "notified": true,
+    "published": "2026-09-15 17:00",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги грузового самосвала с водителем",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa92094d5978a4098c1a63e?tab=tender"
+  },
+  "goszakupki:6aa923cad5978a4098c1a64e": {
+    "customer": "Главное управление финансово-хозяйственного обеспечения Министерства внутренних дел Кыргызской Республики",
+    "deadline": "2026-09-21 09:10",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa923cad5978a4098c1a64e",
+    "notified": true,
+    "published": "2026-09-15 18:14",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Закупка видеостены с установкой",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa923cad5978a4098c1a64e?tab=tender"
+  },
+  "goszakupki:6aa9240dd5978a4098c1a650": {
+    "customer": "Арашанский айыл окмоту",
+    "deadline": "2026-09-18 17:15",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa9240dd5978a4098c1a650",
+    "notified": true,
+    "published": "2026-09-15 17:04",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение электротрицикл",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa9240dd5978a4098c1a650?tab=tender"
+  },
+  "goszakupki:6aa9251fd5978a4098c1a658": {
+    "customer": "Учреждение \"Дорожно-эксплуатационное учреждение №27 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики\"",
+    "deadline": "2026-09-18 17:40",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa9251fd5978a4098c1a658",
+    "notified": true,
+    "published": "2026-09-15 17:02",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Курулуш  материалдарын сатып алуу (покупка строительных материалов)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa9251fd5978a4098c1a658?tab=tender"
+  },
+  "goszakupki:6aa92656d5978a4098c1a662": {
+    "customer": "Муниципальное учреждение «Муниципальное территориальное управление №105».",
+    "deadline": "2026-09-21 00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa92656d5978a4098c1a662",
+    "notified": true,
+    "published": "2026-09-15 17:29",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Восстановительный ремонт мягкой кровли жилого дома",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa92656d5978a4098c1a662?tab=tender"
+  },
+  "goszakupki:6aa92678d5978a4098c1a664": {
+    "customer": "Учреждение Мэрия города Токтогул",
+    "deadline": "2026-09-18 17:30",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa92678d5978a4098c1a664",
+    "notified": true,
+    "published": "2026-09-15 17:15",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Токтогул шаардык мэриясына караштуу Кайрак участогуна Токтогул жазуу,флагшток орнотууга жерин тегиздөөгө техникага күйүүчү май (Солярка) сатып алуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa92678d5978a4098c1a664?tab=tender"
+  },
+  "goszakupki:6aa92716d5978a4098c1a666": {
+    "customer": "Учреждение \"Дорожно-эксплуатационное учреждение №27 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики\"",
+    "deadline": "2026-09-18 20:34",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa92716d5978a4098c1a666",
+    "notified": true,
+    "published": "2026-09-15 18:02",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Покупка дизельное топливо К4, К5",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa92716d5978a4098c1a666?tab=tender"
+  },
+  "goszakupki:6aa927d9d5978a4098c1a669": {
+    "customer": "Учреждение «Бишкекское городское управление ветеринарии, развития животноводства, пастбищ и кормов»",
+    "deadline": "2026-09-18 17:19",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa927d9d5978a4098c1a669",
+    "notified": true,
+    "published": "2026-09-15 17:13",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение ГМС Бензин АИ-95",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa927d9d5978a4098c1a669?tab=tender"
+  },
+  "goszakupki:6aa92844d5978a4098c1a66f": {
+    "customer": " Айыл окмот Мин-Кушского айылного аймака",
+    "deadline": "2026-09-18 17:30",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa92844d5978a4098c1a66f",
+    "notified": true,
+    "published": "2026-09-15 17:28",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение водогрейных твёрдотопливных котлов с установкой (повторно)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa92844d5978a4098c1a66f?tab=tender"
+  },
+  "goszakupki:6aa929a2d5978a4098c1a677": {
+    "customer": "Учреждение «Дорожно-эксплуатационное учреждение №37 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики»",
+    "deadline": "2026-09-18 21:14",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa929a2d5978a4098c1a677",
+    "notified": true,
+    "published": "2026-09-15 17:28",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуга по переработке давальческого сырья (битума) с изготовлением асфальтобетонной смеси",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa929a2d5978a4098c1a677?tab=tender"
+  },
+  "goszakupki:6aa92b24d5978a4098c1a682": {
+    "customer": "Учреждение Айыл окмот Кара-Сууйского айылного аймака",
+    "deadline": "2026-09-21 11:30",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa92b24d5978a4098c1a682",
+    "notified": true,
+    "published": "2026-09-15 17:30",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение материалов для строительство моста через канал на окраине с Терек-Суу Ат-Башинского района Нарынской области",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa92b24d5978a4098c1a682?tab=tender"
+  },
+  "goszakupki:6aa92bafd5978a4098c1a683": {
+    "customer": "Учреждение Центр общеврачебной практики Кара-Кулжинского района Ошской области имени Мамытбека Жунусова",
+    "deadline": "2026-09-18 17:36",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa92bafd5978a4098c1a683",
+    "notified": true,
+    "published": "2026-09-15 17:32",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Чарбалык жана электро буюмдар (повтор)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa92bafd5978a4098c1a683?tab=tender"
+  },
+  "goszakupki:6aa92cabd5978a4098c1a68c": {
+    "customer": " Айыл окмот Мин-Кушского айылного аймака",
+    "deadline": "2026-09-18 17:55",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa92cabd5978a4098c1a68c",
+    "notified": true,
+    "published": "2026-09-15 17:52",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение IP камер и дорожных знаков с установкой",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa92cabd5978a4098c1a68c?tab=tender"
+  },
+  "goszakupki:6aa93029d5978a4098c1a69d": {
+    "customer": "Учреждение Центр семейной медицины № 6 г. Бишкек",
+    "deadline": "2026-09-18 18:10",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa93029d5978a4098c1a69d",
+    "notified": true,
+    "published": "2026-09-15 18:08",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Поставка бытовой химии",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa93029d5978a4098c1a69d?tab=tender"
+  },
+  "goszakupki:6aa93645d5978a4098c1a6b0": {
+    "customer": "Муниципальное учреждение ”Муниципальное территориальное управление №404",
+    "deadline": "2026-09-21 14:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa93645d5978a4098c1a6b0",
+    "notified": true,
+    "published": "2026-09-15 18:27",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "На приобретение кондиционера с установкой",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa93645d5978a4098c1a6b0?tab=tender"
+  },
+  "goszakupki:6aa93c8fd5978a4098c1a6c5": {
+    "customer": "Учреждение «Национальная телерадиовещательная корпорация Кыргызской Республики»",
+    "deadline": "2026-09-18 19:10",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa93c8fd5978a4098c1a6c5",
+    "notified": true,
+    "published": "2026-09-15 18:46",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Покупка услуги поверки теплосчетчика.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa93c8fd5978a4098c1a6c5?tab=tender"
+  },
+  "goszakupki:6aa93e6bd5978a4098c1a6cb": {
+    "customer": "Учреждение «Национальная телерадиовещательная корпорация Кыргызской Республики»",
+    "deadline": "2026-09-18 19:15",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "goszakupki:6aa93e6bd5978a4098c1a6cb",
+    "notified": true,
+    "published": "2026-09-15 18:58",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Программное обеспечение",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa93e6bd5978a4098c1a6cb?tab=tender"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "first_seen": "2026-09-15T12:44:59.382242+00:00",
@@ -29,6 +629,26 @@
     "title": "Тендер на оказание услуг трансфера для участников «Итоговой конференции Проекта «Устойчивое развитие сельского водоснабжения и санитарии» с 26 по 28 июня 2026 года в Иссык-Кульской области»\"",
     "url": "https://www.aris.kg/tenders/view/2619"
   },
+  "https://www.aris.kg/tenders/view/2623": {
+    "deadline": "29.06.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2623",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Региональный инженер по инфраструктуре для работы в Чуйской области",
+    "url": "https://www.aris.kg/tenders/view/2623"
+  },
+  "https://www.aris.kg/tenders/view/2624": {
+    "deadline": "01.07.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2624",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Региональный инженер по инфраструктуре для работы в Иссык-Кульской области",
+    "url": "https://www.aris.kg/tenders/view/2624"
+  },
   "https://www.aris.kg/tenders/view/2625": {
     "deadline": "03.07.202618:00:00",
     "first_seen": "2026-09-15T12:44:59.382242+00:00",
@@ -38,6 +658,66 @@
     "status": "Активен",
     "title": "Запрос на выражение заинтересованности в рамках Проекта CS-FOR по контракту \"Оценка рынка и развития бизнеса\"",
     "url": "https://www.aris.kg/tenders/view/2625"
+  },
+  "https://www.aris.kg/tenders/view/2626": {
+    "deadline": "03.07.202600:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2626",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Специалист по закупкам",
+    "url": "https://www.aris.kg/tenders/view/2626"
+  },
+  "https://www.aris.kg/tenders/view/2627": {
+    "deadline": "03.07.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2627",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Специалист по санитарии",
+    "url": "https://www.aris.kg/tenders/view/2627"
+  },
+  "https://www.aris.kg/tenders/view/2628": {
+    "deadline": "29.06.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2628",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение системы капельного орошения для бенефициара  СХКК Кут-Жер\"",
+    "url": "https://www.aris.kg/tenders/view/2628"
+  },
+  "https://www.aris.kg/tenders/view/2629": {
+    "deadline": "29.06.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2629",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение саженцев и строительных материалов для бенефициара ОсОО Континент Строй\"",
+    "url": "https://www.aris.kg/tenders/view/2629"
+  },
+  "https://www.aris.kg/tenders/view/2630": {
+    "deadline": "07.07.202617:30:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2630",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Выполнение ремонтных работ офисов АРИС",
+    "url": "https://www.aris.kg/tenders/view/2630"
+  },
+  "https://www.aris.kg/tenders/view/2631": {
+    "deadline": "09.07.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2631",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение спецтехники для бенефициаров ОсОО Континент строй, СХКК Пум Кенч, Маллаев Т.\"",
+    "url": "https://www.aris.kg/tenders/view/2631"
   },
   "https://www.aris.kg/tenders/view/2632": {
     "deadline": "03.08.202611:00:00",
@@ -49,6 +729,26 @@
     "title": "Приглашение к участию в торгах в рамках Проекта ПРЭР-2 по контракту \"Строительство общежития Кадамжайского районного лицея-школы на 80 мест в селе Пульгон города Кадамжай\"",
     "url": "https://www.aris.kg/tenders/view/2632"
   },
+  "https://www.aris.kg/tenders/view/2633": {
+    "deadline": "10.06.202718:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2633",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Специалист по взаимодействию с заинтересованными сторонами и санитарии",
+    "url": "https://www.aris.kg/tenders/view/2633"
+  },
+  "https://www.aris.kg/tenders/view/2634": {
+    "deadline": "10.07.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2634",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Специалиста по институциональному развитию и мониторингу и оценке",
+    "url": "https://www.aris.kg/tenders/view/2634"
+  },
   "https://www.aris.kg/tenders/view/2635": {
     "deadline": "28.07.202611:00:00",
     "first_seen": "2026-09-15T12:44:59.382242+00:00",
@@ -59,6 +759,36 @@
     "title": "Приглашение к участию в торгах в рамках Проекта ПРЭР по контракту \"Реконструкция подъездной дороги протяжённостью до 1,5 км с тротуаром и освещением для ОсОО «Адал-Азык» в с.Кыргызстан г.Ош (участок Подхоз)\"",
     "url": "https://www.aris.kg/tenders/view/2635"
   },
+  "https://www.aris.kg/tenders/view/2636": {
+    "deadline": "06.07.202617:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2636",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Услуги по обеспечению проживания участников Выездного заседания Комитета",
+    "url": "https://www.aris.kg/tenders/view/2636"
+  },
+  "https://www.aris.kg/tenders/view/2637": {
+    "deadline": "17.07.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2637",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Специалист по выплатам",
+    "url": "https://www.aris.kg/tenders/view/2637"
+  },
+  "https://www.aris.kg/tenders/view/2638": {
+    "deadline": "08.10.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2638",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "ARIS-ADB-NRWSSDP-AF-CW-NCB-2026-DLI-1-03 \"Строительство системы водоснабжения п/п \"Угут\" Ак- Талинского района Нарынской области и Система водоснабжения п/п и \"Жаны-Тилек\" Ак-Талинского района Нарынской области. (2 лота)\"",
+    "url": "https://www.aris.kg/tenders/view/2638"
+  },
   "https://www.aris.kg/tenders/view/2639": {
     "deadline": "24.07.202618:00:00",
     "first_seen": "2026-09-15T12:44:59.382242+00:00",
@@ -68,6 +798,46 @@
     "status": "Активен",
     "title": "Региональный инженер проекта",
     "url": "https://www.aris.kg/tenders/view/2639"
+  },
+  "https://www.aris.kg/tenders/view/2640": {
+    "deadline": "24.07.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2640",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Финансовый менеджер",
+    "url": "https://www.aris.kg/tenders/view/2640"
+  },
+  "https://www.aris.kg/tenders/view/2641": {
+    "deadline": "31.07.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2641",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Региональный специалист по сельскому хозяйству (СХ) и созданию цепочки добавленной стоимости (ЦДС)",
+    "url": "https://www.aris.kg/tenders/view/2641"
+  },
+  "https://www.aris.kg/tenders/view/2642": {
+    "deadline": "30.07.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2642",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка классической Кыргызской юрты  (6 канат)\"",
+    "url": "https://www.aris.kg/tenders/view/2642"
+  },
+  "https://www.aris.kg/tenders/view/2643": {
+    "deadline": "29.07.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2643",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Оснащение средней школы имени Д. Жороева в г. Раззаков, средней школы «Аэропорт» в г. Баткен и дополнительного корпуса средней школы имени Боконбаева в г. Баткен. 6 лотов",
+    "url": "https://www.aris.kg/tenders/view/2643"
   },
   "https://www.aris.kg/tenders/view/2644": {
     "deadline": "03.09.202611:00:00",
@@ -89,6 +859,416 @@
     "title": "Приглашение к участию в торгах в рамках Проекта НПИС по контракту \"Капитальный ремонт Детского сада \"Келечек\" в селе Казарман Каргалыкского айылного аймака Тогуз-Тороуского района Джалал-Абдаской области\"",
     "url": "https://www.aris.kg/tenders/view/2645"
   },
+  "https://www.aris.kg/tenders/view/2646": {
+    "deadline": "07.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2646",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Региональный инженер по инфраструктуре для работы в Баткенской области",
+    "url": "https://www.aris.kg/tenders/view/2646"
+  },
+  "https://www.aris.kg/tenders/view/2647": {
+    "deadline": "07.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2647",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Региональный инженер по инфраструктуре для работы в Джалал-Абадской области",
+    "url": "https://www.aris.kg/tenders/view/2647"
+  },
+  "https://www.aris.kg/tenders/view/2648": {
+    "deadline": "07.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2648",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Региональный инженер по инфраструктуре для работы в Нарынской области",
+    "url": "https://www.aris.kg/tenders/view/2648"
+  },
+  "https://www.aris.kg/tenders/view/2649": {
+    "deadline": "07.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2649",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Региональный инженер по инфраструктуре для работы в Таласской области",
+    "url": "https://www.aris.kg/tenders/view/2649"
+  },
+  "https://www.aris.kg/tenders/view/2650": {
+    "deadline": "06.08.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2650",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Тендер на поставку юрт\"",
+    "url": "https://www.aris.kg/tenders/view/2650"
+  },
+  "https://www.aris.kg/tenders/view/2651": {
+    "deadline": "06.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2651",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка рефрижераторного контейнера\"",
+    "url": "https://www.aris.kg/tenders/view/2651"
+  },
+  "https://www.aris.kg/tenders/view/2652": {
+    "deadline": "06.08.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2652",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для производства корпусной мебели\"",
+    "url": "https://www.aris.kg/tenders/view/2652"
+  },
+  "https://www.aris.kg/tenders/view/2653": {
+    "deadline": "06.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2653",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку национальных юрт и солнечных панелей",
+    "url": "https://www.aris.kg/tenders/view/2653"
+  },
+  "https://www.aris.kg/tenders/view/2654": {
+    "deadline": "06.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2654",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку оборудования для «Мирлан Сварка\"",
+    "url": "https://www.aris.kg/tenders/view/2654"
+  },
+  "https://www.aris.kg/tenders/view/2655": {
+    "deadline": "06.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2655",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку оборудования для этно- и экотуристического центра «Муз-Булак»",
+    "url": "https://www.aris.kg/tenders/view/2655"
+  },
+  "https://www.aris.kg/tenders/view/2656": {
+    "deadline": "06.08.202616:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2656",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку оборудования для фитнес-зала",
+    "url": "https://www.aris.kg/tenders/view/2656"
+  },
+  "https://www.aris.kg/tenders/view/2657": {
+    "deadline": "07.08.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2657",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку оборудования для развития детского сада «Арсенчик»",
+    "url": "https://www.aris.kg/tenders/view/2657"
+  },
+  "https://www.aris.kg/tenders/view/2658": {
+    "deadline": "07.08.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2658",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку оборудования для переработки молока",
+    "url": "https://www.aris.kg/tenders/view/2658"
+  },
+  "https://www.aris.kg/tenders/view/2659": {
+    "deadline": "07.08.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2659",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку оборудования и мебели для многофункционального комплекса отдыха и проведения мероприятий",
+    "url": "https://www.aris.kg/tenders/view/2659"
+  },
+  "https://www.aris.kg/tenders/view/2660": {
+    "deadline": "07.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2660",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Запрос ценового предложения на поставку оборудования для цеха «Данияр ПВХ\"",
+    "url": "https://www.aris.kg/tenders/view/2660"
+  },
+  "https://www.aris.kg/tenders/view/2661": {
+    "deadline": "07.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2661",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Запрос ценового предложения на поставку оборудования для станции технического обслуживания «Боёкчу\"",
+    "url": "https://www.aris.kg/tenders/view/2661"
+  },
+  "https://www.aris.kg/tenders/view/2662": {
+    "deadline": "07.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2662",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Запрос ценовых предложений на поставку оборудования для мини-цеха по переработке сельскохозяйственной продукции\"",
+    "url": "https://www.aris.kg/tenders/view/2662"
+  },
+  "https://www.aris.kg/tenders/view/2663": {
+    "deadline": "07.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2663",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Запрос ценового предложения на поставку оборудования для открытия рукодельного предприятия «Мурас\"",
+    "url": "https://www.aris.kg/tenders/view/2663"
+  },
+  "https://www.aris.kg/tenders/view/2664": {
+    "deadline": "07.08.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2664",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Запрос ценового предложения на поставку оборудования для хлебопекарного цеха",
+    "url": "https://www.aris.kg/tenders/view/2664"
+  },
+  "https://www.aris.kg/tenders/view/2665": {
+    "deadline": "07.08.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2665",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Запрос ценового предложения на поставку оборудования для переработки молока",
+    "url": "https://www.aris.kg/tenders/view/2665"
+  },
+  "https://www.aris.kg/tenders/view/2666": {
+    "deadline": "07.08.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2666",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Запрос ценового предложения на поставку оборудования и мебели для многофункционального комплекса отдыха и проведения мероприятий",
+    "url": "https://www.aris.kg/tenders/view/2666"
+  },
+  "https://www.aris.kg/tenders/view/2667": {
+    "deadline": "07.08.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2667",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для развития детского сада \"Арсенчик\"",
+    "url": "https://www.aris.kg/tenders/view/2667"
+  },
+  "https://www.aris.kg/tenders/view/2668": {
+    "deadline": "07.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2668",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для кондитерского цеха",
+    "url": "https://www.aris.kg/tenders/view/2668"
+  },
+  "https://www.aris.kg/tenders/view/2669": {
+    "deadline": "07.08.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2669",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для производства и хранения хлебобулочных изделий",
+    "url": "https://www.aris.kg/tenders/view/2669"
+  },
+  "https://www.aris.kg/tenders/view/2670": {
+    "deadline": "07.08.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2670",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для шоковой заморозки",
+    "url": "https://www.aris.kg/tenders/view/2670"
+  },
+  "https://www.aris.kg/tenders/view/2671": {
+    "deadline": "10.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2671",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для образовательного курса \"Global Minds\"",
+    "url": "https://www.aris.kg/tenders/view/2671"
+  },
+  "https://www.aris.kg/tenders/view/2672": {
+    "deadline": "10.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2672",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка станков для производства пескоблоков",
+    "url": "https://www.aris.kg/tenders/view/2672"
+  },
+  "https://www.aris.kg/tenders/view/2673": {
+    "deadline": "10.08.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2673",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для сушильного цеха фруктов",
+    "url": "https://www.aris.kg/tenders/view/2673"
+  },
+  "https://www.aris.kg/tenders/view/2674": {
+    "deadline": "10.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2674",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка гибридной солнечной станции для гостиницы \"Айгүл-Тоо\"",
+    "url": "https://www.aris.kg/tenders/view/2674"
+  },
+  "https://www.aris.kg/tenders/view/2675": {
+    "deadline": "10.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2675",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для СПА-центра \"СЕЗИМ\"",
+    "url": "https://www.aris.kg/tenders/view/2675"
+  },
+  "https://www.aris.kg/tenders/view/2676": {
+    "deadline": "10.08.202616:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2676",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для производства геля, для стирки и геля для мытья посуды",
+    "url": "https://www.aris.kg/tenders/view/2676"
+  },
+  "https://www.aris.kg/tenders/view/2677": {
+    "deadline": "10.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2677",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка национальных юрт для организации экотуристической зоны отдыха \"Кара-Мойнок\"",
+    "url": "https://www.aris.kg/tenders/view/2677"
+  },
+  "https://www.aris.kg/tenders/view/2678": {
+    "deadline": "10.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2678",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка национальных юрт и кондиционера",
+    "url": "https://www.aris.kg/tenders/view/2678"
+  },
+  "https://www.aris.kg/tenders/view/2679": {
+    "deadline": "12.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2679",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Специалист по выплатам",
+    "url": "https://www.aris.kg/tenders/view/2679"
+  },
+  "https://www.aris.kg/tenders/view/2680": {
+    "deadline": "19.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2680",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Специалист по выплатам",
+    "url": "https://www.aris.kg/tenders/view/2680"
+  },
+  "https://www.aris.kg/tenders/view/2681": {
+    "deadline": "13.06.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2681",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка грузового автомобиля для бенефициара ЦДС \"Свежее яблоко\"",
+    "url": "https://www.aris.kg/tenders/view/2681"
+  },
+  "https://www.aris.kg/tenders/view/2682": {
+    "deadline": "04.07.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2682",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение грузового автомобиля для бенефициара ЦДС \"Шоковая заморозка, хранение фруктов и ягод\"",
+    "url": "https://www.aris.kg/tenders/view/2682"
+  },
+  "https://www.aris.kg/tenders/view/2683": {
+    "deadline": "18.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2683",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Финансовый менеджер",
+    "url": "https://www.aris.kg/tenders/view/2683"
+  },
+  "https://www.aris.kg/tenders/view/2684": {
+    "deadline": "19.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2684",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Национальный специалист по мерам социальной безопасности",
+    "url": "https://www.aris.kg/tenders/view/2684"
+  },
+  "https://www.aris.kg/tenders/view/2685": {
+    "deadline": "19.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2685",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Национальный специалист по мерам экологической безопасности",
+    "url": "https://www.aris.kg/tenders/view/2685"
+  },
+  "https://www.aris.kg/tenders/view/2686": {
+    "deadline": "19.08.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2686",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Международный специалист по мерам безопасности",
+    "url": "https://www.aris.kg/tenders/view/2686"
+  },
   "https://www.aris.kg/tenders/view/2687": {
     "deadline": "17.08.202611:00:00",
     "first_seen": "2026-09-15T12:44:59.382242+00:00",
@@ -99,6 +1279,106 @@
     "title": "Тендер на выполнение работ в рамках Проекта ПРЭР-2 по контракту \"Тендер на оказание услуг по организации выездного мероприятия\"",
     "url": "https://www.aris.kg/tenders/view/2687"
   },
+  "https://www.aris.kg/tenders/view/2688": {
+    "deadline": "20.08.202617:30:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2688",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Выполнение ремонтных работ офисов АРИС",
+    "url": "https://www.aris.kg/tenders/view/2688"
+  },
+  "https://www.aris.kg/tenders/view/2689": {
+    "deadline": "24.08.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2689",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Ассистент Исполнительного директора АРИС",
+    "url": "https://www.aris.kg/tenders/view/2689"
+  },
+  "https://www.aris.kg/tenders/view/2690": {
+    "deadline": "10.09.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2690",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Ретендер на поставку \"Поставка лабораторного оборудования для районных центров ДПЗиГСЭН при МЗ КР в Нарынской области\"",
+    "url": "https://www.aris.kg/tenders/view/2690"
+  },
+  "https://www.aris.kg/tenders/view/2691": {
+    "deadline": "24.08.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2691",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка национальных юрт для места отдыха «Нишанбай»",
+    "url": "https://www.aris.kg/tenders/view/2691"
+  },
+  "https://www.aris.kg/tenders/view/2692": {
+    "deadline": "24.08.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2692",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка национальных юрт для центра отдыха  \"Шыбраз\"",
+    "url": "https://www.aris.kg/tenders/view/2692"
+  },
+  "https://www.aris.kg/tenders/view/2693": {
+    "deadline": "24.08.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2693",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка национальных юрт",
+    "url": "https://www.aris.kg/tenders/view/2693"
+  },
+  "https://www.aris.kg/tenders/view/2694": {
+    "deadline": "24.08.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2694",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка национальных юрт для места отдыха «Шивели» ИП \"БАННАПОВ БАКЫТБЕК\"",
+    "url": "https://www.aris.kg/tenders/view/2694"
+  },
+  "https://www.aris.kg/tenders/view/2695": {
+    "deadline": "24.08.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2695",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка юрт и солнечной электростанции для зоны отдыха на джайлоо \"Ак-Кайын\"",
+    "url": "https://www.aris.kg/tenders/view/2695"
+  },
+  "https://www.aris.kg/tenders/view/2696": {
+    "deadline": "18.08.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2696",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение пикапа для лидера ЦДС \"МТС-выращивание, хранение зерновых и масличных культур\"",
+    "url": "https://www.aris.kg/tenders/view/2696"
+  },
+  "https://www.aris.kg/tenders/view/2697": {
+    "deadline": "18.08.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2697",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение грузового автомобиля и саженцев миндаля для фермера Назирова С. ТЛЦ- свежее яблоко\", \"КХ \"Шилбили\"",
+    "url": "https://www.aris.kg/tenders/view/2697"
+  },
   "https://www.aris.kg/tenders/view/2698": {
     "deadline": "17.08.202611:00:00",
     "first_seen": "2026-09-15T12:44:59.382242+00:00",
@@ -108,6 +1388,56 @@
     "status": "Активен",
     "title": "Тендер на выполнение работ в рамках Проекта ПРЭР-2 по контракту \"Тендер на оказание услуг по организации пассажирского трансфера\"",
     "url": "https://www.aris.kg/tenders/view/2698"
+  },
+  "https://www.aris.kg/tenders/view/2699": {
+    "deadline": "30.09.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2699",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "ARIS-ADB-NRWSSDP-AF-IND-DLI9-2026-11 Консультант по разработке дизайна информационных материалов по вопросам адаптации к изменению климата/сохранения водных ресурсов и пилотным решениям в области водоотведения",
+    "url": "https://www.aris.kg/tenders/view/2699"
+  },
+  "https://www.aris.kg/tenders/view/2700": {
+    "deadline": "26.08.202612:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2700",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение холодильного оборудования для ЦДС \"Выращивание и хранение фруктов\" ОО «Большевик Багбандар Биримдиги» \"",
+    "url": "https://www.aris.kg/tenders/view/2700"
+  },
+  "https://www.aris.kg/tenders/view/2701": {
+    "deadline": "26.08.202617:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2701",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение пикапа  для фермера Асанбекова М. ТЛЦ- свежее яблоко\", \"КХ \"Шилбили\"",
+    "url": "https://www.aris.kg/tenders/view/2701"
+  },
+  "https://www.aris.kg/tenders/view/2702": {
+    "deadline": "20.08.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2702",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка 20 планшетных устройств для проведения опросных работ\"",
+    "url": "https://www.aris.kg/tenders/view/2702"
+  },
+  "https://www.aris.kg/tenders/view/2703": {
+    "deadline": "02.09.202609:50:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2703",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение корма для рыб для бенефициара ЦДС \"Производство и реализация рыбы\"",
+    "url": "https://www.aris.kg/tenders/view/2703"
   },
   "https://www.aris.kg/tenders/view/2704": {
     "deadline": "28.09.202611:00:00",
@@ -169,6 +1499,66 @@
     "title": "Запрос на выражение заинтересованности в рамках Проекта НПИС по контракту \"Разработка проектно-сметной документации и ведение авторского надзора по 5 объектам (север)\"",
     "url": "https://www.aris.kg/tenders/view/2709"
   },
+  "https://www.aris.kg/tenders/view/2710": {
+    "deadline": "02.09.202616:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2710",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Ретендер Инженер по техническому надзору в п/п Кочкор 1",
+    "url": "https://www.aris.kg/tenders/view/2710"
+  },
+  "https://www.aris.kg/tenders/view/2711": {
+    "deadline": "02.09.202616:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2711",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Ретендер Инженер по техническому надзору в п/п Кочкор 2",
+    "url": "https://www.aris.kg/tenders/view/2711"
+  },
+  "https://www.aris.kg/tenders/view/2712": {
+    "deadline": "22.09.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2712",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Создание МТС Джети-Огузскому АА и Кара-Камышскому АА (Поставка спецтехники)\"",
+    "url": "https://www.aris.kg/tenders/view/2712"
+  },
+  "https://www.aris.kg/tenders/view/2713": {
+    "deadline": "28.08.202617:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2713",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение саженцы  и капельной ленты для бенефициаров ЦДС \"Шоковая заморозка, хранение фруктов и ягод\"",
+    "url": "https://www.aris.kg/tenders/view/2713"
+  },
+  "https://www.aris.kg/tenders/view/2714": {
+    "deadline": "02.09.202609:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2714",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение оборудования для доильного зала, кормораздатчика, навозоуборочной системы и строительных материалов для бенефициара ЦДС Молоко\"",
+    "url": "https://www.aris.kg/tenders/view/2714"
+  },
+  "https://www.aris.kg/tenders/view/2715": {
+    "deadline": "07.09.202609:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2715",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение оборудования для производства пластиковой продукции для бенефициара ЦДС Кисломолочная продукция\"",
+    "url": "https://www.aris.kg/tenders/view/2715"
+  },
   "https://www.aris.kg/tenders/view/2716": {
     "deadline": "07.09.202618:00:00",
     "first_seen": "2026-09-15T12:44:59.382242+00:00",
@@ -178,6 +1568,176 @@
     "status": "Активен",
     "title": "Запрос на выражение заинтересованности в рамках Проекта CS-FOR по контракту \"Ооказание консультационных услуг по совершенствованию механизмов управления природными ресурсами, ПКУПРУИК и лесами вне Государственного лесного фонда с привлечением междуна",
     "url": "https://www.aris.kg/tenders/view/2716"
+  },
+  "https://www.aris.kg/tenders/view/2717": {
+    "deadline": "28.08.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2717",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение агрометеостанции для нужд Сельскохозяйственного колледжа\"",
+    "url": "https://www.aris.kg/tenders/view/2717"
+  },
+  "https://www.aris.kg/tenders/view/2718": {
+    "deadline": "07.09.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2718",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для детского сада «Ясмина» домашнего типа",
+    "url": "https://www.aris.kg/tenders/view/2718"
+  },
+  "https://www.aris.kg/tenders/view/2719": {
+    "deadline": "07.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2719",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для установки зарядной станции для электромобилей",
+    "url": "https://www.aris.kg/tenders/view/2719"
+  },
+  "https://www.aris.kg/tenders/view/2720": {
+    "deadline": "07.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2720",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка промышленного дегидратора для сушки фруктов",
+    "url": "https://www.aris.kg/tenders/view/2720"
+  },
+  "https://www.aris.kg/tenders/view/2721": {
+    "deadline": "07.09.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2721",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для производства пастилы и сушки фруктов",
+    "url": "https://www.aris.kg/tenders/view/2721"
+  },
+  "https://www.aris.kg/tenders/view/2722": {
+    "deadline": "07.09.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2722",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка современного опалубочного оборудования для «Art-Classics»",
+    "url": "https://www.aris.kg/tenders/view/2722"
+  },
+  "https://www.aris.kg/tenders/view/2723": {
+    "deadline": "07.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2723",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для мини-пекарни",
+    "url": "https://www.aris.kg/tenders/view/2723"
+  },
+  "https://www.aris.kg/tenders/view/2724": {
+    "deadline": "07.09.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2724",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для «Таттуу нан»",
+    "url": "https://www.aris.kg/tenders/view/2724"
+  },
+  "https://www.aris.kg/tenders/view/2725": {
+    "deadline": "08.09.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2725",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для кондитерского цеха «Алина таттуулары»",
+    "url": "https://www.aris.kg/tenders/view/2725"
+  },
+  "https://www.aris.kg/tenders/view/2726": {
+    "deadline": "08.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2726",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка бильярдного и теннисного стола",
+    "url": "https://www.aris.kg/tenders/view/2726"
+  },
+  "https://www.aris.kg/tenders/view/2727": {
+    "deadline": "08.09.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2727",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для фитнес-центра «Айым FIT»",
+    "url": "https://www.aris.kg/tenders/view/2727"
+  },
+  "https://www.aris.kg/tenders/view/2728": {
+    "deadline": "08.09.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2728",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка строительного оборудования для «KamAI»",
+    "url": "https://www.aris.kg/tenders/view/2728"
+  },
+  "https://www.aris.kg/tenders/view/2729": {
+    "deadline": "08.09.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2729",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка двухстоечного подъемника для автосервиса",
+    "url": "https://www.aris.kg/tenders/view/2729"
+  },
+  "https://www.aris.kg/tenders/view/2730": {
+    "deadline": "08.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2730",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для кофейни",
+    "url": "https://www.aris.kg/tenders/view/2730"
+  },
+  "https://www.aris.kg/tenders/view/2731": {
+    "deadline": "08.09.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2731",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для мебельного цеха",
+    "url": "https://www.aris.kg/tenders/view/2731"
+  },
+  "https://www.aris.kg/tenders/view/2732": {
+    "deadline": "08.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2732",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для образовательного комплекса «Нуржан»",
+    "url": "https://www.aris.kg/tenders/view/2732"
+  },
+  "https://www.aris.kg/tenders/view/2733": {
+    "deadline": "16.09.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2733",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Региональный инженер по инфраструктуре для работы в Чуйской области",
+    "url": "https://www.aris.kg/tenders/view/2733"
   },
   "https://www.aris.kg/tenders/view/2734": {
     "deadline": "17.09.202616:00:00",
@@ -209,6 +1769,326 @@
     "title": "Запрос на выражение заинтересованности в рамках Проекта НПИС по контракту \"Разработка ПСД и ведение авторского надзора по объекту: «Туристическо-оздоровительный комплекс на базе горячих источников\"",
     "url": "https://www.aris.kg/tenders/view/2736"
   },
+  "https://www.aris.kg/tenders/view/2737": {
+    "deadline": "18.09.202611:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2737",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку планшетов",
+    "url": "https://www.aris.kg/tenders/view/2737"
+  },
+  "https://www.aris.kg/tenders/view/2738": {
+    "deadline": "22.09.202618:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2738",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Специалист по развитию управления и институционализации",
+    "url": "https://www.aris.kg/tenders/view/2738"
+  },
+  "https://www.aris.kg/tenders/view/2739": {
+    "deadline": "24.09.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2739",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для мастерской \"Темир ишеним\"",
+    "url": "https://www.aris.kg/tenders/view/2739"
+  },
+  "https://www.aris.kg/tenders/view/2740": {
+    "deadline": "24.09.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2740",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для мойки ковров и автомобилей\"",
+    "url": "https://www.aris.kg/tenders/view/2740"
+  },
+  "https://www.aris.kg/tenders/view/2741": {
+    "deadline": "24.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2741",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для фитнеса\"",
+    "url": "https://www.aris.kg/tenders/view/2741"
+  },
+  "https://www.aris.kg/tenders/view/2742": {
+    "deadline": "24.09.202612:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2742",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для гостевого дома\"",
+    "url": "https://www.aris.kg/tenders/view/2742"
+  },
+  "https://www.aris.kg/tenders/view/2743": {
+    "deadline": "24.09.202612:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2743",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для кондитерского цеха\"",
+    "url": "https://www.aris.kg/tenders/view/2743"
+  },
+  "https://www.aris.kg/tenders/view/2744": {
+    "deadline": "24.09.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2744",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для производства курута\"",
+    "url": "https://www.aris.kg/tenders/view/2744"
+  },
+  "https://www.aris.kg/tenders/view/2745": {
+    "deadline": "24.09.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2745",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для пекарни «Выпечка Самера\"",
+    "url": "https://www.aris.kg/tenders/view/2745"
+  },
+  "https://www.aris.kg/tenders/view/2746": {
+    "deadline": "24.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2746",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для цеха по производству пластиковых дверей и рам\"",
+    "url": "https://www.aris.kg/tenders/view/2746"
+  },
+  "https://www.aris.kg/tenders/view/2747": {
+    "deadline": "24.09.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2747",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка профессионального оборудования для кухни\"",
+    "url": "https://www.aris.kg/tenders/view/2747"
+  },
+  "https://www.aris.kg/tenders/view/2748": {
+    "deadline": "25.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2748",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка юрты для центра отдыха “Арча-Бел”\"",
+    "url": "https://www.aris.kg/tenders/view/2748"
+  },
+  "https://www.aris.kg/tenders/view/2749": {
+    "deadline": "25.09.202612:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2749",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для «Youth Innovation Hub – Kadamjay\"",
+    "url": "https://www.aris.kg/tenders/view/2749"
+  },
+  "https://www.aris.kg/tenders/view/2750": {
+    "deadline": "25.09.202612:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2750",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для производства шоколада\"",
+    "url": "https://www.aris.kg/tenders/view/2750"
+  },
+  "https://www.aris.kg/tenders/view/2751": {
+    "deadline": "25.09.202613:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2751",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для пекарни\"",
+    "url": "https://www.aris.kg/tenders/view/2751"
+  },
+  "https://www.aris.kg/tenders/view/2752": {
+    "deadline": "25.09.202610:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2752",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для мини-цеха по переработке сельскохозяйственной продукции\"",
+    "url": "https://www.aris.kg/tenders/view/2752"
+  },
+  "https://www.aris.kg/tenders/view/2753": {
+    "deadline": "25.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2753",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка гибридной солнечной станции для гостиницы \"Айгүл-Тоо\"",
+    "url": "https://www.aris.kg/tenders/view/2753"
+  },
+  "https://www.aris.kg/tenders/view/2754": {
+    "deadline": "25.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2754",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка рефрижераторного контейнера\"",
+    "url": "https://www.aris.kg/tenders/view/2754"
+  },
+  "https://www.aris.kg/tenders/view/2755": {
+    "deadline": "25.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2755",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка национальных юрт (6 канат)\"",
+    "url": "https://www.aris.kg/tenders/view/2755"
+  },
+  "https://www.aris.kg/tenders/view/2756": {
+    "deadline": "25.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2756",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка национальных юрт и солнечных панелей\"",
+    "url": "https://www.aris.kg/tenders/view/2756"
+  },
+  "https://www.aris.kg/tenders/view/2757": {
+    "deadline": "25.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2757",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для этно- и экотуристического центра «Муз-Булак\"",
+    "url": "https://www.aris.kg/tenders/view/2757"
+  },
+  "https://www.aris.kg/tenders/view/2758": {
+    "deadline": "25.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2758",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для «Мирлан Сварка\"",
+    "url": "https://www.aris.kg/tenders/view/2758"
+  },
+  "https://www.aris.kg/tenders/view/2759": {
+    "deadline": "24.09.202617:30:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2759",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Выполнение ремонтных работ офисов АРИС",
+    "url": "https://www.aris.kg/tenders/view/2759"
+  },
+  "https://www.aris.kg/tenders/view/2760": {
+    "deadline": "28.09.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2760",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для мини ресторана быстрого приготовления\"",
+    "url": "https://www.aris.kg/tenders/view/2760"
+  },
+  "https://www.aris.kg/tenders/view/2761": {
+    "deadline": "28.09.202612:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2761",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования и мебели для гостевого дома «NOMAD\"",
+    "url": "https://www.aris.kg/tenders/view/2761"
+  },
+  "https://www.aris.kg/tenders/view/2762": {
+    "deadline": "28.09.202615:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2762",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для станции технического обслуживания автомобилей (СТО)\"",
+    "url": "https://www.aris.kg/tenders/view/2762"
+  },
+  "https://www.aris.kg/tenders/view/2763": {
+    "deadline": "28.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2763",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка генератора и витринного холодильника\"",
+    "url": "https://www.aris.kg/tenders/view/2763"
+  },
+  "https://www.aris.kg/tenders/view/2764": {
+    "deadline": "28.09.202612:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2764",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для СПА-салона\"",
+    "url": "https://www.aris.kg/tenders/view/2764"
+  },
+  "https://www.aris.kg/tenders/view/2765": {
+    "deadline": "28.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2765",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для услуги кейтеринга «Санат\"",
+    "url": "https://www.aris.kg/tenders/view/2765"
+  },
+  "https://www.aris.kg/tenders/view/2766": {
+    "deadline": "28.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2766",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для мебельного цеха «Эмерек Микс\"",
+    "url": "https://www.aris.kg/tenders/view/2766"
+  },
+  "https://www.aris.kg/tenders/view/2767": {
+    "deadline": "28.09.202612:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2767",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для переработки абрикосовых косточек\"",
+    "url": "https://www.aris.kg/tenders/view/2767"
+  },
+  "https://www.aris.kg/tenders/view/2768": {
+    "deadline": "28.09.202614:00:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://www.aris.kg/tenders/view/2768",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для производства сухофруктов\"",
+    "url": "https://www.aris.kg/tenders/view/2768"
+  },
   "https://www.aris.kg/tenders/view/2769": {
     "deadline": "28.09.202615:00:00",
     "first_seen": "2026-09-15T12:44:59.382242+00:00",
@@ -218,5 +2098,115 @@
     "status": "Активен",
     "title": "Тендер на выполнение работ в рамках Проекта Адм. пул по контракту \"Оказание услуг по организации и проведению заседания Наблюдательного совета Агентства развития инвестирования сообществ Кыргызской Республики\"",
     "url": "https://www.aris.kg/tenders/view/2769"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=597995564": {
+    "customer": "Муниципальное учреждение ”Муниципальное территориальное управление №202”",
+    "deadline": "поставщиков29.09.2026 10:20",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=597995564",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "На установку навеса у многоквартирного жилого дома по ул. Фрунзе 364/3",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=597995564"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598140687": {
+    "customer": "Учреждение Айыл окмоту айылного аймака Кун-Чыгыш",
+    "deadline": "поставщиков18.09.2026 18:50",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598140687",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "приобретение хозяйственных товаров для ДОО№2 (повторно)",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598140687"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598189162": {
+    "customer": "Учреждение Айыл окмот Ат-Башинского айыльного аймака",
+    "deadline": "поставщиков21.09.2026 09:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598189162",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Ат-Башы айыл өкмөтү Карылар кунуно керектуу товар сатып алуу.",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598189162"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598193205": {
+    "customer": "Профессиональный лицей №48  г.Исфана",
+    "deadline": "поставщиков21.09.2026 12:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598193205",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Покупка продукты питание на 4 квартал",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598193205"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598195553": {
+    "customer": "Чон-Алай айыл окмоту",
+    "deadline": "поставщиков21.09.2026 09:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598195553",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Чон-Алай айыл аймагына караштуу Дароот-Коргон айылындагы таза-суу тутукторун комуу жумуштарына куйуучу май сатып алуу",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598195553"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598196040": {
+    "customer": "Лейлекская районная Государственная администрация",
+    "deadline": "поставщиков21.09.2026 12:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598196040",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Покупка Бензин АИ92 на 4 квартал 2026 год",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598196040"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598208031": {
+    "customer": "Учреждение \"Бишкекский государственный университет имени академика Кусеина Карасаева\"",
+    "deadline": "поставщиков21.09.2026 09:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598208031",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Услуги технадзора",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598208031"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598208071": {
+    "customer": "Учреждение Айыл окмоту айылного аймака Кун-Чыгыш",
+    "deadline": "поставщиков18.09.2026 18:25",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598208071",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение услуги транспорта по перевозке детей школьников с участка Рыбзавод до села Боконбаево",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598208071"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598210837": {
+    "customer": "Учреждение Айыл окмоту айылного аймака Кун-Чыгыш",
+    "deadline": "поставщиков21.09.2026 10:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598210837",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Оказание услуг по оценке земельных участков и объектов недвижимости (зданий) в Кун-Чыгышском айыл окмоту.",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598210837"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598213289": {
+    "customer": "Московская районная государственная администрация Чуйской области",
+    "deadline": "поставщиков22.09.2026 13:00",
+    "first_seen": "2026-09-15T13:06:57.569048+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598213289",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Техническое обслуживание, ремонт компьютеров и орг.техники",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598213289"
   }
 }
