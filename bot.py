@@ -199,35 +199,87 @@ def _get_soup(url: str, referer: str | None = None) -> BeautifulSoup | None:
 
 def parse_zakupki_gov_kg() -> list[dict]:
     """
-    zakupki.gov.kg — портал госзакупок.
-    TODO: проверить актуальные CSS-селекторы карточек тендера в списке.
-    Ниже — типичный шаблон: список ссылок с классом-контейнером тендера.
+    zakupki.gov.kg — портал на JSF/PrimeFaces (НЕ SPA, серверный рендер,
+    проверено вручную 2026-09-15). Список объявлений:
+      https://zakupki.gov.kg/popp/view/order/list.xhtml
+    Список отменённых объявлений — готовая отдельная страница:
+      https://zakupki.gov.kg/popp/view/order/rejectList.xhtml
+    Каждая ячейка таблицы содержит "прилипший" текст лейбла перед
+    значением (типичный PrimeFaces responsive-паттерн, лейбл рисуется
+    через CSS, но остаётся в тексте DOM), например:
+      "purchase NameПокупка аристона бойлер для водонагрева"
+    Поэтому парсим по префиксам лейблов, а не по CSS-классам — это
+    устойчивее к вёрстке.
+
+    ВАЖНО: список без пагинации через JS отдаёт только первую страницу
+    (обычно 10 последних объявлений). Для ежедневного мониторинга новых
+    тендеров этого как правило достаточно, но если нужно больше —
+    возможно, у списка есть параметр количества строк на странице
+    (см. выпадающий список "Rows Per Page" на сайте) — стоит проверить
+    вручную, поддерживает ли он передачу через URL.
     """
     base = "https://zakupki.gov.kg"
-    soup = _get_soup(base)
-    results = []
-    if not soup:
-        return results
+    list_url = f"{base}/popp/view/order/list.xhtml"
+    reject_url = f"{base}/popp/view/order/rejectList.xhtml"
 
-    # TODO: замените селектор на реальный (напр. "div.tender-item" или "tr.lot-row")
-    for card in soup.select("div.tender-item, li.tender-item, tr.tender-row"):
-        link_tag = card.select_one("a")
-        if not link_tag or not link_tag.get("href"):
-            continue
-        url = link_tag["href"]
-        if url.startswith("/"):
-            url = base + url
-        title = link_tag.get_text(strip=True)
-        status_tag = card.select_one(".status, .tender-status")
-        status = _normalize_status(status_tag.get_text(strip=True) if status_tag else "")
-        results.append({
-            "id": url,
-            "url": url,
-            "title": title,
-            "source": "zakupki.gov.kg",
-            "status": status or STATUS_ACTIVE,
-        })
-    return results
+    LABEL_MAP = {
+        "Name of company": "customer",
+        "purchase Name": "title",
+        "Bids Submission Deadline": "deadline",
+        "Date published": "published",
+    }
+
+    def _extract_field(cell_text: str) -> tuple[str, str] | None:
+        for label, key in LABEL_MAP.items():
+            if cell_text.startswith(label):
+                return key, cell_text[len(label):].strip()
+        return None
+
+    def _parse_list(url: str) -> dict[str, dict]:
+        """Возвращает {tender_id: {...}} для страницы списка объявлений."""
+        soup = _get_soup(url, referer=list_url)
+        found: dict[str, dict] = {}
+        if not soup:
+            return found
+
+        for link_tag in soup.select('a[href*="view.xhtml?id="]'):
+            href = link_tag.get("href", "")
+            m = re.search(r"id=(\d+)", href)
+            if not m:
+                continue
+            tender_id = m.group(1)
+            tender_url = href if href.startswith("http") else base + "/popp/view/order/" + href
+
+            row = link_tag.find_parent("tr")
+            data = {"customer": "", "title": "", "deadline": "", "published": ""}
+            if row:
+                for cell in row.select("td"):
+                    field = _extract_field(cell.get_text(strip=True))
+                    if field:
+                        data[field[0]] = field[1]
+
+            found[tender_id] = {
+                "id": tender_url,
+                "url": tender_url,
+                "title": data["title"] or f"Тендер №{tender_id}",
+                "source": "zakupki.gov.kg",
+                "status": STATUS_ACTIVE,
+                "customer": data["customer"],
+                "deadline": data["deadline"],
+            }
+        return found
+
+    active = _parse_list(list_url)
+    cancelled = _parse_list(reject_url)
+
+    for tender_id in cancelled:
+        if tender_id in active:
+            active[tender_id]["status"] = STATUS_CANCELLED
+        else:
+            cancelled[tender_id]["status"] = STATUS_CANCELLED
+            active[tender_id] = cancelled[tender_id]
+
+    return list(active.values())
 
 
 def parse_tenders_kg() -> list[dict]:
@@ -270,30 +322,51 @@ def parse_tenders_kg() -> list[dict]:
 
 def parse_aris_kg() -> list[dict]:
     """
-    aris.kg — Агентство по защите инвестиций и т.п.
-    TODO: уточнить реальные селекторы раздела объявлений/тендеров.
+    aris.kg — раздел тендеров лежит НЕ на главной странице, а на /tenders.
+    Разметка — обычная HTML-таблица (без JS-рендера): три колонки —
+    "Заголовок" (ссылка на /tenders/view/<id>), "Дата публикации",
+    "Срок подачи заявок". Пагинация: /tenders/2, /tenders/3, ...
+    Проверено вручную на реальной странице 2026-09-15.
     """
     base = "https://www.aris.kg"
-    soup = _get_soup(base)
     results = []
-    if not soup:
-        return results
 
-    for card in soup.select("div.tender, article.tender-card, li.news-item"):
-        link_tag = card.select_one("a")
-        if not link_tag or not link_tag.get("href"):
+    # Возьмём первые 3 страницы списка — обычно этого достаточно, чтобы
+    # не пропустить новые тендеры между запусками бота (расписание —
+    # раз в день). При необходимости увеличьте диапазон.
+    for page in range(1, 4):
+        list_url = f"{base}/tenders" if page == 1 else f"{base}/tenders/{page}"
+        soup = _get_soup(list_url, referer=f"{base}/tenders")
+        if not soup:
             continue
-        url = link_tag["href"]
-        if url.startswith("/"):
-            url = base + url
-        title = link_tag.get_text(strip=True)
-        results.append({
-            "id": url,
-            "url": url,
-            "title": title,
-            "source": "aris.kg",
-            "status": STATUS_ACTIVE,
-        })
+
+        table = soup.select_one("table")
+        if not table:
+            continue
+
+        rows = table.select("tr")
+        for row in rows:
+            cells = row.select("td")
+            if len(cells) < 3:
+                continue  # строка заголовка таблицы или пустая
+            link_tag = cells[0].select_one("a")
+            if not link_tag or not link_tag.get("href"):
+                continue
+            url = link_tag["href"]
+            if url.startswith("/"):
+                url = base + url
+            title = link_tag.get_text(strip=True)
+            deadline = cells[2].get_text(strip=True)
+            results.append({
+                "id": url,
+                "url": url,
+                "title": title,
+                "source": "aris.kg",
+                "status": STATUS_ACTIVE,
+                "deadline": deadline,
+            })
+        time.sleep(1)
+
     return results
 
 
