@@ -30,6 +30,9 @@ import time
 import smtplib
 import logging
 import requests
+import urllib3
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from bs4 import BeautifulSoup
@@ -63,13 +66,56 @@ DB_FILE = "tenders_db.json"
 # кто-то из внешних скриптов на него рассчитывает.
 SENT_FILE = "sent_tenders.json"
 
-REQUEST_TIMEOUT = 25
+REQUEST_TIMEOUT = 30
+
+# Более "браузерный" набор заголовков — часть площадок (403 Forbidden)
+# блокирует запросы, которые выглядят как автоматизированные (пустой
+# Accept/Accept-Language, отсутствие Referer). Это не гарантирует обход
+# блокировки (некоторые WAF блокируют сами IP облачных дата-центров,
+# на которых работает GitHub Actions — см. README про этот случай),
+# но для части сайтов помогает.
 REQUEST_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-    )
+    ),
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "image/webp,*/*;q=0.8"
+    ),
+    "Accept-Language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
 }
+
+# Домены, у которых сервер отдаёт битую цепочку SSL-сертификатов
+# (сертификат есть, но проверка "unable to get local issuer certificate"
+# проваливается — это ошибка настройки сервера площадки, а не наша).
+# Для них отключаем проверку сертификата. Это ослабляет защиту от
+# подмены сервера (MITM), поэтому используется только точечно и только
+# для этих конкретных доменов.
+INSECURE_DOMAINS = {"goszakupki.okmot.kg"}
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+
+def _build_session() -> requests.Session:
+    session = requests.Session()
+    session.headers.update(REQUEST_HEADERS)
+    retry = Retry(
+        total=3,
+        backoff_factor=1.5,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"],
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+
+SESSION = _build_session()
 
 SOURCES = [
     "zakupki.gov.kg",
@@ -128,9 +174,21 @@ def save_sent_list(db: dict) -> None:
 #   "winner": "название компании-победителя" или None
 #   "participants": ["...", "..."]  или []
 
-def _get_soup(url: str) -> BeautifulSoup | None:
+def _get_soup(url: str, referer: str | None = None) -> BeautifulSoup | None:
+    domain = re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
+    verify_ssl = domain not in INSECURE_DOMAINS
+
+    headers = {}
+    if referer:
+        headers["Referer"] = referer
+
     try:
-        resp = requests.get(url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
+        resp = SESSION.get(
+            url,
+            headers=headers,
+            timeout=REQUEST_TIMEOUT,
+            verify=verify_ssl,
+        )
         resp.raise_for_status()
         resp.encoding = resp.apparent_encoding or "utf-8"
         return BeautifulSoup(resp.text, "html.parser")
