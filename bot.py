@@ -1,0 +1,542 @@
+#!/usr/bin/env python3
+"""
+Tender Monitoring Bot — Кыргызстан
+=====================================
+
+Мониторит 5 площадок госзакупок КР, фильтрует по ключевым словам,
+отслеживает смену статусов (Активен -> Отменен/Завершен), парсит
+победителей/участников по завершенным тендерам, шлёт письма на Gmail
+и хранит состояние в tenders_db.json (коммитится обратно в репозиторий
+GitHub Actions отдельным workflow-шагом, см. .github/workflows/tender_bot.yml).
+
+ВАЖНО (прочитать перед запуском в проде):
+------------------------------------------
+Реальные сайты (zakupki.gov.kg, tenders.kg, aris.kg, goszakupki.okmot.kg,
+procurement.kg) периодически меняют разметку, некоторые требуют
+авторизации или рендерят список через JavaScript. Функции-парсеры ниже
+(`parse_<site>`) содержат рабочий каркас (запрос страницы, обработка
+ошибок, извлечение полей через BeautifulSoup) с CSS-селекторами,
+помеченными как TODO — их нужно один раз проверить и подправить под
+актуальный HTML конкретной площадки (открыть страницу в браузере,
+посмотреть DevTools -> Elements). Это единственная часть, которую
+невозможно гарантированно "угадать" без доступа к живой авторизованной
+сессии сайта.
+"""
+
+import os
+import re
+import json
+import time
+import smtplib
+import logging
+import requests
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from bs4 import BeautifulSoup
+from datetime import datetime, timezone
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+)
+log = logging.getLogger("tender-bot")
+
+# ---------------------------------------------------------------------------
+# Конфигурация из переменных окружения
+# ---------------------------------------------------------------------------
+
+def _split_env_list(name: str) -> list[str]:
+    raw = os.environ.get(name, "")
+    return [x.strip() for x in raw.split(",") if x.strip()]
+
+KEYWORDS = [k.lower() for k in _split_env_list("KEYWORDS")]
+TO_EMAILS = _split_env_list("TO_EMAILS")
+MY_COMPANY_NAMES = [c.lower() for c in _split_env_list("MY_COMPANY_NAMES")]
+
+GMAIL_USER = os.environ.get("GMAIL_USER", "")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
+
+DB_FILE = "tenders_db.json"
+# sent_tenders.json оставлен для обратной совместимости с требованием (п.3
+# из первого блока задачи) — фактически дедуп теперь встроен в tenders_db.json
+# через поле "notified", но мы дополнительно пишем плоский список ID, если
+# кто-то из внешних скриптов на него рассчитывает.
+SENT_FILE = "sent_tenders.json"
+
+REQUEST_TIMEOUT = 25
+REQUEST_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+    )
+}
+
+SOURCES = [
+    "zakupki.gov.kg",
+    "tenders.kg",
+    "aris.kg",
+    "goszakupki.okmot.kg",
+    "procurement.kg",
+]
+
+STATUS_ACTIVE = "Активен"
+STATUS_CANCELLED = "Отменен"
+STATUS_COMPLETED = "Завершен"
+
+
+# ---------------------------------------------------------------------------
+# Работа с БД (tenders_db.json) и файлом sent_tenders.json
+# ---------------------------------------------------------------------------
+
+def load_db() -> dict:
+    if os.path.exists(DB_FILE):
+        try:
+            with open(DB_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            log.warning("Не удалось прочитать %s (%s), начинаю с пустой базы", DB_FILE, e)
+    return {}
+
+
+def save_db(db: dict) -> None:
+    with open(DB_FILE, "w", encoding="utf-8") as f:
+        json.dump(db, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def save_sent_list(db: dict) -> None:
+    """Плоский список уже уведомленных ссылок — для совместимости."""
+    sent_ids = sorted([tid for tid, t in db.items() if t.get("notified")])
+    with open(SENT_FILE, "w", encoding="utf-8") as f:
+        json.dump(sent_ids, f, ensure_ascii=False, indent=2)
+
+
+# ---------------------------------------------------------------------------
+# Парсеры площадок
+# ---------------------------------------------------------------------------
+# Каждый parse_* возвращает список словарей вида:
+# {
+#   "id": "уникальный ID (например, URL тендера)",
+#   "url": "...",
+#   "title": "...",
+#   "source": "имя площадки",
+#   "status": STATUS_ACTIVE / STATUS_COMPLETED / STATUS_CANCELLED,
+#   "customer": "заказчик" (опционально),
+#   "deadline": "срок подачи" (опционально),
+# }
+#
+# Если при подведении итогов доступны данные — дополнительно:
+#   "winner": "название компании-победителя" или None
+#   "participants": ["...", "..."]  или []
+
+def _get_soup(url: str) -> BeautifulSoup | None:
+    try:
+        resp = requests.get(url, headers=REQUEST_HEADERS, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        resp.encoding = resp.apparent_encoding or "utf-8"
+        return BeautifulSoup(resp.text, "html.parser")
+    except requests.RequestException as e:
+        log.error("Ошибка запроса %s: %s", url, e)
+        return None
+
+
+def parse_zakupki_gov_kg() -> list[dict]:
+    """
+    zakupki.gov.kg — портал госзакупок.
+    TODO: проверить актуальные CSS-селекторы карточек тендера в списке.
+    Ниже — типичный шаблон: список ссылок с классом-контейнером тендера.
+    """
+    base = "https://zakupki.gov.kg"
+    soup = _get_soup(base)
+    results = []
+    if not soup:
+        return results
+
+    # TODO: замените селектор на реальный (напр. "div.tender-item" или "tr.lot-row")
+    for card in soup.select("div.tender-item, li.tender-item, tr.tender-row"):
+        link_tag = card.select_one("a")
+        if not link_tag or not link_tag.get("href"):
+            continue
+        url = link_tag["href"]
+        if url.startswith("/"):
+            url = base + url
+        title = link_tag.get_text(strip=True)
+        status_tag = card.select_one(".status, .tender-status")
+        status = _normalize_status(status_tag.get_text(strip=True) if status_tag else "")
+        results.append({
+            "id": url,
+            "url": url,
+            "title": title,
+            "source": "zakupki.gov.kg",
+            "status": status or STATUS_ACTIVE,
+        })
+    return results
+
+
+def parse_tenders_kg() -> list[dict]:
+    """
+    tenders.kg — обратите внимание: публичный список часто требует
+    авторизации (мы проверили: страница без сессии показывает форму
+    "Войти"). Если у вас есть аккаунт, добавьте авторизацию через
+    requests.Session() с логином/паролем из окружения (TENDERS_KG_LOGIN /
+    TENDERS_KG_PASSWORD) перед парсингом. Ниже — шаблон парсинга
+    предполагает, что вы уже авторизованы (session с cookies) либо что
+    гостевой доступ ("Войти как гость") даёт доступ к списку.
+    """
+    base = "https://www.tenders.kg"
+    list_url = f"{base}/Announcements_list.php?a=return?f=all"
+    soup = _get_soup(list_url)
+    results = []
+    if not soup:
+        return results
+
+    # TODO: проверить реальную структуру таблицы объявлений после логина/гостя
+    for row in soup.select("table.announcements tr, div.announcement-row"):
+        link_tag = row.select_one("a")
+        if not link_tag or not link_tag.get("href"):
+            continue
+        url = link_tag["href"]
+        if url.startswith("/"):
+            url = base + url
+        title = link_tag.get_text(strip=True)
+        if not title:
+            continue
+        results.append({
+            "id": url,
+            "url": url,
+            "title": title,
+            "source": "tenders.kg",
+            "status": STATUS_ACTIVE,
+        })
+    return results
+
+
+def parse_aris_kg() -> list[dict]:
+    """
+    aris.kg — Агентство по защите инвестиций и т.п.
+    TODO: уточнить реальные селекторы раздела объявлений/тендеров.
+    """
+    base = "https://www.aris.kg"
+    soup = _get_soup(base)
+    results = []
+    if not soup:
+        return results
+
+    for card in soup.select("div.tender, article.tender-card, li.news-item"):
+        link_tag = card.select_one("a")
+        if not link_tag or not link_tag.get("href"):
+            continue
+        url = link_tag["href"]
+        if url.startswith("/"):
+            url = base + url
+        title = link_tag.get_text(strip=True)
+        results.append({
+            "id": url,
+            "url": url,
+            "title": title,
+            "source": "aris.kg",
+            "status": STATUS_ACTIVE,
+        })
+    return results
+
+
+def parse_goszakupki_okmot_kg() -> list[dict]:
+    """
+    goszakupki.okmot.kg — портал электронных госзакупок кабинета министров.
+    TODO: часто такие ЕИС рендерят список через JS/API (XHR к /api/...).
+    Если requests.get() возвращает пустой HTML, посмотрите вкладку Network
+    в браузере — вероятно, есть отдельный JSON-эндпоинт, который проще
+    и надёжнее парсить напрямую (requests.get(api_url).json()).
+    """
+    base = "https://goszakupki.okmot.kg"
+    soup = _get_soup(f"{base}/public/home")
+    results = []
+    if not soup:
+        return results
+
+    for card in soup.select("div.tender-card, tr.procurement-row"):
+        link_tag = card.select_one("a")
+        if not link_tag or not link_tag.get("href"):
+            continue
+        url = link_tag["href"]
+        if url.startswith("/"):
+            url = base + url
+        title = link_tag.get_text(strip=True)
+        results.append({
+            "id": url,
+            "url": url,
+            "title": title,
+            "source": "goszakupki.okmot.kg",
+            "status": STATUS_ACTIVE,
+        })
+    return results
+
+
+def parse_procurement_kg() -> list[dict]:
+    """
+    procurement.kg
+    TODO: уточнить реальные селекторы после осмотра страницы в браузере.
+    """
+    base = "https://procurement.kg"
+    soup = _get_soup(base)
+    results = []
+    if not soup:
+        return results
+
+    for card in soup.select("div.tender-item, li.tender"):
+        link_tag = card.select_one("a")
+        if not link_tag or not link_tag.get("href"):
+            continue
+        url = link_tag["href"]
+        if url.startswith("/"):
+            url = base + url
+        title = link_tag.get_text(strip=True)
+        results.append({
+            "id": url,
+            "url": url,
+            "title": title,
+            "source": "procurement.kg",
+            "status": STATUS_ACTIVE,
+        })
+    return results
+
+
+PARSERS = [
+    parse_zakupki_gov_kg,
+    parse_tenders_kg,
+    parse_aris_kg,
+    parse_goszakupki_okmot_kg,
+    parse_procurement_kg,
+]
+
+
+def _normalize_status(raw: str) -> str | None:
+    raw = (raw or "").lower()
+    if any(w in raw for w in ["отмен", "аннулир"]):
+        return STATUS_CANCELLED
+    if any(w in raw for w in ["заверш", "итог", "подведен"]):
+        return STATUS_COMPLETED
+    if any(w in raw for w in ["актив", "прием", "открыт"]):
+        return STATUS_ACTIVE
+    return None
+
+
+def fetch_all_tenders() -> list[dict]:
+    all_tenders = []
+    for parser in PARSERS:
+        try:
+            found = parser()
+            log.info("%s: найдено %d записей", parser.__name__, len(found))
+            all_tenders.extend(found)
+        except Exception as e:
+            log.exception("Парсер %s упал с ошибкой: %s", parser.__name__, e)
+        time.sleep(1)  # вежливая пауза между площадками
+    return all_tenders
+
+
+def matches_keywords(title: str) -> bool:
+    if not KEYWORDS:
+        return True  # если темы не заданы — пропускаем все
+    title_l = title.lower()
+    return any(kw in title_l for kw in KEYWORDS)
+
+
+# ---------------------------------------------------------------------------
+# Парсинг результатов тендера (победитель / участники)
+# ---------------------------------------------------------------------------
+
+def parse_tender_results(tender: dict) -> dict:
+    """
+    Пытается открыть страницу конкретного тендера и вытащить победителя
+    и список участников. Возвращает dict с ключами winner/participants
+    (пустые значения, если не найдено или структура не распознана).
+
+    TODO: под каждую площадку селекторы для блока "Результаты"/"Протокол"
+    свои — этот шаблон ищет наиболее общие текстовые маркеры
+    ("Победитель:", "Участники:") и должен быть уточнён вручную.
+    """
+    soup = _get_soup(tender["url"])
+    winner = None
+    participants: list[str] = []
+    if not soup:
+        return {"winner": winner, "participants": participants}
+
+    text = soup.get_text("\n", strip=True)
+
+    m = re.search(r"Победитель[:\s]+([^\n]+)", text, re.IGNORECASE)
+    if m:
+        winner = m.group(1).strip()
+
+    m = re.search(r"Участники[:\s]+([^\n]+)", text, re.IGNORECASE)
+    if m:
+        raw = m.group(1)
+        participants = [p.strip() for p in re.split(r"[;,]", raw) if p.strip()]
+
+    return {"winner": winner, "participants": participants}
+
+
+def is_my_company(name: str | None) -> bool:
+    if not name or not MY_COMPANY_NAMES:
+        return False
+    name_l = name.lower()
+    return any(my in name_l or name_l in my for my in MY_COMPANY_NAMES)
+
+
+# ---------------------------------------------------------------------------
+# Отправка почты
+# ---------------------------------------------------------------------------
+
+def send_email(subject: str, html_body: str) -> None:
+    if not TO_EMAILS:
+        log.warning("TO_EMAILS пуст — письмо не отправлено: %s", subject)
+        return
+    if not GMAIL_USER or not GMAIL_APP_PASSWORD:
+        log.error("GMAIL_USER / GMAIL_APP_PASSWORD не заданы — письмо не отправлено")
+        return
+
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"] = GMAIL_USER
+    # Получателей кладём в Bcc, "To" оставляем самому себе, чтобы не
+    # раскрывать список адресов друг другу.
+    msg["To"] = GMAIL_USER
+    msg["Bcc"] = ", ".join(TO_EMAILS)
+
+    msg.attach(MIMEText(html_body, "html", "utf-8"))
+
+    all_recipients = [GMAIL_USER] + TO_EMAILS
+
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as server:
+            server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
+            server.sendmail(GMAIL_USER, all_recipients, msg.as_string())
+        log.info("Письмо отправлено: %s (получателей: %d)", subject, len(TO_EMAILS))
+    except smtplib.SMTPException as e:
+        log.error("Ошибка отправки письма: %s", e)
+
+
+def render_tender_html(t: dict) -> str:
+    parts = [
+        f"<b>{t['title']}</b><br>",
+        f"Площадка: {t['source']}<br>",
+        f"Статус: {t['status']}<br>",
+        f"<a href='{t['url']}'>{t['url']}</a><br>",
+    ]
+    if t.get("customer"):
+        parts.append(f"Заказчик: {t['customer']}<br>")
+    if t.get("deadline"):
+        parts.append(f"Срок подачи: {t['deadline']}<br>")
+    if t.get("winner"):
+        parts.append(f"Победитель: <b>{t['winner']}</b><br>")
+    if t.get("participants"):
+        parts.append(f"Участники: {', '.join(t['participants'])}<br>")
+    return "<div style='margin-bottom:16px;padding:12px;border:1px solid #ddd'>" + "".join(parts) + "</div>"
+
+
+# ---------------------------------------------------------------------------
+# Основная логика одного прогона
+# ---------------------------------------------------------------------------
+
+def run() -> None:
+    db = load_db()
+    now = datetime.now(timezone.utc).isoformat()
+
+    found_tenders = fetch_all_tenders()
+
+    new_tenders = []
+    cancelled_alerts = []
+    win_alerts = []
+    summary_updates = []
+
+    seen_ids = set()
+
+    for t in found_tenders:
+        tid = t["id"]
+        seen_ids.add(tid)
+
+        if not matches_keywords(t["title"]):
+            continue
+
+        existing = db.get(tid)
+
+        if existing is None:
+            # Новый тендер
+            t["first_seen"] = now
+            t["notified"] = False
+            db[tid] = t
+            new_tenders.append(t)
+            continue
+
+        # Тендер уже известен — проверяем изменение статуса
+        old_status = existing.get("status")
+        new_status = t["status"]
+
+        if new_status != old_status:
+            existing["status"] = new_status
+            existing["status_updated_at"] = now
+
+            if old_status == STATUS_ACTIVE and new_status == STATUS_CANCELLED:
+                cancelled_alerts.append(existing)
+
+            if new_status == STATUS_COMPLETED:
+                results = parse_tender_results(existing)
+                existing["winner"] = results.get("winner")
+                existing["participants"] = results.get("participants")
+                summary_updates.append(existing)
+                if is_my_company(results.get("winner")):
+                    win_alerts.append(existing)
+
+        db[tid] = existing
+
+    # Дополнительно: для тендеров, уже помеченных "Завершен" в базе, но без
+    # winner (например, итоги подвели не сразу) — пробуем повторно спарсить
+    for tid, t in db.items():
+        if t.get("status") == STATUS_COMPLETED and not t.get("winner") and tid in seen_ids:
+            results = parse_tender_results(t)
+            if results.get("winner"):
+                t["winner"] = results["winner"]
+                t["participants"] = results.get("participants", [])
+                summary_updates.append(t)
+                if is_my_company(results.get("winner")):
+                    win_alerts.append(t)
+
+    # --- Отправка писем ---
+
+    if new_tenders:
+        body = "<h2>Новые тендеры по вашим темам</h2>" + "".join(
+            render_tender_html(t) for t in new_tenders
+        )
+        send_email(f"🆕 Новые тендеры: {len(new_tenders)} шт.", body)
+        for t in new_tenders:
+            db[t["id"]]["notified"] = True
+
+    for t in cancelled_alerts:
+        body = (
+            f"<h2>⚠️ Внимание! Тендер «{t['title']}» был отменен заказчиком</h2>"
+            + render_tender_html(t)
+        )
+        send_email(f"⚠️ Тендер отменен: {t['title']}", body)
+
+    if summary_updates:
+        body = "<h2>Итоги по завершенным тендерам</h2>" + "".join(
+            render_tender_html(t) for t in summary_updates
+        )
+        send_email(f"📋 Итоги тендеров: {len(summary_updates)} шт.", body)
+
+    for t in win_alerts:
+        body = (
+            f"<h2>🎉 Поздравляем! Вы выиграли тендер «{t['title']}»!</h2>"
+            + render_tender_html(t)
+        )
+        send_email(f"🎉 Победа в тендере: {t['title']}", body)
+
+    save_db(db)
+    save_sent_list(db)
+
+    log.info(
+        "Готово. Новых: %d, отмен: %d, итогов: %d, побед: %d",
+        len(new_tenders), len(cancelled_alerts), len(summary_updates), len(win_alerts),
+    )
+
+
+if __name__ == "__main__":
+    run()
