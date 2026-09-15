@@ -1,1 +1,14 @@
-{}
+{
+  "goszakupki:6aa90fa5d5978a4098c1a5b6": {
+    "customer": "Учреждение \"Майлуу-Сууское управление Министерства финансов Кыргызской Республики\"",
+    "deadline": "2026-09-18 16:27",
+    "first_seen": "2026-09-15T13:14:02.870734+00:00",
+    "id": "goszakupki:6aa90fa5d5978a4098c1a5b6",
+    "notified": true,
+    "published": "2026-09-15 15:40",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги сметчика",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aa90fa5d5978a4098c1a5b6?tab=tender"
+  }
+}
