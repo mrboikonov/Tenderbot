@@ -342,31 +342,90 @@ def parse_zakupki_gov_kg() -> list[dict]:
     return list(active.values())
 
 
+_tenders_kg_logged_in = False
+
+
+def _tenders_kg_ensure_login() -> bool:
+    """
+    tenders.kg требует авторизации даже для просмотра списка объявлений.
+    Форма логина (проверено вручную 2026-09-15, вкладка Network ->
+    Payload при отправке формы) отправляет обычный POST без токена
+    reCAPTCHA:
+        POST https://www.tenders.kg/login.php
+        Form Data: btnSubmit=Login, username=<...>, password=<...>
+    Логинимся один раз за запуск скрипта через общую SESSION — cookies
+    сессии сохранятся и будут использоваться во всех дальнейших запросах
+    к этому домену автоматически.
+    """
+    global _tenders_kg_logged_in
+    if _tenders_kg_logged_in:
+        return True
+
+    username = os.environ.get("TENDERS_KG_USERNAME", "")
+    password = os.environ.get("TENDERS_KG_PASSWORD", "")
+    if not username or not password:
+        log.warning(
+            "TENDERS_KG_USERNAME/TENDERS_KG_PASSWORD не заданы — "
+            "tenders.kg не будет обработан."
+        )
+        return False
+
+    login_url = "https://www.tenders.kg/login.php"
+    try:
+        resp = SESSION.post(
+            login_url,
+            data={"btnSubmit": "Login", "username": username, "password": password},
+            headers={"Referer": "https://www.tenders.kg/"},
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        log.error("Ошибка логина на tenders.kg: %s", e)
+        return False
+
+    # Проверяем, что вход реально сработал: на странице после логина не
+    # должно быть формы "Войти". Это не 100% надёжная проверка (текст
+    # может встречаться и в другом контексте), но простая и достаточная
+    # для базовой диагностики.
+    if "Войти" in resp.text and "Пароль" in resp.text:
+        log.error(
+            "Логин на tenders.kg не удался (страница похода на форму "
+            "входа) — проверьте TENDERS_KG_USERNAME/TENDERS_KG_PASSWORD."
+        )
+        return False
+
+    _tenders_kg_logged_in = True
+    log.info("Успешный вход на tenders.kg.")
+    return True
+
+
 def parse_tenders_kg() -> list[dict]:
     """
-    tenders.kg — обратите внимание: публичный список часто требует
-    авторизации (мы проверили: страница без сессии показывает форму
-    "Войти"). Если у вас есть аккаунт, добавьте авторизацию через
-    requests.Session() с логином/паролем из окружения (TENDERS_KG_LOGIN /
-    TENDERS_KG_PASSWORD) перед парсингом. Ниже — шаблон парсинга
-    предполагает, что вы уже авторизованы (session с cookies) либо что
-    гостевой доступ ("Войти как гость") даёт доступ к списку.
+    tenders.kg — требует авторизации (см. _tenders_kg_ensure_login).
+    После успешного логина список объявлений лежит на
+    Announcements_list.php. Разметка не проверена вручную на реальных
+    данных (только форма логина) — селекторы ниже основаны на общей
+    структуре форума/списка (похоже на движок форума), могут требовать
+    донастройки после первого успешного логина. Если после входа
+    найдено 0 записей — почти наверняка нужно поправить селекторы, а
+    не логин (логин к этому моменту уже подтверждён отдельной проверкой
+    выше).
     """
+    if not _tenders_kg_ensure_login():
+        return []
+
     base = "https://www.tenders.kg"
     list_url = f"{base}/Announcements_list.php?a=return?f=all"
-    soup = _get_soup(list_url)
+    soup = _get_soup(list_url, referer=base)
     results = []
     if not soup:
         return results
 
-    # TODO: проверить реальную структуру таблицы объявлений после логина/гостя
-    for row in soup.select("table.announcements tr, div.announcement-row"):
-        link_tag = row.select_one("a")
-        if not link_tag or not link_tag.get("href"):
-            continue
-        url = link_tag["href"]
-        if url.startswith("/"):
-            url = base + url
+    # TODO: уточнить селекторы после первого успешного логина — общий
+    # шаблон: строки таблицы/списка со ссылкой на Announcements_view.php.
+    for link_tag in soup.select('a[href*="Announcements_view.php"]'):
+        href = link_tag.get("href", "")
+        url = href if href.startswith("http") else base + "/" + href.lstrip("/")
         title = link_tag.get_text(strip=True)
         if not title:
             continue
@@ -491,8 +550,10 @@ def parse_goszakupki_okmot_kg() -> list[dict]:
 
 def parse_procurement_kg() -> list[dict]:
     """
-    procurement.kg
-    TODO: уточнить реальные селекторы после осмотра страницы в браузере.
+    procurement.kg — проверено вручную 2026-09-15: полная аналитика
+    требует регистрации, НО раздел "Свежие закупки" на главной странице
+    открыт без входа и содержит ~24 последних объявления со всех
+    площадок страны, каждое со ссылкой вида /tenders/<id>.
     """
     base = "https://procurement.kg"
     soup = _get_soup(base)
@@ -500,14 +561,22 @@ def parse_procurement_kg() -> list[dict]:
     if not soup:
         return results
 
-    for card in soup.select("div.tender-item, li.tender"):
-        link_tag = card.select_one("a")
-        if not link_tag or not link_tag.get("href"):
+    seen_ids = set()
+    for link_tag in soup.select('a[href*="/tenders/"]'):
+        href = link_tag.get("href", "")
+        m = re.search(r"/tenders/(\d+)", href)
+        if not m:
+            continue  # пропускаем не относящиеся ссылки (напр. /tenders/catalog)
+        tender_id = m.group(1)
+        if tender_id in seen_ids:
             continue
-        url = link_tag["href"]
-        if url.startswith("/"):
-            url = base + url
+        seen_ids.add(tender_id)
+
         title = link_tag.get_text(strip=True)
+        if not title:
+            continue
+        url = href if href.startswith("http") else base + href
+
         results.append({
             "id": url,
             "url": url,
