@@ -36,7 +36,7 @@ from urllib3.util.retry import Retry
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from bs4 import BeautifulSoup
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date
 
 try:
     # Опционально: если рядом с bot.py лежит файл .env (только для
@@ -729,7 +729,45 @@ def _parse_goszakupki_results(tender: dict) -> dict:
     return {"winner": winner, "participants": participants}
 
 
-def is_my_company(name: str | None) -> bool:
+def parse_deadline_to_date(raw: str | None) -> str | None:
+    """
+    Пытается вытащить дату из строки срока подачи заявок (формат на
+    разных площадках разный: "2026-09-18 16:30" на goszakupki.okmot.kg,
+    "24.06.202611:00:00" на aris.kg — дата и время слеплены без
+    разделителя прямо в HTML площадки, не наша ошибка). Возвращает дату
+    в формате ISO ("YYYY-MM-DD") для удобного сравнения и сортировки,
+    или None, если распознать не удалось (в этом случае тендер считается
+    "актуальным по умолчанию" — лучше показать лишний, чем скрыть
+    настоящий действующий тендер).
+    """
+    if not raw:
+        return None
+
+    m = re.search(r"(\d{4})-(\d{2})-(\d{2})", raw)
+    if m:
+        try:
+            return date(int(m.group(1)), int(m.group(2)), int(m.group(3))).isoformat()
+        except ValueError:
+            pass
+
+    m = re.search(r"(\d{2})\.(\d{2})\.(\d{4})", raw)
+    if m:
+        try:
+            return date(int(m.group(3)), int(m.group(2)), int(m.group(1))).isoformat()
+        except ValueError:
+            pass
+
+    return None
+
+
+def is_deadline_passed(deadline_date_iso: str | None) -> bool:
+    """False (не просрочен), если дата неизвестна — см. комментарий выше."""
+    if not deadline_date_iso:
+        return False
+    try:
+        return date.fromisoformat(deadline_date_iso) < date.today()
+    except ValueError:
+        return False
     if not name or not MY_COMPANY_NAMES:
         return False
     name_l = name.lower()
@@ -819,11 +857,16 @@ def run() -> None:
             # Новый тендер
             t["first_seen"] = now
             t["notified"] = False
+            t["deadline_date"] = parse_deadline_to_date(t.get("deadline"))
             db[tid] = t
             new_tenders.append(t)
             continue
 
-        # Тендер уже известен — проверяем изменение статуса
+        # Тендер уже известен — обновляем срок на случай, если он
+        # изменился (например, продлили приём заявок), и проверяем
+        # изменение статуса
+        existing["deadline"] = t.get("deadline") or existing.get("deadline")
+        existing["deadline_date"] = parse_deadline_to_date(existing.get("deadline"))
         old_status = existing.get("status")
         new_status = t["status"]
 
@@ -858,13 +901,27 @@ def run() -> None:
 
     # --- Отправка писем ---
 
-    if new_tenders:
-        body = "<h2>Новые тендеры по вашим темам</h2>" + "".join(
-            render_tender_html(t) for t in new_tenders
+    # Из вновь найденных тендеров в письмо попадают только актуальные —
+    # те, где срок подачи заявки ещё не прошёл (или неизвестен, чтобы
+    # не скрыть по ошибке настоящий действующий тендер). Уже
+    # просроченные всё равно сохраняются в базу (видны через
+    # generate_report.py), просто не шлём по ним уведомление.
+    actual_new_tenders = [t for t in new_tenders if not is_deadline_passed(t.get("deadline_date"))]
+    expired_new_count = len(new_tenders) - len(actual_new_tenders)
+    if expired_new_count:
+        log.info(
+            "Пропущено %d новых тендеров с уже истёкшим сроком подачи "
+            "(не включены в письмо, но сохранены в базе).",
+            expired_new_count,
         )
-        email_sent = send_email(f"🆕 Новые тендеры: {len(new_tenders)} шт.", body)
+
+    if actual_new_tenders:
+        body = "<h2>Новые тендеры по вашим темам</h2>" + "".join(
+            render_tender_html(t) for t in actual_new_tenders
+        )
+        email_sent = send_email(f"🆕 Новые тендеры: {len(actual_new_tenders)} шт.", body)
         if email_sent:
-            for t in new_tenders:
+            for t in actual_new_tenders:
                 db[t["id"]]["notified"] = True
         else:
             log.warning(
