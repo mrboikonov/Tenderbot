@@ -421,6 +421,15 @@ def parse_tenders_kg() -> list[dict]:
     if not soup:
         return results
 
+    # Временная диагностика — аналогично procurement.kg.
+    title_tag = soup.find("title")
+    all_links = soup.find_all("a")
+    log.info(
+        "  диагностика tenders.kg: title=%r, всего <a>=%d",
+        title_tag.get_text(strip=True) if title_tag else None,
+        len(all_links),
+    )
+
     # TODO: уточнить селекторы после первого успешного логина — общий
     # шаблон: строки таблицы/списка со ссылкой на Announcements_view.php.
     for link_tag in soup.select('a[href*="Announcements_view.php"]'):
@@ -560,6 +569,16 @@ def parse_procurement_kg() -> list[dict]:
     results = []
     if not soup:
         return results
+
+    # Временная диагностика: если 0 результатов — помогает понять,
+    # получили ли мы реальную страницу с контентом или пустышку/заглушку.
+    title_tag = soup.find("title")
+    all_links = soup.find_all("a")
+    log.info(
+        "  диагностика procurement.kg: title=%r, всего <a>=%d",
+        title_tag.get_text(strip=True) if title_tag else None,
+        len(all_links),
+    )
 
     seen_ids = set()
     for link_tag in soup.select('a[href*="/tenders/"]'):
