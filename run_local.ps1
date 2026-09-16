@@ -17,6 +17,17 @@ function Write-Log($msg) {
 Write-Log "=== run_local.ps1 started ==="
 
 try {
+    Write-Log "Committing any pending local changes before pull..."
+    git add tenders_db.json sent_tenders.json
+    git diff --cached --quiet
+    $hasPending = $LASTEXITCODE -ne 0
+    if ($hasPending) {
+        git commit -m "chore: sync local state before pull [skip ci]"
+        Write-Log "Pending changes committed."
+    } else {
+        Write-Log "No pending changes."
+    }
+
     Write-Log "git pull --rebase..."
     git pull --rebase origin main 2>&1 | ForEach-Object { Write-Log $_ }
 
