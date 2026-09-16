@@ -402,14 +402,10 @@ def _tenders_kg_ensure_login() -> bool:
 def parse_tenders_kg() -> list[dict]:
     """
     tenders.kg — требует авторизации (см. _tenders_kg_ensure_login).
-    После успешного логина список объявлений лежит на
-    Announcements_list.php. Разметка не проверена вручную на реальных
-    данных (только форма логина) — селекторы ниже основаны на общей
-    структуре форума/списка (похоже на движок форума), могут требовать
-    донастройки после первого успешного логина. Если после входа
-    найдено 0 записей — почти наверняка нужно поправить селекторы, а
-    не логин (логин к этому моменту уже подтверждён отдельной проверкой
-    выше).
+    Проверено на реальных данных 2026-09-15: после успешного логина
+    список объявлений на Announcements_list.php содержит ссылки на
+    Announcements_view.php с реальными названиями («№31820. Конкурс на
+    изготовление и поставку...»). Работает.
     """
     if not _tenders_kg_ensure_login():
         return []
@@ -420,15 +416,6 @@ def parse_tenders_kg() -> list[dict]:
     results = []
     if not soup:
         return results
-
-    # Временная диагностика — аналогично procurement.kg.
-    title_tag = soup.find("title")
-    all_links = soup.find_all("a")
-    log.info(
-        "  диагностика tenders.kg: title=%r, всего <a>=%d",
-        title_tag.get_text(strip=True) if title_tag else None,
-        len(all_links),
-    )
 
     # TODO: уточнить селекторы после первого успешного логина — общий
     # шаблон: строки таблицы/списка со ссылкой на Announcements_view.php.
@@ -559,26 +546,15 @@ def parse_goszakupki_okmot_kg() -> list[dict]:
 
 def parse_procurement_kg() -> list[dict]:
     """
-    procurement.kg — проверено вручную 2026-09-15: полная аналитика
-    требует регистрации, НО раздел "Свежие закупки" на главной странице
-    открыт без входа и содержит ~24 последних объявления со всех
-    площадок страны, каждое со ссылкой вида /tenders/<id>.
+    procurement.kg — проверено на реальных данных 2026-09-15: раздел
+    "Свежие закупки" на главной странице открыт без входа, содержит
+    ~24 последних объявления со всех площадок страны. Работает.
     """
     base = "https://procurement.kg"
     soup = _get_soup(base)
     results = []
     if not soup:
         return results
-
-    # Временная диагностика: если 0 результатов — помогает понять,
-    # получили ли мы реальную страницу с контентом или пустышку/заглушку.
-    title_tag = soup.find("title")
-    all_links = soup.find_all("a")
-    log.info(
-        "  диагностика procurement.kg: title=%r, всего <a>=%d",
-        title_tag.get_text(strip=True) if title_tag else None,
-        len(all_links),
-    )
 
     seen_ids = set()
     for link_tag in soup.select('a[href*="/tenders/"]'):
