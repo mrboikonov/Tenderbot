@@ -2,7 +2,6 @@
 # Local run for sites blocked from GitHub Actions (tenders.kg, procurement.kg).
 # Configured in Windows Task Scheduler, see README.md.
 
-$ErrorActionPreference = "Stop"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $ScriptDir
 
@@ -16,40 +15,40 @@ function Write-Log($msg) {
 
 Write-Log "=== run_local.ps1 started ==="
 
-try {
-    Write-Log "Committing any pending local changes before pull..."
-    git add tenders_db.json sent_tenders.json
-    git diff --cached --quiet
-    $hasPending = $LASTEXITCODE -ne 0
-    if ($hasPending) {
-        git commit -m "chore: sync local state before pull [skip ci]"
-        Write-Log "Pending changes committed."
-    } else {
-        Write-Log "No pending changes."
-    }
-
-    Write-Log "git pull --rebase..."
-    git pull --rebase origin main 2>&1 | ForEach-Object { Write-Log $_ }
-
-    Write-Log "Running python bot.py..."
-    python bot.py 2>&1 | ForEach-Object { Write-Log $_ }
-
-    Write-Log "git add/commit/push..."
-    git add tenders_db.json sent_tenders.json
-    git diff --cached --quiet
-    $hasChanges = $LASTEXITCODE -ne 0
-    if ($hasChanges) {
-        git commit -m "chore: update tenders_db.json (local: tenders.kg/procurement.kg) [skip ci]"
-        git pull --rebase origin main
-        git push origin main
-        Write-Log "Changes committed and pushed."
-    } else {
-        Write-Log "No changes in database - commit not needed."
-    }
-
-    Write-Log "=== Done ==="
+Write-Log "Committing any pending local changes before pull..."
+git add tenders_db.json sent_tenders.json
+git diff --cached --quiet
+if ($LASTEXITCODE -ne 0) {
+    git commit -m "chore: sync local state before pull [skip ci]" *>> $LogFile
+    Write-Log "Pending changes committed."
+} else {
+    Write-Log "No pending changes."
 }
-catch {
-    Write-Log "ERROR: $_"
+
+Write-Log "git pull --rebase..."
+git pull --rebase origin main *>> $LogFile
+if ($LASTEXITCODE -ne 0) {
+    Write-Log "ERROR: git pull --rebase failed (exit code $LASTEXITCODE). Aborting."
+    git rebase --abort *>> $LogFile
     exit 1
 }
+
+Write-Log "Running python bot.py..."
+python bot.py *>> $LogFile
+if ($LASTEXITCODE -ne 0) {
+    Write-Log "ERROR: bot.py failed (exit code $LASTEXITCODE)."
+}
+
+Write-Log "git add/commit/push..."
+git add tenders_db.json sent_tenders.json
+git diff --cached --quiet
+if ($LASTEXITCODE -ne 0) {
+    git commit -m "chore: update tenders_db.json (local: tenders.kg/procurement.kg) [skip ci]" *>> $LogFile
+    git pull --rebase origin main *>> $LogFile
+    git push origin main *>> $LogFile
+    Write-Log "Changes committed and pushed."
+} else {
+    Write-Log "No changes in database - commit not needed."
+}
+
+Write-Log "=== Done ==="
