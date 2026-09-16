@@ -10,5 +10,14 @@
     "status": "Активен",
     "title": "Услуги сметчика",
     "url": "https://goszakupki.okmot.kg/public/order/view/6aa90fa5d5978a4098c1a5b6?tab=tender"
+  },
+  "https://procurement.kg/tenders/1145225": {
+    "first_seen": "2026-09-16T09:54:27.508485+00:00",
+    "id": "https://procurement.kg/tenders/1145225",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Косметический ремонт здания и отопительной системы",
+    "url": "https://procurement.kg/tenders/1145225"
   }
 }
