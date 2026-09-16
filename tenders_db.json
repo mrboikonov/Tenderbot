@@ -23,8 +23,22 @@
     "title": "Услуги сметчика на текущий ремонт зданий ТБ ЖР",
     "url": "https://goszakupki.okmot.kg/public/order/view/6aaa1c65d5978a4098c1a779?tab=tender"
   },
+  "goszakupki:6aaa8171d5978a4098c1a932": {
+    "customer": "Кызыл-Октябрьский айыл-окмоту Кызыл-Октябрьского айыльного аймака Кеминского района Чуйской области",
+    "deadline": "2026-09-21 09:00",
+    "deadline_date": "2026-09-21",
+    "first_seen": "2026-09-16T11:57:48.151397+00:00",
+    "id": "goszakupki:6aaa8171d5978a4098c1a932",
+    "notified": true,
+    "published": "2026-09-16 17:55",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "система видеонаблюдения с установкой",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aaa8171d5978a4098c1a932?tab=tender"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
+    "deadline_date": "2025-08-18",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2291",
     "notified": true,
@@ -35,6 +49,7 @@
   },
   "https://www.aris.kg/tenders/view/2618": {
     "deadline": "24.06.202611:00:00",
+    "deadline_date": "2026-06-24",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2618",
     "notified": true,
@@ -45,6 +60,7 @@
   },
   "https://www.aris.kg/tenders/view/2619": {
     "deadline": "24.06.202611:00:00",
+    "deadline_date": "2026-06-24",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2619",
     "notified": true,
@@ -55,6 +71,7 @@
   },
   "https://www.aris.kg/tenders/view/2625": {
     "deadline": "03.07.202618:00:00",
+    "deadline_date": "2026-07-03",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2625",
     "notified": true,
@@ -65,6 +82,7 @@
   },
   "https://www.aris.kg/tenders/view/2628": {
     "deadline": "29.06.202610:00:00",
+    "deadline_date": "2026-06-29",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2628",
     "notified": true,
@@ -75,6 +93,7 @@
   },
   "https://www.aris.kg/tenders/view/2632": {
     "deadline": "03.08.202611:00:00",
+    "deadline_date": "2026-08-03",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2632",
     "notified": true,
@@ -85,6 +104,7 @@
   },
   "https://www.aris.kg/tenders/view/2635": {
     "deadline": "28.07.202611:00:00",
+    "deadline_date": "2026-07-28",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2635",
     "notified": true,
@@ -95,6 +115,7 @@
   },
   "https://www.aris.kg/tenders/view/2639": {
     "deadline": "24.07.202618:00:00",
+    "deadline_date": "2026-07-24",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2639",
     "notified": true,
@@ -105,6 +126,7 @@
   },
   "https://www.aris.kg/tenders/view/2644": {
     "deadline": "03.09.202611:00:00",
+    "deadline_date": "2026-09-03",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2644",
     "notified": true,
@@ -115,6 +137,7 @@
   },
   "https://www.aris.kg/tenders/view/2645": {
     "deadline": "03.09.202611:00:00",
+    "deadline_date": "2026-09-03",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2645",
     "notified": true,
@@ -125,6 +148,7 @@
   },
   "https://www.aris.kg/tenders/view/2687": {
     "deadline": "17.08.202611:00:00",
+    "deadline_date": "2026-08-17",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2687",
     "notified": true,
@@ -135,6 +159,7 @@
   },
   "https://www.aris.kg/tenders/view/2698": {
     "deadline": "17.08.202611:00:00",
+    "deadline_date": "2026-08-17",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2698",
     "notified": true,
@@ -145,6 +170,7 @@
   },
   "https://www.aris.kg/tenders/view/2704": {
     "deadline": "28.09.202611:00:00",
+    "deadline_date": "2026-09-28",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2704",
     "notified": true,
@@ -155,6 +181,7 @@
   },
   "https://www.aris.kg/tenders/view/2705": {
     "deadline": "01.10.202611:00:00",
+    "deadline_date": "2026-10-01",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2705",
     "notified": true,
@@ -165,6 +192,7 @@
   },
   "https://www.aris.kg/tenders/view/2706": {
     "deadline": "18.09.202618:00:00",
+    "deadline_date": "2026-09-18",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2706",
     "notified": true,
@@ -175,6 +203,7 @@
   },
   "https://www.aris.kg/tenders/view/2707": {
     "deadline": "18.09.202618:00:00",
+    "deadline_date": "2026-09-18",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2707",
     "notified": true,
@@ -185,6 +214,7 @@
   },
   "https://www.aris.kg/tenders/view/2708": {
     "deadline": "18.09.202618:00:00",
+    "deadline_date": "2026-09-18",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2708",
     "notified": true,
@@ -195,6 +225,7 @@
   },
   "https://www.aris.kg/tenders/view/2709": {
     "deadline": "18.09.202618:00:00",
+    "deadline_date": "2026-09-18",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2709",
     "notified": true,
@@ -205,6 +236,7 @@
   },
   "https://www.aris.kg/tenders/view/2716": {
     "deadline": "07.09.202618:00:00",
+    "deadline_date": "2026-09-07",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2716",
     "notified": true,
@@ -215,6 +247,7 @@
   },
   "https://www.aris.kg/tenders/view/2734": {
     "deadline": "17.09.202616:00:00",
+    "deadline_date": "2026-09-17",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2734",
     "notified": true,
@@ -225,6 +258,7 @@
   },
   "https://www.aris.kg/tenders/view/2735": {
     "deadline": "17.09.202616:00:00",
+    "deadline_date": "2026-09-17",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2735",
     "notified": true,
@@ -235,6 +269,7 @@
   },
   "https://www.aris.kg/tenders/view/2736": {
     "deadline": "17.09.202618:00:00",
+    "deadline_date": "2026-09-17",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2736",
     "notified": true,
@@ -245,6 +280,7 @@
   },
   "https://www.aris.kg/tenders/view/2769": {
     "deadline": "28.09.202615:00:00",
+    "deadline_date": "2026-09-28",
     "first_seen": "2026-09-16T11:12:42.162441+00:00",
     "id": "https://www.aris.kg/tenders/view/2769",
     "notified": true,
