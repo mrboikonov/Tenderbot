@@ -25,6 +25,58 @@
     "title": "система видеонаблюдения с установкой",
     "url": "https://goszakupki.okmot.kg/public/order/view/6aaa8171d5978a4098c1a932?tab=tender"
   },
+  "goszakupki:6aab6602d5978a4098c1a99a": {
+    "customer": "Учреждение \"Министерство финансов Кыргызской Республики\"",
+    "deadline": "2026-09-22 14:20",
+    "deadline_date": "2026-09-22",
+    "first_seen": "2026-09-17T09:43:38.394730+00:00",
+    "id": "goszakupki:6aab6602d5978a4098c1a99a",
+    "notified": true,
+    "published": "2026-09-17 12:33",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение и установка терминалов распознавания лиц (СКУД) и системы видеонаблюдения",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aab6602d5978a4098c1a99a?tab=tender"
+  },
+  "goszakupki:6aab800ad5978a4098c1aa30": {
+    "customer": "У-е Отдел реализации лесных проектов Лесной службы при Министерстве чрезвычайных ситуаций КР",
+    "deadline": "2026-09-22 17:00",
+    "deadline_date": "2026-09-22",
+    "first_seen": "2026-09-17T09:43:38.394730+00:00",
+    "id": "goszakupki:6aab800ad5978a4098c1aa30",
+    "notified": true,
+    "published": "2026-09-17 12:30",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Изготовление и поставка ролл-ап для стартового семинара проекта GCP/KYR/11383/GFF",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aab800ad5978a4098c1aa30?tab=tender"
+  },
+  "goszakupki:6aab897ed5978a4098c1aa50": {
+    "customer": "Жалалабатский областной центр психического здоровья",
+    "deadline": "2026-09-22 17:45",
+    "deadline_date": "2026-09-22",
+    "first_seen": "2026-09-17T09:43:38.394730+00:00",
+    "id": "goszakupki:6aab897ed5978a4098c1aa50",
+    "notified": true,
+    "published": "2026-09-17 12:34",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Покупка мебели",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aab897ed5978a4098c1aa50?tab=tender"
+  },
+  "goszakupki:6aab96ead5978a4098c1aa65": {
+    "customer": "Учреждение Оздоровительно-реабилитационный центр Алтын-Балалык ",
+    "deadline": "2026-09-22 16:00",
+    "deadline_date": "2026-09-22",
+    "first_seen": "2026-09-17T09:43:38.394730+00:00",
+    "id": "goszakupki:6aab96ead5978a4098c1aa65",
+    "notified": true,
+    "published": "2026-09-17 14:01",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Поставка медицинского оборудования и мебели для ГУ \"Оздоровительно-реабилитационный центр \"Алтын-Балалык\"",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aab96ead5978a4098c1aa65?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -352,6 +404,28 @@
     "status": "Активен",
     "title": "Тендер на выполнение работ в рамках Проекта Адм. пул по контракту \"Оказание услуг по организации и проведению заседания Наблюдательного совета Агентства развития инвестирования сообществ Кыргызской Республики\"",
     "url": "https://www.aris.kg/tenders/view/2769"
+  },
+  "https://www.aris.kg/tenders/view/2773": {
+    "deadline": "01.10.202618:00:00",
+    "deadline_date": "2026-10-01",
+    "first_seen": "2026-09-17T09:43:38.394730+00:00",
+    "id": "https://www.aris.kg/tenders/view/2773",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Запрос на выражение заинтересованности в рамках Проекта НПИС по контракту \"Привязка типового проекта детского сада на 70 мест и ведение авторского надзора (СЕВЕР)\"",
+    "url": "https://www.aris.kg/tenders/view/2773"
+  },
+  "https://www.aris.kg/tenders/view/2774": {
+    "deadline": "29.10.202618:00:00",
+    "deadline_date": "2026-10-29",
+    "first_seen": "2026-09-17T09:43:38.394730+00:00",
+    "id": "https://www.aris.kg/tenders/view/2774",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Запрос на выражение заинтересованности в рамках Проекта НПИС по контракту \"Разработка проектно-сметной документации и ведение авторского надзора инфраструктурного сельского водоснабжения в Нарынской и Таласской областях\"",
+    "url": "https://www.aris.kg/tenders/view/2774"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline_date": null,
