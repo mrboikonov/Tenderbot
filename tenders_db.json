@@ -276,5 +276,17 @@
     "status": "Активен",
     "title": "Тендер на выполнение работ в рамках Проекта Адм. пул по контракту \"Оказание услуг по организации и проведению заседания Наблюдательного совета Агентства развития инвестирования сообществ Кыргызской Республики\"",
     "url": "https://www.aris.kg/tenders/view/2769"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
+    "customer": "\"Мэрия города Шопокова\"",
+    "deadline": "поставщиков22.09.2026 14:00",
+    "deadline_date": "2026-09-22",
+    "first_seen": "2026-09-17T04:31:06.410697+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Разработка проекта \"Строительство тренировочной футбольной поли в центральном стадионе\"г. Шопоков.",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490"
   }
 }
