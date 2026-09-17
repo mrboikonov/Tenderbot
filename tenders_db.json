@@ -134,6 +134,39 @@
     "title": "Приглашение к участию в торгах в рамках Проекта НПИС по контракту \"Капитальный ремонт Детского сада \"Келечек\" в селе Казарман Каргалыкского айылного аймака Тогуз-Тороуского района Джалал-Абдаской области\"",
     "url": "https://www.aris.kg/tenders/view/2645"
   },
+  "https://www.aris.kg/tenders/view/2652": {
+    "deadline": "06.08.202610:00:00",
+    "deadline_date": "2026-08-06",
+    "first_seen": "2026-09-17T05:30:47.539137+00:00",
+    "id": "https://www.aris.kg/tenders/view/2652",
+    "notified": false,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для производства корпусной мебели\"",
+    "url": "https://www.aris.kg/tenders/view/2652"
+  },
+  "https://www.aris.kg/tenders/view/2659": {
+    "deadline": "07.08.202615:00:00",
+    "deadline_date": "2026-08-07",
+    "first_seen": "2026-09-17T05:30:47.539137+00:00",
+    "id": "https://www.aris.kg/tenders/view/2659",
+    "notified": false,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку оборудования и мебели для многофункционального комплекса отдыха и проведения мероприятий",
+    "url": "https://www.aris.kg/tenders/view/2659"
+  },
+  "https://www.aris.kg/tenders/view/2666": {
+    "deadline": "07.08.202615:00:00",
+    "deadline_date": "2026-08-07",
+    "first_seen": "2026-09-17T05:30:47.539137+00:00",
+    "id": "https://www.aris.kg/tenders/view/2666",
+    "notified": false,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Запрос ценового предложения на поставку оборудования и мебели для многофункционального комплекса отдыха и проведения мероприятий",
+    "url": "https://www.aris.kg/tenders/view/2666"
+  },
   "https://www.aris.kg/tenders/view/2687": {
     "deadline": "17.08.202611:00:00",
     "deadline_date": "2026-08-17",
@@ -233,6 +266,17 @@
     "title": "Запрос на выражение заинтересованности в рамках Проекта CS-FOR по контракту \"Ооказание консультационных услуг по совершенствованию механизмов управления природными ресурсами, ПКУПРУИК и лесами вне Государственного лесного фонда с привлечением междуна",
     "url": "https://www.aris.kg/tenders/view/2716"
   },
+  "https://www.aris.kg/tenders/view/2731": {
+    "deadline": "08.09.202610:00:00",
+    "deadline_date": "2026-09-08",
+    "first_seen": "2026-09-17T05:30:47.539137+00:00",
+    "id": "https://www.aris.kg/tenders/view/2731",
+    "notified": false,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Поставка оборудования для мебельного цеха",
+    "url": "https://www.aris.kg/tenders/view/2731"
+  },
   "https://www.aris.kg/tenders/view/2734": {
     "deadline": "17.09.202616:00:00",
     "deadline_date": "2026-09-17",
@@ -266,6 +310,28 @@
     "title": "Запрос на выражение заинтересованности в рамках Проекта НПИС по контракту \"Разработка ПСД и ведение авторского надзора по объекту: «Туристическо-оздоровительный комплекс на базе горячих источников\"",
     "url": "https://www.aris.kg/tenders/view/2736"
   },
+  "https://www.aris.kg/tenders/view/2761": {
+    "deadline": "28.09.202612:00:00",
+    "deadline_date": "2026-09-28",
+    "first_seen": "2026-09-17T05:30:47.539137+00:00",
+    "id": "https://www.aris.kg/tenders/view/2761",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования и мебели для гостевого дома «NOMAD\"",
+    "url": "https://www.aris.kg/tenders/view/2761"
+  },
+  "https://www.aris.kg/tenders/view/2766": {
+    "deadline": "28.09.202614:00:00",
+    "deadline_date": "2026-09-28",
+    "first_seen": "2026-09-17T05:30:47.539137+00:00",
+    "id": "https://www.aris.kg/tenders/view/2766",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для мебельного цеха «Эмерек Микс\"",
+    "url": "https://www.aris.kg/tenders/view/2766"
+  },
   "https://www.aris.kg/tenders/view/2769": {
     "deadline": "28.09.202615:00:00",
     "deadline_date": "2026-09-28",
@@ -298,5 +364,17 @@
     "status": "Активен",
     "title": "Разработка проекта \"Строительство тренировочной футбольной поли в центральном стадионе\"г. Шопоков.",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598960904": {
+    "customer": "Учреждение Айыл окмот Манас айылного аймака",
+    "deadline": "поставщиков22.09.2026 14:00",
+    "deadline_date": "2026-09-22",
+    "first_seen": "2026-09-17T05:30:47.539137+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598960904",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Услуги изготовления эскизного и рабочего проекта для установки трансформатора в селе Осмон с/у Манас",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598960904"
   }
 }
