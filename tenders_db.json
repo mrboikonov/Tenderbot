@@ -35,6 +35,16 @@
     "title": "Подготовка проектно-сметной документации для создание питомника.",
     "url": "https://procurement.kg/tenders/1145305"
   },
+  "https://procurement.kg/tenders/1145457": {
+    "deadline_date": null,
+    "first_seen": "2026-09-17T05:31:08.421646+00:00",
+    "id": "https://procurement.kg/tenders/1145457",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Заправка картриджей и ремонт оргтехники",
+    "url": "https://procurement.kg/tenders/1145457"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -343,7 +353,18 @@
     "title": "Тендер на выполнение работ в рамках Проекта Адм. пул по контракту \"Оказание услуг по организации и проведению заседания Наблюдательного совета Агентства развития инвестирования сообществ Кыргызской Республики\"",
     "url": "https://www.aris.kg/tenders/view/2769"
   },
+  "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
+    "deadline_date": null,
+    "first_seen": "2026-09-17T05:31:08.421646+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=31828",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№31828. Корпусная, мягкая, металлическая мебель",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=31828"
+  },
   "https://www.tenders.kg/Announcements_view.php?editid1=31833": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-17T04:31:30.953833+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31833",
