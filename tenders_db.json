@@ -130,6 +130,36 @@
     "title": "Услуги по разработке эскизного проекта.",
     "url": "https://procurement.kg/tenders/1145855"
   },
+  "https://procurement.kg/tenders/1146257": {
+    "deadline_date": null,
+    "first_seen": "2026-09-18T14:00:03.500693+00:00",
+    "id": "https://procurement.kg/tenders/1146257",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение системы видеонаблюдения для здания Музея и Дом Терентьева",
+    "url": "https://procurement.kg/tenders/1146257"
+  },
+  "https://procurement.kg/tenders/1146258": {
+    "deadline_date": null,
+    "first_seen": "2026-09-18T14:00:03.500693+00:00",
+    "id": "https://procurement.kg/tenders/1146258",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение и ремонт запчастей для камер видеонаблюдения",
+    "url": "https://procurement.kg/tenders/1146258"
+  },
+  "https://procurement.kg/tenders/1146291": {
+    "deadline_date": null,
+    "first_seen": "2026-09-18T14:00:03.500693+00:00",
+    "id": "https://procurement.kg/tenders/1146291",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Сметчиктин кызматын сатып алуу",
+    "url": "https://procurement.kg/tenders/1146291"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -491,6 +521,16 @@
     "status": "Активен",
     "title": "№31833. Приобретение оргтехники и электронного оборудования для университетской клиники №8",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31833"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=31877": {
+    "deadline_date": null,
+    "first_seen": "2026-09-18T14:00:03.500693+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=31877",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№31877. Закупка «Товары: Закупка и установка оборудования и мебели для цифровых ресурсных лабораторий»",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=31877"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
