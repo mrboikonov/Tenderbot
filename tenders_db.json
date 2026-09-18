@@ -77,6 +77,19 @@
     "title": "Поставка медицинского оборудования и мебели для ГУ \"Оздоровительно-реабилитационный центр \"Алтын-Балалык\"",
     "url": "https://goszakupki.okmot.kg/public/order/view/6aab96ead5978a4098c1aa65?tab=tender"
   },
+  "goszakupki:6aaccd0bd5978a4098c1ac19": {
+    "customer": "Учреждение Департамент капитального строительства",
+    "deadline": "2026-09-23 13:00",
+    "deadline_date": "2026-09-23",
+    "first_seen": "2026-09-18T09:17:10.351513+00:00",
+    "id": "goszakupki:6aaccd0bd5978a4098c1ac19",
+    "notified": true,
+    "published": "2026-09-18 11:54",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Подготовку сметной документации, дефектного акта и сопровождение объектов Стимгранта мэрии г.Манас.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aaccd0bd5978a4098c1ac19?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
