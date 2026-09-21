@@ -90,6 +90,19 @@
     "title": "Подготовку сметной документации, дефектного акта и сопровождение объектов Стимгранта мэрии г.Манас.",
     "url": "https://goszakupki.okmot.kg/public/order/view/6aaccd0bd5978a4098c1ac19?tab=tender"
   },
+  "goszakupki:6ab0e201dec1754955c8d295": {
+    "customer": "Учреждение \"Айыл окмот Кулундинского айылного аймака\"",
+    "deadline": "2026-09-24 16:00",
+    "deadline_date": "2026-09-24",
+    "first_seen": "2026-09-21T10:17:38.382903+00:00",
+    "id": "goszakupki:6ab0e201dec1754955c8d295",
+    "notified": true,
+    "published": "2026-09-21 15:34",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "На разработку проектно-сметной документации (ПСД) по объекту: «Строительство аллеи на территории Кулундинского айылного аймака Лейлекского района Баткенской области»",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab0e201dec1754955c8d295?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -500,6 +513,39 @@
     "status": "Активен",
     "title": "Приглашение к участию в торгах в рамках Проекта ПРЭР по контракту \"Реконструкция подъездной дороги протяжённостью до 1,5км с тротуаром и освещением для ОсОО «Адал-Азык» в с. Кыргызстан Толойконский аыйлного аймака г. Ош (участок Подхоз)\"",
     "url": "https://www.aris.kg/tenders/view/2776"
+  },
+  "https://www.aris.kg/tenders/view/2777": {
+    "deadline": "02.10.202618:00:00",
+    "deadline_date": "2026-10-02",
+    "first_seen": "2026-09-21T10:17:38.382903+00:00",
+    "id": "https://www.aris.kg/tenders/view/2777",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Приглашение к участию в торгах в рамках Проекта ПРЭР по контракту \"Инженер проекта\"",
+    "url": "https://www.aris.kg/tenders/view/2777"
+  },
+  "https://www.aris.kg/tenders/view/2778": {
+    "deadline": "02.10.202618:00:00",
+    "deadline_date": "2026-10-02",
+    "first_seen": "2026-09-21T10:17:38.382903+00:00",
+    "id": "https://www.aris.kg/tenders/view/2778",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Приглашение к участию в торгах в рамках Проекта ПРЭР по контракту \"Региональный специалист по социальным вопросам\"",
+    "url": "https://www.aris.kg/tenders/view/2778"
+  },
+  "https://www.aris.kg/tenders/view/2784": {
+    "deadline": "30.09.202610:00:00",
+    "deadline_date": "2026-09-30",
+    "first_seen": "2026-09-21T10:17:38.382903+00:00",
+    "id": "https://www.aris.kg/tenders/view/2784",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Поставка оборудования для производства корпусной мебели\"",
+    "url": "https://www.aris.kg/tenders/view/2784"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline_date": null,
