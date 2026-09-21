@@ -103,6 +103,32 @@
     "title": "На разработку проектно-сметной документации (ПСД) по объекту: «Строительство аллеи на территории Кулундинского айылного аймака Лейлекского района Баткенской области»",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ab0e201dec1754955c8d295?tab=tender"
   },
+  "goszakupki:6ab0f756dec1754955c8d31d": {
+    "customer": "Управление капитального строительства при мэрии города Бишкек",
+    "deadline": "2026-09-25 17:00",
+    "deadline_date": "2026-09-25",
+    "first_seen": "2026-09-21T19:54:12.301931+00:00",
+    "id": "goszakupki:6ab0f756dec1754955c8d31d",
+    "notified": true,
+    "published": "2026-09-21 16:56",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка проекта по объекту: \"Установка ТП и ЛЭП в ж/м Ак-Ордо-3\" (повторно)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab0f756dec1754955c8d31d?tab=tender"
+  },
+  "goszakupki:6ab117c962514506f7ad3a13": {
+    "customer": "Управление Капитального строительства Мэрии г. Ош",
+    "deadline": "2026-09-24 18:30",
+    "deadline_date": "2026-09-24",
+    "first_seen": "2026-09-21T19:54:12.301931+00:00",
+    "id": "goszakupki:6ab117c962514506f7ad3a13",
+    "notified": true,
+    "published": "2026-09-21 18:07",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын Алымбек-Датка МАБына караштуу Туран кичи районундагы №63 Дарегинде жайгашкан ҮБДнын имаратына от казан, сырткы септик жана инженердик тармактарга туташтыруу учун, долбоордук-сметалык иш кагаздарын иштеп чыгуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab117c962514506f7ad3a13?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
