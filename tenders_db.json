@@ -232,6 +232,46 @@
     "title": "Услуга сметчика по разработке сметной документации( повторно)",
     "url": "https://procurement.kg/tenders/1147027"
   },
+  "https://procurement.kg/tenders/1147399": {
+    "deadline_date": null,
+    "first_seen": "2026-09-22T14:00:04.742594+00:00",
+    "id": "https://procurement.kg/tenders/1147399",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Раззаков шаарынын аймагындагы Госпецхоз көчөсүн асфальтоо (согласно прикрепленному смете)",
+    "url": "https://procurement.kg/tenders/1147399"
+  },
+  "https://procurement.kg/tenders/1147409": {
+    "deadline_date": null,
+    "first_seen": "2026-09-22T14:00:04.742594+00:00",
+    "id": "https://procurement.kg/tenders/1147409",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "В рамках компонента 2.2.2. \"Разработка новых модулей повышения квалификации\" совместного проекта Smart-Ed Исламского банка развития (IsDB) и Глобального партнёрства в целях образования (GPE) реализуемого МП КР при партнёрской поддержке ЮНИСЕФ",
+    "url": "https://procurement.kg/tenders/1147409"
+  },
+  "https://procurement.kg/tenders/1147413": {
+    "deadline_date": null,
+    "first_seen": "2026-09-22T14:00:04.742594+00:00",
+    "id": "https://procurement.kg/tenders/1147413",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Закупка услуг по составлению сметной документации системы отопления Сокулукского филиала.",
+    "url": "https://procurement.kg/tenders/1147413"
+  },
+  "https://procurement.kg/tenders/1147454": {
+    "deadline_date": null,
+    "first_seen": "2026-09-22T14:00:04.742594+00:00",
+    "id": "https://procurement.kg/tenders/1147454",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг по ремонту и техническому обслуживанию оргтехники, заправке и обслуживанию картриджей, а также поставке цветных картриджей и цветных чернил.",
+    "url": "https://procurement.kg/tenders/1147454"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -648,6 +688,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31897"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31903": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-22T04:46:54.870195+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31903",
