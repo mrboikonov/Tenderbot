@@ -129,6 +129,19 @@
     "title": "Ош шаарынын Алымбек-Датка МАБына караштуу Туран кичи районундагы №63 Дарегинде жайгашкан ҮБДнын имаратына от казан, сырткы септик жана инженердик тармактарга туташтыруу учун, долбоордук-сметалык иш кагаздарын иштеп чыгуу",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ab117c962514506f7ad3a13?tab=tender"
   },
+  "goszakupki:6ab22dfc62514506f7ad3b81": {
+    "customer": "Кыргызский Национальный Академический Драматический театр им. Абдумомунова",
+    "deadline": "2026-09-25 15:00",
+    "deadline_date": "2026-09-25",
+    "first_seen": "2026-09-22T09:33:05.574989+00:00",
+    "id": "goszakupki:6ab22dfc62514506f7ad3b81",
+    "notified": true,
+    "published": "2026-09-22 14:17",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение косметических средств",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab22dfc62514506f7ad3b81?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -655,6 +668,18 @@
     "status": "Активен",
     "title": "Разработка проекта \"Строительство тренировочной футбольной поли в центральном стадионе\"г. Шопоков.",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596546681": {
+    "customer": "ГУ «Центр закупок» при Департаменте государственных закупок при",
+    "deadline": "поставщиков25.09.2026 17:50",
+    "deadline_date": "2026-09-25",
+    "first_seen": "2026-09-22T09:33:05.574989+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596546681",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Централизованная закупка мебели №11",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596546681"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598960904": {
     "customer": "Учреждение Айыл окмот Манас айылного аймака",
