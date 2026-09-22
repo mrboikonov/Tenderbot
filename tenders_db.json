@@ -142,6 +142,32 @@
     "title": "Приобретение косметических средств",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ab22dfc62514506f7ad3b81?tab=tender"
   },
+  "goszakupki:6ab259a462514506f7ad3c75": {
+    "customer": "Учреждение Айыл окмоту Терек-Сайского айылного аймака",
+    "deadline": "2026-09-28 13:00",
+    "deadline_date": "2026-09-28",
+    "first_seen": "2026-09-22T18:36:56.157064+00:00",
+    "id": "goszakupki:6ab259a462514506f7ad3c75",
+    "notified": true,
+    "published": "2026-09-22 17:27",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "РАЗРАБОТКА ПСД (ПРОЕКТНО-СМЕТНОЙ ДОКУМЕНТАЦИИ) ДЛЯ АСФАЛЬТИРОВАНИЯ ДОРОГИ в с.Болуш до ул.Мырзалиева УЧРЕЖДЕНИЕ \"АЙЫЛ ОКМОТУ ТЕРЕК-САЙСКОГО АЙЫЛНОГО АЙМАКА\"",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab259a462514506f7ad3c75?tab=tender"
+  },
+  "goszakupki:6ab2676562514506f7ad3ca7": {
+    "customer": "Учреждение Департамент муниципальной собственности при Мэрии города Раззаков",
+    "deadline": "2026-09-28 17:00",
+    "deadline_date": "2026-09-28",
+    "first_seen": "2026-09-22T18:36:56.157064+00:00",
+    "id": "goszakupki:6ab2676562514506f7ad3ca7",
+    "notified": true,
+    "published": "2026-09-22 17:54",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Раззаков шаарынын аймагындагы Госпецхоз көчөсүн асфальтоо (согласно прикрепленному смете)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab2676562514506f7ad3ca7?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -733,5 +759,17 @@
     "status": "Активен",
     "title": "Услуги изготовления эскизного и рабочего проекта для установки трансформатора в селе Осмон с/у Манас",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598960904"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601316832": {
+    "customer": "Айыл окмоту Кен-Колского айылного аймака",
+    "deadline": "поставщиков01.10.2026 10:00",
+    "deadline_date": "2026-10-01",
+    "first_seen": "2026-09-22T18:36:56.157064+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601316832",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Услуги сметчика по строительным объектам \"Кен-Кол\" айыл окмоту,Таласского района,Таласской области.",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601316832"
   }
 }
