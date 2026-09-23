@@ -771,5 +771,17 @@
     "status": "Активен",
     "title": "Услуги сметчика по строительным объектам \"Кен-Кол\" айыл окмоту,Таласского района,Таласской области.",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601316832"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601656858": {
+    "customer": "Учреждение \"Ошский областной центр психиатрии и наркологии\"",
+    "deadline": "поставщиков28.09.2026 15:34",
+    "deadline_date": "2026-09-28",
+    "first_seen": "2026-09-23T09:37:59.678709+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601656858",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Покупка прочие услуги (услуги сметчика)",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601656858"
   }
 }
