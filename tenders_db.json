@@ -259,6 +259,45 @@
     "title": "Услуга сметчика на 2026 год",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ab4b73062514506f7ad401c?tab=tender"
   },
+  "goszakupki:6ab4f22962514506f7ad40f7": {
+    "customer": "Управление Капитального строительства Мэрии г. Ош",
+    "deadline": "2026-09-29 16:30",
+    "deadline_date": "2026-09-29",
+    "first_seen": "2026-09-24T18:52:46.250088+00:00",
+    "id": "goszakupki:6ab4f22962514506f7ad40f7",
+    "notified": true,
+    "published": "2026-09-24 15:57",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын Алымбек-Датка эс алуу жайына аоты очколуу жеңил типтеги ажаткана куруу үчүн долбоордук-сметалык иш кагаздарын иштеп чыгуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab4f22962514506f7ad40f7?tab=tender"
+  },
+  "goszakupki:6ab4f47f62514506f7ad4109": {
+    "customer": "Управление Капитального строительства Мэрии г. Ош",
+    "deadline": "2026-09-29 16:30",
+    "deadline_date": "2026-09-29",
+    "first_seen": "2026-09-24T18:52:46.250088+00:00",
+    "id": "goszakupki:6ab4f47f62514506f7ad4109",
+    "notified": true,
+    "published": "2026-09-24 16:08",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын Төлөйкөн ААбнын Б. Ормонов көчөсүндөгү жолдон өткөн сел келүүчү аймактагы эски ордун оңдоп тузөө үчүн, долбоордук-сметалык иш кагаздарын иштеп чыгуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab4f47f62514506f7ad4109?tab=tender"
+  },
+  "goszakupki:6ab4f55262514506f7ad4113": {
+    "customer": "Управление Капитального строительства Мэрии г. Ош",
+    "deadline": "2026-09-29 16:30",
+    "deadline_date": "2026-09-29",
+    "first_seen": "2026-09-24T18:52:46.250088+00:00",
+    "id": "goszakupki:6ab4f55262514506f7ad4113",
+    "notified": true,
+    "published": "2026-09-24 16:07",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын У. Салиева көчөсүнүн №38 дарегинде жайгашкан №39 \"Күн-Нуру\" балдар бакчасынын аймагына 120 орундуу кошумча корпусту куруу үчүн долбоордук-сметалык иш кагаздарын иштеп чыгуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab4f55262514506f7ad4113?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
