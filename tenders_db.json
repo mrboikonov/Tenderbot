@@ -421,6 +421,26 @@
     "title": "Торг №88 Приобретение оргтехники для ЖБИ",
     "url": "https://procurement.kg/tenders/1147984"
   },
+  "https://procurement.kg/tenders/1148430": {
+    "deadline_date": null,
+    "first_seen": "2026-09-24T14:00:03.581168+00:00",
+    "id": "https://procurement.kg/tenders/1148430",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "115. Строительные материалы, арматура, насосы, вентиляции, поливной шланг, ручные инструменты, оконные комплектация, ЖБИ-изделия, электротовары,  рейка, лакокрасочные материалы, армстронг, ламинат, двери(21,1,24,Завод-ПМК)",
+    "url": "https://procurement.kg/tenders/1148430"
+  },
+  "https://procurement.kg/tenders/1148461": {
+    "deadline_date": null,
+    "first_seen": "2026-09-24T14:00:03.581168+00:00",
+    "id": "https://procurement.kg/tenders/1148461",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "116. Компьютерное, столовое, холодильное оборудование, мебель, сейф, телевизор, спортивный инвентарь, ковровое покрытие для спортивных залов, шредер, жалюзи, кондиционер, стиральная машина,  утюг, садовая техника (21)",
+    "url": "https://procurement.kg/tenders/1148461"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -879,6 +899,16 @@
     "status": "Активен",
     "title": "№31939. Закуп мебели для ГО Нарын",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31939"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=31952": {
+    "deadline_date": null,
+    "first_seen": "2026-09-24T14:00:03.581168+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=31952",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№31952. Приобретение оргтехники",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=31952"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
