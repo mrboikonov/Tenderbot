@@ -347,6 +347,26 @@
     "title": "№117. Разработка ПСД \"Проектирование и строительство 2 (двух) резервуаров объемом 1000 м3 и 2 (двух) скважин на участке Андрей и Ынтымак в с.Бужум Суу-Башы а/о Баткенского района\"",
     "url": "https://procurement.kg/tenders/1147914"
   },
+  "https://procurement.kg/tenders/1147970": {
+    "deadline_date": null,
+    "first_seen": "2026-09-24T03:50:17.807054+00:00",
+    "id": "https://procurement.kg/tenders/1147970",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Лейлек айыл өкмөтүндөгү чарбалык жана башка керектүү иш-чараларды аткарууга алуу үчүн сметаларын түзүү кызматын сатып алуу",
+    "url": "https://procurement.kg/tenders/1147970"
+  },
+  "https://procurement.kg/tenders/1147984": {
+    "deadline_date": null,
+    "first_seen": "2026-09-24T03:50:17.807054+00:00",
+    "id": "https://procurement.kg/tenders/1147984",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Торг №88 Приобретение оргтехники для ЖБИ",
+    "url": "https://procurement.kg/tenders/1147984"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -774,6 +794,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31903"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31924": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-23T14:00:04.034716+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31924",
@@ -784,6 +805,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31924"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31930": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-23T14:00:04.034716+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31930",
@@ -794,6 +816,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31930"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31939": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-23T14:00:04.034716+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31939",
