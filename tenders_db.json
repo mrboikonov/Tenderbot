@@ -348,6 +348,7 @@
     "url": "https://procurement.kg/tenders/1147914"
   },
   "https://procurement.kg/tenders/1147970": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-24T03:50:17.807054+00:00",
     "id": "https://procurement.kg/tenders/1147970",
@@ -358,6 +359,7 @@
     "url": "https://procurement.kg/tenders/1147970"
   },
   "https://procurement.kg/tenders/1147984": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-24T03:50:17.807054+00:00",
     "id": "https://procurement.kg/tenders/1147984",
