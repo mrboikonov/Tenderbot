@@ -207,6 +207,58 @@
     "title": "«Косметический ремонт внутри административного здания»",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ab494e362514506f7ad3f74?tab=tender"
   },
+  "goszakupki:6ab4a04f62514506f7ad3faf": {
+    "customer": "Управление капитального строительства при мэрии города Бишкек",
+    "deadline": "2026-09-29 14:00",
+    "deadline_date": "2026-09-29",
+    "first_seen": "2026-09-24T09:37:12.714548+00:00",
+    "id": "goszakupki:6ab4a04f62514506f7ad3faf",
+    "notified": true,
+    "published": "2026-09-24 13:57",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка рабочего проекта: \"Электроснабжение детского сада в жилом массиве Биримдик-Кут\"",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab4a04f62514506f7ad3faf?tab=tender"
+  },
+  "goszakupki:6ab4a5b962514506f7ad3fc3": {
+    "customer": "Учреждение \"Центр общеврачебной практики Папан\"",
+    "deadline": "2026-09-29 14:00",
+    "deadline_date": "2026-09-29",
+    "first_seen": "2026-09-24T09:37:12.714548+00:00",
+    "id": "goszakupki:6ab4a5b962514506f7ad3fc3",
+    "notified": true,
+    "published": "2026-09-24 13:59",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги по составлению локальной сметы, ведомости объемов работ и таблицы расходных материалов для текущего ремонта здания ЦОВП Папан",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab4a5b962514506f7ad3fc3?tab=tender"
+  },
+  "goszakupki:6ab4a99962514506f7ad3fd1": {
+    "customer": "У-е Отдел реализации лесных проектов Лесной службы при Министерстве чрезвычайных ситуаций КР",
+    "deadline": "2026-10-02 16:52",
+    "deadline_date": "2026-10-02",
+    "first_seen": "2026-09-24T09:37:12.714548+00:00",
+    "id": "goszakupki:6ab4a99962514506f7ad3fd1",
+    "notified": true,
+    "published": "2026-09-24 12:26",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Оргтехника: Принтеры, сетевые фильтры, клавиатура, коврики.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab4a99962514506f7ad3fd1?tab=tender"
+  },
+  "goszakupki:6ab4b73062514506f7ad401c": {
+    "customer": "Ыссык-Атинский айыл окмоту",
+    "deadline": "2026-09-29 13:00",
+    "deadline_date": "2026-09-29",
+    "first_seen": "2026-09-24T09:37:12.714548+00:00",
+    "id": "goszakupki:6ab4b73062514506f7ad401c",
+    "notified": true,
+    "published": "2026-09-24 12:34",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуга сметчика на 2026 год",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab4b73062514506f7ad401c?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -887,5 +939,17 @@
     "status": "Активен",
     "title": "Покупка прочие услуги (услуги сметчика)",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601656858"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601783702": {
+    "customer": "Баткенское лесное хозяйство Гос. Агенства по охране окружающей среды и лесному хоз.при ПКР",
+    "deadline": "поставщиков29.09.2026 17:30",
+    "deadline_date": "2026-09-29",
+    "first_seen": "2026-09-24T09:37:12.714548+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601783702",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Услуги по разработке сметной документации на строительство гаража для служебного автотранспорта Баткенского лесного хозяйства.",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601783702"
   }
 }
