@@ -555,6 +555,16 @@
     "title": "Выполнение комплекса архитектурных, топографо-геодезических и инженерно-геологических изысканий, а также разработка проектной документации для планировки территории и строительства нового гаража на 3 бокса для служебных автомобилей управления",
     "url": "https://procurement.kg/tenders/1148492"
   },
+  "https://procurement.kg/tenders/1148900": {
+    "deadline_date": null,
+    "first_seen": "2026-09-25T14:00:03.388136+00:00",
+    "id": "https://procurement.kg/tenders/1148900",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг по разработке проектно-сметной документации на Асфальтирование улиц айылного аймака Достук",
+    "url": "https://procurement.kg/tenders/1148900"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1024,6 +1034,36 @@
     "status": "Активен",
     "title": "№31952. Приобретение оргтехники",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31952"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=31957": {
+    "deadline_date": null,
+    "first_seen": "2026-09-25T14:00:03.388136+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=31957",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№31957. Услуги Юриста / Правового эксперта в проект REACT",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=31957"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=31961": {
+    "deadline_date": null,
+    "first_seen": "2026-09-25T14:00:03.388136+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=31961",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№31961. На изготовление и поставку брендированной продукции для проекта EMPATY",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=31961"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=31963": {
+    "deadline_date": null,
+    "first_seen": "2026-09-25T14:00:03.388136+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=31963",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№31963. На изготовление и поставку брендированной продукции для проекта EMPATY",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=31963"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
