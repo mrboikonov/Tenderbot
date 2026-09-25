@@ -480,6 +480,16 @@
     "title": "116. Компьютерное, столовое, холодильное оборудование, мебель, сейф, телевизор, спортивный инвентарь, ковровое покрытие для спортивных залов, шредер, жалюзи, кондиционер, стиральная машина,  утюг, садовая техника (21)",
     "url": "https://procurement.kg/tenders/1148461"
   },
+  "https://procurement.kg/tenders/1148492": {
+    "deadline_date": null,
+    "first_seen": "2026-09-25T04:00:03.336060+00:00",
+    "id": "https://procurement.kg/tenders/1148492",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Выполнение комплекса архитектурных, топографо-геодезических и инженерно-геологических изысканий, а также разработка проектной документации для планировки территории и строительства нового гаража на 3 бокса для служебных автомобилей управления",
+    "url": "https://procurement.kg/tenders/1148492"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -940,6 +950,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31939"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31952": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-24T14:00:03.581168+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31952",
