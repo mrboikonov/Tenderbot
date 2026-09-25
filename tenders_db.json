@@ -298,6 +298,71 @@
     "title": "Ош шаарынын У. Салиева көчөсүнүн №38 дарегинде жайгашкан №39 \"Күн-Нуру\" балдар бакчасынын аймагына 120 орундуу кошумча корпусту куруу үчүн долбоордук-сметалык иш кагаздарын иштеп чыгуу",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ab4f55262514506f7ad4113?tab=tender"
   },
+  "goszakupki:6ab5e94d62514506f7ad41e3": {
+    "customer": "Управление Капитального строительства Мэрии г. Ош",
+    "deadline": "2026-09-30 11:00",
+    "deadline_date": "2026-09-30",
+    "first_seen": "2026-09-25T09:54:33.642905+00:00",
+    "id": "goszakupki:6ab5e94d62514506f7ad41e3",
+    "notified": true,
+    "published": "2026-09-25 09:43",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын Жапалак МАБына караштуу Татар айылындагы Т. Уларов көчөсүнө 100 орундуу бала бакча куруу үчүн долбоордук-сметалык иш кагаздарын иштеп чыгуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab5e94d62514506f7ad41e3?tab=tender"
+  },
+  "goszakupki:6ab5ebc262514506f7ad41eb": {
+    "customer": "Кызыл-Октябрьский айыл-окмоту Кызыл-Октябрьского айыльного аймака Кеминского района Чуйской области",
+    "deadline": "2026-10-12 10:00",
+    "deadline_date": "2026-10-12",
+    "first_seen": "2026-09-25T09:54:33.642905+00:00",
+    "id": "goszakupki:6ab5ebc262514506f7ad41eb",
+    "notified": true,
+    "published": "2026-09-25 09:45",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "установка автономных камер видеонаблюдения на солнечных батареях",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab5ebc262514506f7ad41eb?tab=tender"
+  },
+  "goszakupki:6ab5f54062514506f7ad420b": {
+    "customer": "Батыралы Сыдыков атындагы Кыргыз-Озбек Эл аралык университети мекемеси",
+    "deadline": "2026-09-30 16:00",
+    "deadline_date": "2026-09-30",
+    "first_seen": "2026-09-25T09:54:33.642905+00:00",
+    "id": "goszakupki:6ab5f54062514506f7ad420b",
+    "notified": true,
+    "published": "2026-09-25 15:41",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение оборудования и запасных частей в рамках проектов ИНИИ КУМУ им. Б. Сыдыкова.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab5f54062514506f7ad420b?tab=tender"
+  },
+  "goszakupki:6ab5fc5c62514506f7ad422f": {
+    "customer": "Учреждение  Управления социального развития Ленинского района Мэрии города Бишкек",
+    "deadline": "2026-10-12 09:00",
+    "deadline_date": "2026-10-12",
+    "first_seen": "2026-09-25T09:54:33.642905+00:00",
+    "id": "goszakupki:6ab5fc5c62514506f7ad422f",
+    "notified": true,
+    "published": "2026-09-25 11:24",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Косметический ремонт здания",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab5fc5c62514506f7ad422f?tab=tender"
+  },
+  "goszakupki:6ab5fcd662514506f7ad4234": {
+    "customer": "Московское управление Министерства финансов Кыргызской Республики",
+    "deadline": "2026-09-30 11:56",
+    "deadline_date": "2026-09-30",
+    "first_seen": "2026-09-25T09:54:33.642905+00:00",
+    "id": "goszakupki:6ab5fcd662514506f7ad4234",
+    "notified": true,
+    "published": "2026-09-25 10:57",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги сметчика",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ab5fcd662514506f7ad4234?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -1031,5 +1096,29 @@
     "status": "Активен",
     "title": "Услуги по разработке сметной документации на строительство гаража для служебного автотранспорта Баткенского лесного хозяйства.",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601783702"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=602067197": {
+    "customer": "Учреждение \"Министерство здравоохранения Кыргызской Республики\"",
+    "deadline": "поставщиков15.10.2026 09:00",
+    "deadline_date": "2026-10-15",
+    "first_seen": "2026-09-25T09:54:33.642905+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=602067197",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Закупка серверного оборудования для ДЛСиМИ  в рамках проекта  \"Программа повышения качества услуг ПМСП\" Всемирного банка",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=602067197"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=602610789": {
+    "customer": "Уч-Терекский айыл Окмоту Уч-Терекского айылного аймака",
+    "deadline": "поставщиков30.09.2026 17:57",
+    "deadline_date": "2026-09-30",
+    "first_seen": "2026-09-25T09:54:33.642905+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=602610789",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Уч-Терек айылында эс алуу паркын куруу боюнча долбоордук-сметалык документацияны иштеп чыгууга",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=602610789"
   }
 }
