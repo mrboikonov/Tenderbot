@@ -565,6 +565,36 @@
     "title": "Приобретение услуг по разработке проектно-сметной документации на Асфальтирование улиц айылного аймака Достук",
     "url": "https://procurement.kg/tenders/1148900"
   },
+  "https://procurement.kg/tenders/1148919": {
+    "deadline_date": null,
+    "first_seen": "2026-09-26T04:00:03.141018+00:00",
+    "id": "https://procurement.kg/tenders/1148919",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Разработка материалов дошкольного образования в рамках совместного проекта Smart-Ed, реализуемого в МП КР при поддержке (ИБР) и (ГПЦО), Детского фонда ООН (ЮНИСЕФ), по улучшению доступа к возможностям ИО и повышению его качества для всех детей в КР.",
+    "url": "https://procurement.kg/tenders/1148919"
+  },
+  "https://procurement.kg/tenders/1148933": {
+    "deadline_date": null,
+    "first_seen": "2026-09-26T04:00:03.141018+00:00",
+    "id": "https://procurement.kg/tenders/1148933",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Разработка Дорожной карты для пилотирования в 10 школах в рамках совместного проекта Smart-Ed, реализуемого в МП КР при поддержке (ИБР), (ГПЦО), Детского фонда ООН-ЮНИСЕФ, по улучшению доступа к возможностям ИО и повышению его качества для всех детей в КР",
+    "url": "https://procurement.kg/tenders/1148933"
+  },
+  "https://procurement.kg/tenders/1148937": {
+    "deadline_date": null,
+    "first_seen": "2026-09-26T04:00:03.141018+00:00",
+    "id": "https://procurement.kg/tenders/1148937",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Обзор Национальной политики в области инклюзивного образования в рамках совместного проекта Smart-Ed, реализуемого в МП КР при поддержке (ИБР), (ГПЦО), Детского фонда ООН-ЮНИСЕФ, по улучшению доступа к возможностям ИО и повышения каче. для всех детей в КР",
+    "url": "https://procurement.kg/tenders/1148937"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1036,6 +1066,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31952"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31957": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-25T14:00:03.388136+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31957",
@@ -1046,6 +1077,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31957"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31961": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-25T14:00:03.388136+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31961",
@@ -1056,6 +1088,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31961"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31963": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-25T14:00:03.388136+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31963",
