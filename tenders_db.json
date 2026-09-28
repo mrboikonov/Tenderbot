@@ -363,6 +363,45 @@
     "title": "Услуги сметчика",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ab5fcd662514506f7ad4234?tab=tender"
   },
+  "goszakupki:6aba2475506b41765e6c40fd": {
+    "customer": "Учреждение \"Майлуу-Сууское управление Министерства финансов Кыргызской Республики\"",
+    "deadline": "2026-10-01 14:31",
+    "deadline_date": "2026-10-01",
+    "first_seen": "2026-09-28T11:19:18.874439+00:00",
+    "id": "goszakupki:6aba2475506b41765e6c40fd",
+    "notified": true,
+    "published": "2026-09-28 14:29",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги по составлению сметы по текущему ремонту",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aba2475506b41765e6c40fd?tab=tender"
+  },
+  "goszakupki:6aba34d7506b41765e6c4169": {
+    "customer": "Сузакский айыл Окмоту, Сузакского айылного аймака",
+    "deadline": "2026-10-01 16:30",
+    "deadline_date": "2026-10-01",
+    "first_seen": "2026-09-28T11:19:18.874439+00:00",
+    "id": "goszakupki:6aba34d7506b41765e6c4169",
+    "notified": true,
+    "published": "2026-09-28 15:43",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка проект сметы для асфальтирование ул Мадаминова в селе Садда",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aba34d7506b41765e6c4169?tab=tender"
+  },
+  "goszakupki:6aba3e55506b41765e6c41a1": {
+    "customer": "У-е Отдел реализации лесных проектов Лесной службы при Министерстве чрезвычайных ситуаций КР",
+    "deadline": "2026-10-02 16:27",
+    "deadline_date": "2026-10-02",
+    "first_seen": "2026-09-28T11:19:18.874439+00:00",
+    "id": "goszakupki:6aba3e55506b41765e6c41a1",
+    "notified": true,
+    "published": "2026-09-28 17:06",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "ГСМ Аи-95 для проекта КОФПИ Тендер-4",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aba3e55506b41765e6c41a1?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -918,8 +957,8 @@
     "url": "https://www.aris.kg/tenders/view/2773"
   },
   "https://www.aris.kg/tenders/view/2774": {
-    "deadline": "29.10.202618:00:00",
-    "deadline_date": "2026-10-29",
+    "deadline": "01.10.202618:00:00",
+    "deadline_date": "2026-10-01",
     "first_seen": "2026-09-17T09:43:38.394730+00:00",
     "id": "https://www.aris.kg/tenders/view/2774",
     "notified": true,
@@ -971,6 +1010,17 @@
     "status": "Активен",
     "title": "Тендер на поставку \"Поставка оборудования для производства корпусной мебели\"",
     "url": "https://www.aris.kg/tenders/view/2784"
+  },
+  "https://www.aris.kg/tenders/view/2798": {
+    "deadline": "26.10.202611:00:00",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-09-28T11:19:18.874439+00:00",
+    "id": "https://www.aris.kg/tenders/view/2798",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Ретендер Специальное уведомление о закупках в рамках Проекта ПРСВСНО по контракту \"Новое строительство локальных очистных сооружений (ЛОС) в селе Чаек, Жумгальского района и новое строительство ЛОС в селе Жерге-Тал, Ак-Талинского района Нарынской области\"",
+    "url": "https://www.aris.kg/tenders/view/2798"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline_date": null,
