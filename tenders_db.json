@@ -637,6 +637,16 @@
     "title": "Обзор Национальной политики в области инклюзивного образования в рамках совместного проекта Smart-Ed, реализуемого в МП КР при поддержке (ИБР), (ГПЦО), Детского фонда ООН-ЮНИСЕФ, по улучшению доступа к возможностям ИО и повышения каче. для всех детей в КР",
     "url": "https://procurement.kg/tenders/1148937"
   },
+  "https://procurement.kg/tenders/1149438": {
+    "deadline_date": null,
+    "first_seen": "2026-09-28T14:00:04.211856+00:00",
+    "id": "https://procurement.kg/tenders/1149438",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын, Набережная көчөсү, 2А дарегинде жайгашкан жер тилкесиндеги турак жай имаратынын курулушун улантуу жана аяктоо боюнча иштерди долбоордук-сметалык документацияны иштеп чыгуу (зарыл болгон учурда корректировкалоо) жумушун сатып алууну кайталоо",
+    "url": "https://procurement.kg/tenders/1149438"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1150,6 +1160,36 @@
     "status": "Активен",
     "title": "№31963. На изготовление и поставку брендированной продукции для проекта EMPATY",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31963"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=31984": {
+    "deadline_date": null,
+    "first_seen": "2026-09-28T14:00:04.211856+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=31984",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№31984. [РЕ-ТЕНДЕР] [KG-2026-09] Услуги по проектированию и авторскому надзору за строительством сервисно-складского комплекса для парка электромобилей в рамках «Проекта по переходу автопарка государственных служб на электромобили в рамках реализации «зеленой» мобильности в Кыргызской Республике»",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=31984"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=31985": {
+    "deadline_date": null,
+    "first_seen": "2026-09-28T14:00:04.211856+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=31985",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№31985. Конкурс на оказание гостиничных, конференц-услуг (аренда конференц-зала) и кейтеринговых услуг в рамках проекта",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=31985"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=31987": {
+    "deadline_date": null,
+    "first_seen": "2026-09-28T14:00:04.211856+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=31987",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№31987. ЗАО «Межбанковский Процессинговый Центр» проводит конкурс методом неограниченного участия для приобретения газовых котлов и электрического котла, а также всех комплектующих для реализации теплого пункта согласно проекту с установкой.",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=31987"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
