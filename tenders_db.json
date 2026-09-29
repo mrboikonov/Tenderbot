@@ -402,6 +402,45 @@
     "title": "ГСМ Аи-95 для проекта КОФПИ Тендер-4",
     "url": "https://goszakupki.okmot.kg/public/order/view/6aba3e55506b41765e6c41a1?tab=tender"
   },
+  "goszakupki:6abb25fc506b41765e6c4241": {
+    "customer": "Учреждение Айыл окмоту Терек-Сайского айылного аймака",
+    "deadline": "2026-10-05 13:00",
+    "deadline_date": "2026-10-05",
+    "first_seen": "2026-09-29T10:58:21.873479+00:00",
+    "id": "goszakupki:6abb25fc506b41765e6c4241",
+    "notified": true,
+    "published": "2026-09-29 09:06",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "РАЗРАБОТКА ПСД (ПРОЕКТНО-СМЕТНОЙ ДОКУМЕНТАЦИИ) ДЛЯ АСФАЛЬТИРОВАНИЯ ДОРОГИ в с.Болуш до ул.Мырзалиева УЧРЕЖДЕНИЕ \"АЙЫЛ ОКМОТУ ТЕРЕК-САЙСКОГО АЙЫЛНОГО АЙМАКА\"",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abb25fc506b41765e6c4241?tab=tender"
+  },
+  "goszakupki:6abb752780adfc640885cd0c": {
+    "customer": "Управление капитального строительства при мэрии города Бишкек",
+    "deadline": "2026-10-05 12:00",
+    "deadline_date": "2026-10-05",
+    "first_seen": "2026-09-29T10:58:21.873479+00:00",
+    "id": "goszakupki:6abb752780adfc640885cd0c",
+    "notified": true,
+    "published": "2026-09-29 14:53",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка проекта по объекту: \"Установка ТП и ЛЭП в ж/м Ак-Ордо-3\" (повторно)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abb752780adfc640885cd0c?tab=tender"
+  },
+  "goszakupki:6abb77a480adfc640885cd1d": {
+    "customer": "Управление капитального строительства при мэрии города Бишкек",
+    "deadline": "2026-10-02 15:00",
+    "deadline_date": "2026-10-02",
+    "first_seen": "2026-09-29T10:58:21.873479+00:00",
+    "id": "goszakupki:6abb77a480adfc640885cd1d",
+    "notified": true,
+    "published": "2026-09-29 14:54",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка рабочего проекта: \"Электроснабжение детского сада в жилом массиве Биримдик-Кут\"",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abb77a480adfc640885cd1d?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -1051,6 +1090,17 @@
     "status": "Активен",
     "title": "Ретендер Специальное уведомление о закупках в рамках Проекта ПРСВСНО по контракту \"Новое строительство локальных очистных сооружений (ЛОС) в селе Чаек, Жумгальского района и новое строительство ЛОС в селе Жерге-Тал, Ак-Талинского района Нарынской области\"",
     "url": "https://www.aris.kg/tenders/view/2798"
+  },
+  "https://www.aris.kg/tenders/view/2799": {
+    "deadline": "10.11.202611:00:00",
+    "deadline_date": "2026-11-10",
+    "first_seen": "2026-09-29T10:58:21.873479+00:00",
+    "id": "https://www.aris.kg/tenders/view/2799",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Приглашение к участию в торгах в рамках Проекта НПИС по контракту \"Установка тепловых насосов и ремонт котельных средних школ Кен-Колского айылного аймака Таласского района Таласской области\"",
+    "url": "https://www.aris.kg/tenders/view/2799"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline_date": null,
