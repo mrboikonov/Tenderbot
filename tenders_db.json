@@ -706,6 +706,16 @@
     "title": "Оказание услуг по разработке проектно-сметной документации (повтор)",
     "url": "https://procurement.kg/tenders/1149487"
   },
+  "https://procurement.kg/tenders/1149889": {
+    "deadline_date": null,
+    "first_seen": "2026-09-29T14:00:04.034666+00:00",
+    "id": "https://procurement.kg/tenders/1149889",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Составление проектно-сметной документации (ПСД) на капельное орошение 44,99 га поливной площади,  составление рабочей документации и топографические работы",
+    "url": "https://procurement.kg/tenders/1149889"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1263,6 +1273,26 @@
     "status": "Активен",
     "title": "№31987. ЗАО «Межбанковский Процессинговый Центр» проводит конкурс методом неограниченного участия для приобретения газовых котлов и электрического котла, а также всех комплектующих для реализации теплого пункта согласно проекту с установкой.",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31987"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32005": {
+    "deadline_date": null,
+    "first_seen": "2026-09-29T14:00:04.034666+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32005",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32005. Приобретение мебели для НИИ",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32005"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32013": {
+    "deadline_date": null,
+    "first_seen": "2026-09-29T14:00:04.034666+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32013",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32013. Поставка офисной и террасной мебели",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32013"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
