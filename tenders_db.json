@@ -647,6 +647,26 @@
     "title": "Ош шаарынын, Набережная көчөсү, 2А дарегинде жайгашкан жер тилкесиндеги турак жай имаратынын курулушун улантуу жана аяктоо боюнча иштерди долбоордук-сметалык документацияны иштеп чыгуу (зарыл болгон учурда корректировкалоо) жумушун сатып алууну кайталоо",
     "url": "https://procurement.kg/tenders/1149438"
   },
+  "https://procurement.kg/tenders/1149476": {
+    "deadline_date": null,
+    "first_seen": "2026-09-29T04:00:02.881509+00:00",
+    "id": "https://procurement.kg/tenders/1149476",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение орг. техники и мебели (повтор)",
+    "url": "https://procurement.kg/tenders/1149476"
+  },
+  "https://procurement.kg/tenders/1149487": {
+    "deadline_date": null,
+    "first_seen": "2026-09-29T04:00:02.881509+00:00",
+    "id": "https://procurement.kg/tenders/1149487",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Оказание услуг по разработке проектно-сметной документации (повтор)",
+    "url": "https://procurement.kg/tenders/1149487"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1162,6 +1182,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31963"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31984": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-28T14:00:04.211856+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31984",
@@ -1172,6 +1193,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31984"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31985": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-28T14:00:04.211856+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31985",
@@ -1182,6 +1204,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=31985"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31987": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-28T14:00:04.211856+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=31987",
