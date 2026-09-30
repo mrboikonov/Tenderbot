@@ -454,6 +454,19 @@
     "title": "Ош шаарынын А.Навои көчөсүндөгү көпүрөдөн тартып Кара-Сууйская көчөсүнө чейинки Ак-Буура дарыясынын күн батыш тарабындагы жер тилкесине эс алуу жайын куруу, жашылдандыруу, көрктөндүрүү үчүн долбоордук-сметалык иш кагаздарын иштеп чыгуу",
     "url": "https://goszakupki.okmot.kg/public/order/view/6abb9df580adfc640885cdd3?tab=tender"
   },
+  "goszakupki:6abcd6d980adfc640885cfb8": {
+    "customer": "У-е Отдел реализации лесных проектов Лесной службы при Министерстве чрезвычайных ситуаций КР",
+    "deadline": "2026-10-15 00:00",
+    "deadline_date": "2026-10-15",
+    "first_seen": "2026-09-30T10:48:39.453327+00:00",
+    "id": "goszakupki:6abcd6d980adfc640885cfb8",
+    "notified": true,
+    "published": "2026-09-30 15:48",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Страхование сотрудников и служебного автомобиля проекта КОФПИ Тендер-2",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abcd6d980adfc640885cfb8?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -1135,6 +1148,17 @@
     "title": "Приглашение к участию в торгах в рамках Проекта НПИС по контракту \"Установка тепловых насосов и ремонт котельных средних школ Кен-Колского айылного аймака Таласского района Таласской области\"",
     "url": "https://www.aris.kg/tenders/view/2799"
   },
+  "https://www.aris.kg/tenders/view/2800": {
+    "deadline": "14.10.202618:00:00",
+    "deadline_date": "2026-10-14",
+    "first_seen": "2026-09-30T10:48:39.453327+00:00",
+    "id": "https://www.aris.kg/tenders/view/2800",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Запрос на выражение заинтересованности в рамках Проекта ПЗТОЗ по контракту \"Инженер строитель\"",
+    "url": "https://www.aris.kg/tenders/view/2800"
+  },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline_date": null,
     "first_seen": "2026-09-17T05:31:08.421646+00:00",
@@ -1354,6 +1378,18 @@
     "status": "Активен",
     "title": "Услуги изготовления эскизного и рабочего проекта для установки трансформатора в селе Осмон с/у Манас",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=598960904"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=599447824": {
+    "customer": "Учреждение Кадамжайский райотдел образования",
+    "deadline": "поставщиков05.10.2026 17:00",
+    "deadline_date": "2026-10-05",
+    "first_seen": "2026-09-30T10:48:39.453327+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=599447824",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение строительных материалов и оргтехники для общеобразовательных учреждений Кадамжайского Рай. ОО",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=599447824"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=601316832": {
     "customer": "Айыл окмоту Кен-Колского айылного аймака",
