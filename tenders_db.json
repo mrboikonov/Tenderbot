@@ -467,6 +467,19 @@
     "title": "Страхование сотрудников и служебного автомобиля проекта КОФПИ Тендер-2",
     "url": "https://goszakupki.okmot.kg/public/order/view/6abcd6d980adfc640885cfb8?tab=tender"
   },
+  "goszakupki:6abcdf8880adfc640885cfd4": {
+    "customer": "Нарынское областное управление Судебного департамента при Верховном суде Кыргызской Республики",
+    "deadline": "2026-10-15 14:00",
+    "deadline_date": "2026-10-15",
+    "first_seen": "2026-09-30T19:53:24.997369+00:00",
+    "id": "goszakupki:6abcdf8880adfc640885cfd4",
+    "notified": true,
+    "published": "2026-09-30 17:10",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Закупка на установку системы видеонаблюдения",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abcdf8880adfc640885cfd4?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -1516,5 +1529,17 @@
     "status": "Активен",
     "title": "Обзор Национальной политики в области инклюзивного образования в рамках совместного проекта Smart-Ed, реализуемого в МП КР при поддержке (ИБР), (ГПЦО), Детского фонда ООН-ЮНИСЕФ, по улучшению доступа к возможностям ИО и повышения каче. для всех детей в КР",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=602774199"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=604861988": {
+    "customer": "Тоолос айыл окмоту",
+    "deadline": "поставщиков06.10.2026 09:00",
+    "deadline_date": "2026-10-06",
+    "first_seen": "2026-09-30T19:53:24.997369+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=604861988",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Ош-Баткен жана ЮКЦ туташтырган автожолун капиталдык ондоодон откоруу боюнча долбоордук-сметалык иш кагаздарын даярдоо кызматы",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=604861988"
   }
 }
