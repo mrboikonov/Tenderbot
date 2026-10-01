@@ -785,6 +785,36 @@
     "title": "Проектирование остановки на улице А.Шерматова Кара-Гузский а/о Кара-Кульджинский район Ошская область",
     "url": "https://procurement.kg/tenders/1150315"
   },
+  "https://procurement.kg/tenders/1150352": {
+    "deadline_date": null,
+    "first_seen": "2026-10-01T04:00:03.753371+00:00",
+    "id": "https://procurement.kg/tenders/1150352",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Ош-Баткен жана ЮКЦ туташтырган автожолун капиталдык ондоодон откоруу боюнча долбоордук-сметалык иш кагаздарын даярдоо кызматы",
+    "url": "https://procurement.kg/tenders/1150352"
+  },
+  "https://procurement.kg/tenders/1150357": {
+    "deadline_date": null,
+    "first_seen": "2026-10-01T04:00:03.753371+00:00",
+    "id": "https://procurement.kg/tenders/1150357",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Привязка ПСД с готовым проектом для строительства детского сада на 100 мест, села Ноот.",
+    "url": "https://procurement.kg/tenders/1150357"
+  },
+  "https://procurement.kg/tenders/1150363": {
+    "deadline_date": null,
+    "first_seen": "2026-10-01T04:00:03.753371+00:00",
+    "id": "https://procurement.kg/tenders/1150363",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуга технадзора по проекту асфальтирования дорог и реконстукция ворот",
+    "url": "https://procurement.kg/tenders/1150363"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1377,6 +1407,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32013"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=32029": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-09-30T14:00:03.999193+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=32029",
