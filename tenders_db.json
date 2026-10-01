@@ -519,6 +519,32 @@
     "title": "Приобретение оборудования и систем видеонаблюдения, оборудования для видеоконференцсвязи и системы SIP-телефонии",
     "url": "https://goszakupki.okmot.kg/public/order/view/6abdf5bb0419526d2d5762fd?tab=tender"
   },
+  "goszakupki:6abe3f260419526d2d576417": {
+    "customer": "Учреждение Айыл окмот Лейлекского айылного аймака",
+    "deadline": "2026-10-08 10:00",
+    "deadline_date": "2026-10-08",
+    "first_seen": "2026-10-01T20:12:08.839685+00:00",
+    "id": "goszakupki:6abe3f260419526d2d576417",
+    "notified": true,
+    "published": "2026-10-01 17:25",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Лейлек айыл өкмөтүндөгү чарбалык жана башка керектүү иш-чараларды аткарууга алуу үчүн сметаларын түзүү кызматын сатып алуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abe3f260419526d2d576417?tab=tender"
+  },
+  "goszakupki:6abe5a1c0419526d2d576448": {
+    "customer": "Учреждение Департамент муниципальной собственности при Мэрии города Раззаков",
+    "deadline": "2026-10-07 19:30",
+    "deadline_date": "2026-10-07",
+    "first_seen": "2026-10-01T20:12:08.839685+00:00",
+    "id": "goszakupki:6abe5a1c0419526d2d576448",
+    "notified": true,
+    "published": "2026-10-01 19:15",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Раззаков шаарынын аймагындагы Госпецхоз көчөсүн асфальтоо (согласно прикрепленному смете)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abe5a1c0419526d2d576448?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -1173,8 +1199,8 @@
     "url": "https://www.aris.kg/tenders/view/2769"
   },
   "https://www.aris.kg/tenders/view/2773": {
-    "deadline": "01.10.202618:00:00",
-    "deadline_date": "2026-10-01",
+    "deadline": "09.10.202618:00:00",
+    "deadline_date": "2026-10-09",
     "first_seen": "2026-09-17T09:43:38.394730+00:00",
     "id": "https://www.aris.kg/tenders/view/2773",
     "notified": true,
@@ -1184,8 +1210,8 @@
     "url": "https://www.aris.kg/tenders/view/2773"
   },
   "https://www.aris.kg/tenders/view/2774": {
-    "deadline": "01.10.202618:00:00",
-    "deadline_date": "2026-10-01",
+    "deadline": "09.10.202618:00:00",
+    "deadline_date": "2026-10-09",
     "first_seen": "2026-09-17T09:43:38.394730+00:00",
     "id": "https://www.aris.kg/tenders/view/2774",
     "notified": true,
