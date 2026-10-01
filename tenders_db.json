@@ -854,6 +854,16 @@
     "title": "Услуга технадзора по проекту асфальтирования дорог и реконстукция ворот",
     "url": "https://procurement.kg/tenders/1150363"
   },
+  "https://procurement.kg/tenders/1150548": {
+    "deadline_date": null,
+    "first_seen": "2026-10-01T14:00:03.564001+00:00",
+    "id": "https://procurement.kg/tenders/1150548",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Лейлек айыл өкмөтүндөгү чарбалык жана башка керектүү иш-чараларды аткарууга алуу үчүн сметаларын түзүү кызматын сатып алуу",
+    "url": "https://procurement.kg/tenders/1150548"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1455,6 +1465,26 @@
     "status": "Активен",
     "title": "№32029. Разработка проектно-сметной документации душевых и прачечных помещений по адресу: с. Таш-Добо, ул. Школьная, 20.",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32029"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32038": {
+    "deadline_date": null,
+    "first_seen": "2026-10-01T14:00:03.564001+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32038",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32038. Выбор поставщика на закупку офисной мебели (кресла, стулья) для ОАО «Оптима Банк»",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32038"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32043": {
+    "deadline_date": null,
+    "first_seen": "2026-10-01T14:00:03.564001+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32043",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32043. Приобретение оргтехники",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32043"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
