@@ -480,6 +480,45 @@
     "title": "Закупка на установку системы видеонаблюдения",
     "url": "https://goszakupki.okmot.kg/public/order/view/6abcdf8880adfc640885cfd4?tab=tender"
   },
+  "goszakupki:6abdf03a0419526d2d5762d7": {
+    "customer": "Учреждение Департамент капитального строительства",
+    "deadline": "2026-10-07 15:00",
+    "deadline_date": "2026-10-07",
+    "first_seen": "2026-10-01T11:14:54.228315+00:00",
+    "id": "goszakupki:6abdf03a0419526d2d5762d7",
+    "notified": true,
+    "published": "2026-10-01 11:37",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Подготовку сметной документации, дефектного акта и сопровождение объектов Стимгранта мэрии г.Манас.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abdf03a0419526d2d5762d7?tab=tender"
+  },
+  "goszakupki:6abdf3670419526d2d5762ea": {
+    "customer": "Учреждение \"Управление Министерства чрезвычайных ситуаций Кыргызской Республики по Ошской области\"",
+    "deadline": "2026-10-09 00:00",
+    "deadline_date": "2026-10-09",
+    "first_seen": "2026-10-01T11:14:54.228315+00:00",
+    "id": "goszakupki:6abdf3670419526d2d5762ea",
+    "notified": true,
+    "published": "2026-10-01 15:09",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Покупка оргтехники",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abdf3670419526d2d5762ea?tab=tender"
+  },
+  "goszakupki:6abdf5bb0419526d2d5762fd": {
+    "customer": "Учреждение Главное управление по обеспечению безопасности дорожного движения Министерства внутренних дел Кыргызской Республики",
+    "deadline": "2026-10-07 16:00",
+    "deadline_date": "2026-10-07",
+    "first_seen": "2026-10-01T11:14:54.228315+00:00",
+    "id": "goszakupki:6abdf5bb0419526d2d5762fd",
+    "notified": true,
+    "published": "2026-10-01 15:27",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение оборудования и систем видеонаблюдения, оборудования для видеоконференцсвязи и системы SIP-телефонии",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6abdf5bb0419526d2d5762fd?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -1572,5 +1611,17 @@
     "status": "Активен",
     "title": "Ош-Баткен жана ЮКЦ туташтырган автожолун капиталдык ондоодон откоруу боюнча долбоордук-сметалык иш кагаздарын даярдоо кызматы",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=604861988"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=605163012": {
+    "customer": "Учреждение Айыл окмот Кара-Шороского айылного аймака",
+    "deadline": "поставщиков07.10.2026 17:30",
+    "deadline_date": "2026-10-07",
+    "first_seen": "2026-10-01T11:14:54.228315+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=605163012",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Кара-Шоро а/о караштуу Шамал-Терек айылындагы Токтайым Эне балдар бакчасынын ашканасын капиталдык ремонттон өткөрүүгө проект сметалык документин жасатуу",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=605163012"
   }
 }
