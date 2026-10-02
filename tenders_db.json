@@ -890,6 +890,36 @@
     "title": "Лейлек айыл өкмөтүндөгү чарбалык жана башка керектүү иш-чараларды аткарууга алуу үчүн сметаларын түзүү кызматын сатып алуу",
     "url": "https://procurement.kg/tenders/1150548"
   },
+  "https://procurement.kg/tenders/1150553": {
+    "deadline_date": null,
+    "first_seen": "2026-10-02T05:20:46.106270+00:00",
+    "id": "https://procurement.kg/tenders/1150553",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Раззаков шаарынын аймагындагы Госпецхоз көчөсүн асфальтоо (согласно прикрепленному смете)",
+    "url": "https://procurement.kg/tenders/1150553"
+  },
+  "https://procurement.kg/tenders/1150566": {
+    "deadline_date": null,
+    "first_seen": "2026-10-02T05:20:46.106270+00:00",
+    "id": "https://procurement.kg/tenders/1150566",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуга сметчика",
+    "url": "https://procurement.kg/tenders/1150566"
+  },
+  "https://procurement.kg/tenders/1150568": {
+    "deadline_date": null,
+    "first_seen": "2026-10-02T05:20:46.106270+00:00",
+    "id": "https://procurement.kg/tenders/1150568",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение оргтехники",
+    "url": "https://procurement.kg/tenders/1150568"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1503,6 +1533,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32038"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=32043": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-01T14:00:03.564001+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=32043",
@@ -1511,6 +1542,16 @@
     "status": "Активен",
     "title": "№32043. Приобретение оргтехники",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32043"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32053": {
+    "deadline_date": null,
+    "first_seen": "2026-10-02T05:20:46.106270+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32053",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32053. Запрос ценового предложения на поставку оргтехники",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32053"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
