@@ -545,6 +545,19 @@
     "title": "Раззаков шаарынын аймагындагы Госпецхоз көчөсүн асфальтоо (согласно прикрепленному смете)",
     "url": "https://goszakupki.okmot.kg/public/order/view/6abe5a1c0419526d2d576448?tab=tender"
   },
+  "goszakupki:6ac0617a0419526d2d5766e4": {
+    "customer": "Учреждение \"Дорожно-эксплутационное учреждение №9\"Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики",
+    "deadline": "2026-10-09 12:00",
+    "deadline_date": "2026-10-09",
+    "first_seen": "2026-10-04T18:33:40.002835+00:00",
+    "id": "goszakupki:6ac0617a0419526d2d5766e4",
+    "notified": true,
+    "published": "2026-10-05 00:10",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги по обслуживанию и ремонту оргтехники",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac0617a0419526d2d5766e4?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
