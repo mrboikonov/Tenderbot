@@ -558,6 +558,45 @@
     "title": "Услуги по обслуживанию и ремонту оргтехники",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ac0617a0419526d2d5766e4?tab=tender"
   },
+  "goszakupki:6ac35c5d0419526d2d576821": {
+    "customer": "Учреждение Центр общеврачебной практики Кеминского района Чуйской области",
+    "deadline": "2026-10-08 16:30",
+    "deadline_date": "2026-10-08",
+    "first_seen": "2026-10-05T11:55:33.770741+00:00",
+    "id": "goszakupki:6ac35c5d0419526d2d576821",
+    "notified": true,
+    "published": "2026-10-05 15:03",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Косметические и сантехнические работы филиал Орловка",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac35c5d0419526d2d576821?tab=tender"
+  },
+  "goszakupki:6ac37d4f0419526d2d5768b9": {
+    "customer": "Учреждение Айыл окмоту Д.Садырбаевского айылного аймака.",
+    "deadline": "2026-10-08 17:34",
+    "deadline_date": "2026-10-08",
+    "first_seen": "2026-10-05T11:55:33.770741+00:00",
+    "id": "goszakupki:6ac37d4f0419526d2d5768b9",
+    "notified": true,
+    "published": "2026-10-05 16:48",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги по составлению сметной документации на ремонт и перепрофилирование объектов образования Д. Садырбаевского айылного аймака.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac37d4f0419526d2d5768b9?tab=tender"
+  },
+  "goszakupki:6ac38f810419526d2d5768f1": {
+    "customer": "Управление Капитального строительства Мэрии г. Ош",
+    "deadline": "2026-10-08 18:30",
+    "deadline_date": "2026-10-08",
+    "first_seen": "2026-10-05T11:55:33.770741+00:00",
+    "id": "goszakupki:6ac38f810419526d2d5768f1",
+    "notified": true,
+    "published": "2026-10-05 17:55",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын Кызыл-Кыштак айылдык аймактык\nбашкармалыгынын Дадабаев көчөсүндөгү №51 дарекке мектеп куруу үчүн\nдолбоордук-сметалык иш кагаздарды иштеп чыгуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac38f810419526d2d5768f1?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
