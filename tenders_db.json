@@ -933,6 +933,16 @@
     "title": "Приобретение оргтехники",
     "url": "https://procurement.kg/tenders/1150568"
   },
+  "https://procurement.kg/tenders/1150697": {
+    "deadline_date": null,
+    "first_seen": "2026-10-05T04:28:10.941975+00:00",
+    "id": "https://procurement.kg/tenders/1150697",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуги по обслуживанию и ремонту оргтехники",
+    "url": "https://procurement.kg/tenders/1150697"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
