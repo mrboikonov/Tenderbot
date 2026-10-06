@@ -597,6 +597,45 @@
     "title": "Ош шаарынын Кызыл-Кыштак айылдык аймактык\nбашкармалыгынын Дадабаев көчөсүндөгү №51 дарекке мектеп куруу үчүн\nдолбоордук-сметалык иш кагаздарды иштеп чыгуу",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ac38f810419526d2d5768f1?tab=tender"
   },
+  "goszakupki:6ac4a4820419526d2d576a24": {
+    "customer": "Учреждение “Абдыкерим Сыдыков айыл окмоту айылного аймака Абдыкерим Сыдыков  Аламудунского района Чуйской области”",
+    "deadline": "2026-10-12 09:00",
+    "deadline_date": "2026-10-12",
+    "first_seen": "2026-10-06T11:35:32.142513+00:00",
+    "id": "goszakupki:6ac4a4820419526d2d576a24",
+    "notified": true,
+    "published": "2026-10-06 14:14",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение оргтехники и бытовой техники для школьных и дошкольных учреждений аймака",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac4a4820419526d2d576a24?tab=tender"
+  },
+  "goszakupki:6ac4b1ee0419526d2d576a53": {
+    "customer": "\t Учреждение Айыл окмот Алтын-Бешикского айылного аймака",
+    "deadline": "2026-10-09 16:20",
+    "deadline_date": "2026-10-09",
+    "first_seen": "2026-10-06T11:35:32.142513+00:00",
+    "id": "goszakupki:6ac4b1ee0419526d2d576a53",
+    "notified": true,
+    "published": "2026-10-06 14:36",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Алтын-Бешик айыл аймагында таза суунун кошумча курулмасына долбоордук сметалык документтерди тузуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac4b1ee0419526d2d576a53?tab=tender"
+  },
+  "goszakupki:6ac4bfb70419526d2d576a90": {
+    "customer": "Управление Капитального строительства Мэрии г. Ош",
+    "deadline": "2026-10-09 16:30",
+    "deadline_date": "2026-10-09",
+    "first_seen": "2026-10-06T11:35:32.142513+00:00",
+    "id": "goszakupki:6ac4bfb70419526d2d576a90",
+    "notified": true,
+    "published": "2026-10-06 15:41",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын Төлөйкөн ААБнын Б.Ормонов көчөсүндөгү жолдон өткөн сел келүүчү аймактагы эски ордун оңдоп-түзөө үчүн долбордук-сметалык иш кагаздарын иштеп чыгуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac4bfb70419526d2d576a90?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
