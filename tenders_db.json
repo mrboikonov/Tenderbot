@@ -636,6 +636,32 @@
     "title": "Ош шаарынын Төлөйкөн ААБнын Б.Ормонов көчөсүндөгү жолдон өткөн сел келүүчү аймактагы эски ордун оңдоп-түзөө үчүн долбордук-сметалык иш кагаздарын иштеп чыгуу",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ac4bfb70419526d2d576a90?tab=tender"
   },
+  "goszakupki:6ac5dba80419526d2d576bdf": {
+    "customer": "Учреждение Департамент капитального строительства",
+    "deadline": "2026-10-12 15:00",
+    "deadline_date": "2026-10-12",
+    "first_seen": "2026-10-07T11:25:22.855637+00:00",
+    "id": "goszakupki:6ac5dba80419526d2d576bdf",
+    "notified": true,
+    "published": "2026-10-07 11:54",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка проектно-сметной документации на «Строительство пешеходно-смотровой дорожки из легких металлических конструкций к Стелле «Ма-нас» протяженностью 1650 м».",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac5dba80419526d2d576bdf?tab=tender"
+  },
+  "goszakupki:6ac618b40419526d2d576ce7": {
+    "customer": "Государственное учреждения Государственный киноцентр Кыргызтасмасы",
+    "deadline": "2026-10-13 09:00",
+    "deadline_date": "2026-10-13",
+    "first_seen": "2026-10-07T11:25:22.855637+00:00",
+    "id": "goszakupki:6ac618b40419526d2d576ce7",
+    "notified": true,
+    "published": "2026-10-07 16:19",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "оказаниу услуг по обслуживанию орг техники, читски канализации и химчистка мягкой мебели",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac618b40419526d2d576ce7?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
