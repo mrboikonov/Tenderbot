@@ -1081,6 +1081,16 @@
     "title": "Ош шаарынын Кызыл-Кыштак айылдык аймактык\nбашкармалыгынын Дадабаев көчөсүндөгү №51 дарекке мектеп куруу үчүн\nдолбоордук-сметалык иш кагаздарды иштеп чыгуу",
     "url": "https://procurement.kg/tenders/1150788"
   },
+  "https://procurement.kg/tenders/1151017": {
+    "deadline_date": null,
+    "first_seen": "2026-10-08T06:53:02.718606+00:00",
+    "id": "https://procurement.kg/tenders/1151017",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Разработка проекта по объекту: \"Установка ТП и ЛЭП в ж/м Ак-Ордо-3\" (повторно)",
+    "url": "https://procurement.kg/tenders/1151017"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1735,6 +1745,56 @@
     "status": "Активен",
     "title": "№32113. Выбор единого подрядчика по разработке дизайн-проектов, перепланировке помещений, 3D-визуализации и зонированию рабочих мест",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32113"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32142": {
+    "deadline_date": null,
+    "first_seen": "2026-10-08T06:53:02.718606+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32142",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32142. Закупка материалов и оборудований по садоводству в рамках проекта ОФ \"СКСЖА\"",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32142"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32144": {
+    "deadline_date": null,
+    "first_seen": "2026-10-08T06:53:02.718606+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32144",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32144. Закупка материалов системы капельного орошения в рамках проекта ОФ \"СКСЖА\"",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32144"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32145": {
+    "deadline_date": null,
+    "first_seen": "2026-10-08T06:53:02.718606+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32145",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32145. Закупка материалов и оборудований по животноводству в рамках проекта ОФ \"СКСЖА\"",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32145"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32146": {
+    "deadline_date": null,
+    "first_seen": "2026-10-08T06:53:02.718606+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32146",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32146. Изготовление и установка мебели",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32146"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32147": {
+    "deadline_date": null,
+    "first_seen": "2026-10-08T06:53:02.718606+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32147",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32147. Изготовление и установка мебели 2- этажа",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32147"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
