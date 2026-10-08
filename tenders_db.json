@@ -1104,6 +1104,16 @@
     "title": "Разработка проекта по объекту: \"Установка ТП и ЛЭП в ж/м Ак-Ордо-3\" (повторно)",
     "url": "https://procurement.kg/tenders/1151017"
   },
+  "https://procurement.kg/tenders/1151088": {
+    "deadline_date": null,
+    "first_seen": "2026-10-08T14:43:29.278877+00:00",
+    "id": "https://procurement.kg/tenders/1151088",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "видеонаблюдение",
+    "url": "https://procurement.kg/tenders/1151088"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1780,6 +1790,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32144"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=32145": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-08T06:53:02.718606+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=32145",
@@ -1790,6 +1801,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32145"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=32146": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-08T06:53:02.718606+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=32146",
@@ -1800,6 +1812,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32146"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=32147": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-08T06:53:02.718606+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=32147",
