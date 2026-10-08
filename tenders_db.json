@@ -675,6 +675,19 @@
     "title": "оказаниу услуг по обслуживанию орг техники, читски канализации и химчистка мягкой мебели",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ac618b40419526d2d576ce7?tab=tender"
   },
+  "goszakupki:6ac748bc0419526d2d576e85": {
+    "customer": "Государственное учреждение по геодезии и картографии Госкартография при Государственном агентстве по земельным ресурсам, кадастру геодезии и картографии при Кабинете Министров Кыргызской Республики",
+    "deadline": "2026-10-13 17:00",
+    "deadline_date": "2026-10-13",
+    "first_seen": "2026-10-08T11:40:49.835929+00:00",
+    "id": "goszakupki:6ac748bc0419526d2d576e85",
+    "notified": true,
+    "published": "2026-10-08 13:45",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение услуги по установке камер видеонаблюдения",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac748bc0419526d2d576e85?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
