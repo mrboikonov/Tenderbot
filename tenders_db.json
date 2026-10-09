@@ -1105,6 +1105,7 @@
     "url": "https://procurement.kg/tenders/1151017"
   },
   "https://procurement.kg/tenders/1151088": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-08T14:43:29.278877+00:00",
     "id": "https://procurement.kg/tenders/1151088",
