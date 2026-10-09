@@ -701,6 +701,19 @@
     "title": "на оказание услуг и приобретение материалов для проекта «Медиаграмотность и фактчекинг» — Медиа-школа",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ac883820419526d2d577028?tab=tender"
   },
+  "goszakupki:6ac90b7a0419526d2d5771ff": {
+    "customer": "Учреждение \"Дорожно-эксплуатационное учреждение №31 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики\"",
+    "deadline": "2026-10-15 08:31",
+    "deadline_date": "2026-10-15",
+    "first_seen": "2026-10-09T20:01:49.874237+00:00",
+    "id": "goszakupki:6ac90b7a0419526d2d5771ff",
+    "notified": true,
+    "published": "2026-10-09 22:07",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Дорожная мебель",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac90b7a0419526d2d5771ff?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -2051,5 +2064,17 @@
     "status": "Активен",
     "title": "Выполнение комплекса архитектурных, топографо-геодезических и инженерно-геологических изысканий, а также разработка проектной документации для планировки территории и строительства нового гаража на 3 бокса для служебных автомобилей управления (ПОВТОР)",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=606847242"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=608765210": {
+    "customer": "Учреждения Кунтуйский  айыл окмоту.,  Кунтуйского айылного округа",
+    "deadline": "поставщиков26.10.2026 09:00",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-10-09T20:01:49.874237+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=608765210",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Установка видеонаблюдения",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=608765210"
   }
 }
