@@ -714,6 +714,19 @@
     "title": "Дорожная мебель",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ac90b7a0419526d2d5771ff?tab=tender"
   },
+  "goszakupki:6ac9aab00419526d2d577221": {
+    "customer": "Учреждение \"Дорожно-эксплутационное учреждение №9\"Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций Кыргызской Республики",
+    "deadline": "2026-10-15 17:00",
+    "deadline_date": "2026-10-15",
+    "first_seen": "2026-10-10T10:52:06.314134+00:00",
+    "id": "goszakupki:6ac9aab00419526d2d577221",
+    "notified": true,
+    "published": "2026-10-10 09:25",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги по обслуживанию и ремонту оргтехники",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ac9aab00419526d2d577221?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
