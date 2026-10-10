@@ -1154,6 +1154,26 @@
     "title": "видеонаблюдение",
     "url": "https://procurement.kg/tenders/1151088"
   },
+  "https://procurement.kg/tenders/1151220": {
+    "deadline_date": null,
+    "first_seen": "2026-10-10T13:17:30.915525+00:00",
+    "id": "https://procurement.kg/tenders/1151220",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Дорожная мебель",
+    "url": "https://procurement.kg/tenders/1151220"
+  },
+  "https://procurement.kg/tenders/1151231": {
+    "deadline_date": null,
+    "first_seen": "2026-10-10T13:17:30.915525+00:00",
+    "id": "https://procurement.kg/tenders/1151231",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуги по обслуживанию и ремонту оргтехники",
+    "url": "https://procurement.kg/tenders/1151231"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1861,6 +1881,26 @@
     "status": "Активен",
     "title": "№32147. Изготовление и установка мебели 2- этажа",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32147"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32172": {
+    "deadline_date": null,
+    "first_seen": "2026-10-10T13:17:30.915525+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32172",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32172. Поставки   мебели для кризисного убежища для женщин и детей, пострадавших от насилия.",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32172"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32181": {
+    "deadline_date": null,
+    "first_seen": "2026-10-10T13:17:30.915525+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32181",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32181. Выбор единого подрядчика/поставщика офисной мебели",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32181"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
