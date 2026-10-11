@@ -1155,6 +1155,7 @@
     "url": "https://procurement.kg/tenders/1151088"
   },
   "https://procurement.kg/tenders/1151220": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-10T13:17:30.915525+00:00",
     "id": "https://procurement.kg/tenders/1151220",
@@ -1165,6 +1166,7 @@
     "url": "https://procurement.kg/tenders/1151220"
   },
   "https://procurement.kg/tenders/1151231": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-10T13:17:30.915525+00:00",
     "id": "https://procurement.kg/tenders/1151231",
@@ -1883,6 +1885,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32147"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=32172": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-10T13:17:30.915525+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=32172",
@@ -1893,6 +1896,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32172"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=32181": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-10T13:17:30.915525+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=32181",
