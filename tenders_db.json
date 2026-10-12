@@ -727,6 +727,32 @@
     "title": "Услуги по обслуживанию и ремонту оргтехники",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ac9aab00419526d2d577221?tab=tender"
   },
+  "goszakupki:6accb1b60419526d2d5774d1": {
+    "customer": "Главное управление финансово-хозяйственного обеспечения Министерства внутренних дел Кыргызской Республики",
+    "deadline": "2026-10-16 17:00",
+    "deadline_date": "2026-10-16",
+    "first_seen": "2026-10-12T12:33:45.851217+00:00",
+    "id": "goszakupki:6accb1b60419526d2d5774d1",
+    "notified": true,
+    "published": "2026-10-12 18:32",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Закупка оборудования, материалов и сопутствующих услуг по монтажу и настройке системы видеонаблюдения.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6accb1b60419526d2d5774d1?tab=tender"
+  },
+  "goszakupki:6accb97a0419526d2d577507": {
+    "customer": "Учреждение Айыл окмоту айылного аймака Кетмен-Добо",
+    "deadline": "2026-10-15 17:00",
+    "deadline_date": "2026-10-15",
+    "first_seen": "2026-10-12T12:33:45.851217+00:00",
+    "id": "goszakupki:6accb97a0419526d2d577507",
+    "notified": true,
+    "published": "2026-10-12 16:56",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка сметной документации на капитальный ремонт фасада и кровли здания айыл окмоту Кетмен-Добо",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6accb97a0419526d2d577507?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -1582,6 +1608,28 @@
     "status": "Активен",
     "title": "Запрос на выражение заинтересованности в рамках Проекта ПЗТОЗ по контракту \"Инженер строитель\"",
     "url": "https://www.aris.kg/tenders/view/2800"
+  },
+  "https://www.aris.kg/tenders/view/2811": {
+    "deadline": "26.10.202618:00:00",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-10-12T12:33:45.851217+00:00",
+    "id": "https://www.aris.kg/tenders/view/2811",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Запрос на выражение заинтересованности в рамках Проекта НПИС по контракту \"Разработка ПСД и ведение авторского надзора МТС, Мун. рынок и ирригационной системы\"",
+    "url": "https://www.aris.kg/tenders/view/2811"
+  },
+  "https://www.aris.kg/tenders/view/2812": {
+    "deadline": "28.10.202618:00:00",
+    "deadline_date": "2026-10-28",
+    "first_seen": "2026-10-12T12:33:45.851217+00:00",
+    "id": "https://www.aris.kg/tenders/view/2812",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Ассистент проекта",
+    "url": "https://www.aris.kg/tenders/view/2812"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline_date": null,
