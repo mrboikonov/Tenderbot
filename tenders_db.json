@@ -1202,6 +1202,46 @@
     "title": "Услуги по обслуживанию и ремонту оргтехники",
     "url": "https://procurement.kg/tenders/1151231"
   },
+  "https://procurement.kg/tenders/1151361": {
+    "deadline_date": null,
+    "first_seen": "2026-10-12T15:20:11.393362+00:00",
+    "id": "https://procurement.kg/tenders/1151361",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Разработка сметной документации на капитальный ремонт фасада и кровли здания айыл окмоту Кетмен-Добо",
+    "url": "https://procurement.kg/tenders/1151361"
+  },
+  "https://procurement.kg/tenders/1151377": {
+    "deadline_date": null,
+    "first_seen": "2026-10-12T15:20:11.393362+00:00",
+    "id": "https://procurement.kg/tenders/1151377",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Подготовка проектно-сметной документации (ПСД) на Установка пункт отделение милиции расположенный на своем земельном участке по улице ул.Абдурахманова в г. Манас.",
+    "url": "https://procurement.kg/tenders/1151377"
+  },
+  "https://procurement.kg/tenders/1151382": {
+    "deadline_date": null,
+    "first_seen": "2026-10-12T15:20:11.393362+00:00",
+    "id": "https://procurement.kg/tenders/1151382",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Т.Балтагулов айыл өкмөтүнө караштуу айылдарга ВППООНго демилгеленген проектилер үчүн керектелүүчү материалдарды сатып алуу.",
+    "url": "https://procurement.kg/tenders/1151382"
+  },
+  "https://procurement.kg/tenders/1151387": {
+    "deadline_date": null,
+    "first_seen": "2026-10-12T15:20:11.393362+00:00",
+    "id": "https://procurement.kg/tenders/1151387",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Закупка оборудования, материалов и сопутствующих услуг по монтажу и настройке системы видеонаблюдения.",
+    "url": "https://procurement.kg/tenders/1151387"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -1953,6 +1993,26 @@
     "status": "Активен",
     "title": "№32181. Выбор единого подрядчика/поставщика офисной мебели",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32181"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32205": {
+    "deadline_date": null,
+    "first_seen": "2026-10-12T15:20:11.393362+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32205",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32205. Приобретение услуг по составлению сметной документации по текущему ремонту административных  зданий",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32205"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32207": {
+    "deadline_date": null,
+    "first_seen": "2026-10-12T15:20:11.393362+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32207",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32207. «Приобретение  научных приборов и материалов в рамках реализации проекта  «Экологические аспекты  длительного применения удобрений в севообороте на сероземно-луговых почвах Кыргызстана ».",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32207"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
