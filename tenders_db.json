@@ -2406,5 +2406,29 @@
     "status": "Активен",
     "title": "Кара-Коо айылындагы Р.Жангазиев атындагы жалпы билим берүү мектебинин актовый залына долдоорлоо сметалык документация жасоого.мектептин",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610372574"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610483362": {
+    "customer": "Учреждение  Айыл окмоту айылного аймака Оргочор",
+    "deadline": "поставщиков19.10.2026 13:21",
+    "deadline_date": "2026-10-19",
+    "first_seen": "2026-10-13T20:32:49.797694+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610483362",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "На предоставление услуги по разработке проектно-сметной документации с.Ак-Шыйрак(Повторный)",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610483362"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610523939": {
+    "customer": "Тоолос айыл окмоту",
+    "deadline": "поставщиков20.10.2026 09:00",
+    "deadline_date": "2026-10-20",
+    "first_seen": "2026-10-13T20:32:49.797694+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610523939",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Төөлөс айыл өкмөтүнүн Өрнөк   айылындагы А.Нарматов атындагы орто мектебинин 0,30 га жер аянтына 75 орундуу балдар бакчасынын имаратын куруу учун, долбоордук сметалык документтер (ДСД) даярдоо",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610523939"
   }
 }
