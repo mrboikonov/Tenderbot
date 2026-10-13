@@ -1333,6 +1333,16 @@
     "title": "Ош шаарынын Кызыл-Кыштак айылдык аймактык\nбашкармалыгынын Дадабаев көчөсүндөгү №51 дарекке мектеп куруу үчүн\nдолбоордук-сметалык иш кагаздарды иштеп чыгуу",
     "url": "https://procurement.kg/tenders/1151397"
   },
+  "https://procurement.kg/tenders/1154549": {
+    "deadline_date": null,
+    "first_seen": "2026-10-13T14:00:03.805549+00:00",
+    "id": "https://procurement.kg/tenders/1154549",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Кара-Коо айылындагы Р.Жангазиев атындагы жалпы билим берүү мектебинин актовый залына долдоорлоо сметалык документация жасоого.мектептин",
+    "url": "https://procurement.kg/tenders/1154549"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
     "deadline_date": "2025-08-18",
@@ -2106,6 +2116,56 @@
     "status": "Активен",
     "title": "№32207. «Приобретение  научных приборов и материалов в рамках реализации проекта  «Экологические аспекты  длительного применения удобрений в севообороте на сероземно-луговых почвах Кыргызстана ».",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32207"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32225": {
+    "deadline_date": null,
+    "first_seen": "2026-10-13T14:00:03.805549+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32225",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32225. ПОСТАВКА МАТЕРИАЛОВ ДЛЯ ТРУБОПРОВОДА ПОЛИВНОЙ ВОДЫ В СЕЛО КИРПИЧНОЕ КЫЗЫЛСКОГО АЙЫЛЬНОГО АЙМАКА ЖЕТИ ОГУЗСКОГО РАЙОНА (ПОВТОРНО)",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32225"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32226": {
+    "deadline_date": null,
+    "first_seen": "2026-10-13T14:00:03.805549+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32226",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32226. Разработка проектно-сметной документации и оказание сопутствующих услуг.",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32226"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32232": {
+    "deadline_date": null,
+    "first_seen": "2026-10-13T14:00:03.805549+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32232",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32232. Приобретение  оборудования  и реагентов в рамках реализации  исследователького  проекта AgroScan KG",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32232"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32233": {
+    "deadline_date": null,
+    "first_seen": "2026-10-13T14:00:03.805549+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32233",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32233. ЗАО «Межбанковский Процессинговый Центр» проводит конкурс методом неограниченного участия для приобретения газовых котлов и электрического котла, а также всех комплектующих для реализации теплого пункта согласно проекту с установкой.",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32233"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32239": {
+    "deadline_date": null,
+    "first_seen": "2026-10-13T14:00:03.805549+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32239",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32239. : \"Приобретение мебели: Стойка администратора (стойка ресепшн) для Университетской клиники КГМА",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32239"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
