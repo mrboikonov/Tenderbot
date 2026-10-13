@@ -1213,6 +1213,7 @@
     "url": "https://procurement.kg/tenders/1151361"
   },
   "https://procurement.kg/tenders/1151377": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-12T15:20:11.393362+00:00",
     "id": "https://procurement.kg/tenders/1151377",
@@ -1223,6 +1224,7 @@
     "url": "https://procurement.kg/tenders/1151377"
   },
   "https://procurement.kg/tenders/1151382": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-12T15:20:11.393362+00:00",
     "id": "https://procurement.kg/tenders/1151382",
@@ -1233,6 +1235,7 @@
     "url": "https://procurement.kg/tenders/1151382"
   },
   "https://procurement.kg/tenders/1151387": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-12T15:20:11.393362+00:00",
     "id": "https://procurement.kg/tenders/1151387",
@@ -1241,6 +1244,16 @@
     "status": "Активен",
     "title": "Закупка оборудования, материалов и сопутствующих услуг по монтажу и настройке системы видеонаблюдения.",
     "url": "https://procurement.kg/tenders/1151387"
+  },
+  "https://procurement.kg/tenders/1151397": {
+    "deadline_date": null,
+    "first_seen": "2026-10-13T04:15:31.395318+00:00",
+    "id": "https://procurement.kg/tenders/1151397",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын Кызыл-Кыштак айылдык аймактык\nбашкармалыгынын Дадабаев көчөсүндөгү №51 дарекке мектеп куруу үчүн\nдолбоордук-сметалык иш кагаздарды иштеп чыгуу",
+    "url": "https://procurement.kg/tenders/1151397"
   },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.202518:00:00",
@@ -1995,6 +2008,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32181"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=32205": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-12T15:20:11.393362+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=32205",
@@ -2005,6 +2019,7 @@
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32205"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=32207": {
+    "deadline": null,
     "deadline_date": null,
     "first_seen": "2026-10-12T15:20:11.393362+00:00",
     "id": "https://www.tenders.kg/Announcements_view.php?editid1=32207",
