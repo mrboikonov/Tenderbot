@@ -857,6 +857,32 @@
     "title": "Приобретение оргтехники и бытовой техники для школьных и дошкольных учреждений аймака",
     "url": "https://goszakupki.okmot.kg/public/order/view/6acf077a0419526d2d577926?tab=tender"
   },
+  "goszakupki:6ad08297e8c3654b750e397a": {
+    "customer": "Чаткальский районный центр",
+    "deadline": "2026-10-20 13:44",
+    "deadline_date": "2026-10-20",
+    "first_seen": "2026-10-15T09:30:39.281902+00:00",
+    "id": "goszakupki:6ad08297e8c3654b750e397a",
+    "notified": true,
+    "published": "2026-10-15 13:42",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Асфальтирование территории медицинского Центра Общеврачебной Практики Чаткальского района ГСВ №2 (смета прилагается).  (повторно2)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad08297e8c3654b750e397a?tab=tender"
+  },
+  "goszakupki:6ad08f4ae8c3654b750e3a03": {
+    "customer": "Учреждение Министерство природных ресурсов, экологии и технического надзора Кыргызской Республики",
+    "deadline": "2026-10-20 15:00",
+    "deadline_date": "2026-10-20",
+    "first_seen": "2026-10-15T09:30:39.281902+00:00",
+    "id": "goszakupki:6ad08f4ae8c3654b750e3a03",
+    "notified": true,
+    "published": "2026-10-15 14:37",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение оргтехники и инструментов",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad08f4ae8c3654b750e3a03?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
@@ -2589,5 +2615,29 @@
     "status": "Активен",
     "title": "Покупка услуг установки системы видеонаблюдения, прокладки кабелей и создание локальной сети",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611158165"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611225784": {
+    "customer": "Учреждение \"Манасский городской отдел образования\"",
+    "deadline": "поставщиков20.10.2026 15:30",
+    "deadline_date": "2026-10-20",
+    "first_seen": "2026-10-15T09:30:39.281902+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611225784",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение оборудования, оргтехники и прочих товаров для школы в ГорОО",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611225784"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611258589": {
+    "customer": "Учреждение Айыл окмот \"Кен-Талааского\" айылного аймака",
+    "deadline": "поставщиков21.10.2026 17:49",
+    "deadline_date": "2026-10-21",
+    "first_seen": "2026-10-15T09:30:39.281902+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611258589",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Укладка асбоцементные трубы для поливных вод село Эски-Оочу Кен-Талааского а/а",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611258589"
   }
 }
