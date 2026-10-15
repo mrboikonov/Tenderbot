@@ -2541,5 +2541,17 @@
     "status": "Активен",
     "title": "Приобретение мебели для детских садов",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610782228"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611102716": {
+    "customer": "Национальный центр онкологии и гематологии при Министерстве Здравоохранения КР",
+    "deadline": "поставщиков20.10.2026 11:00",
+    "deadline_date": "2026-10-20",
+    "first_seen": "2026-10-15T04:28:36.646069+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611102716",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Закупка услуг по составлению проектно-сметной документации на установку пожарной сигнализации в зданиях НЦОГ",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611102716"
   }
 }
