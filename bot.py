@@ -48,6 +48,16 @@ try:
 except ImportError:
     pass
 
+try:
+    # Опционально: нужен только для вкладки cid=2 на zakupki.gov.kg,
+    # см. _fetch_html_with_browser(). Если Playwright или сам браузер
+    # не установлены — просто пропускаем эту одну вкладку, остальной
+    # бот продолжает работать как обычно.
+    from playwright.sync_api import sync_playwright
+    _PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    _PLAYWRIGHT_AVAILABLE = False
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -226,6 +236,44 @@ def _get_soup(
             client.close()
 
 
+def _fetch_html_with_browser(url: str) -> str | None:
+    """
+    Получает HTML страницы через настоящий headless-браузер (Chromium
+    через Playwright) вместо обычного requests-запроса.
+
+    Используется только для одной конкретной вкладки (cid=2 на
+    zakupki.gov.kg), которая стабильно отдаёт 500 на обычные запросы —
+    проверено: ошибка повторялась и с облачного, и с домашнего IP, с
+    отдельной "чистой" сессией и без заголовка Referer, то есть ни
+    IP, ни cookies, ни Referer тут ни при чём. Остаётся предположить,
+    что сайт как-то отличает запрос библиотеки requests от запроса
+    настоящего браузера (например, по отпечатку TLS/HTTP) и блокирует
+    именно его — обойти это можно только настоящим браузерным движком.
+    """
+    if not _PLAYWRIGHT_AVAILABLE:
+        log.warning(
+            "Playwright не установлен — пропускаю запрос через браузер: %s", url
+        )
+        return None
+
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            try:
+                context = browser.new_context(
+                    user_agent=REQUEST_HEADERS["User-Agent"],
+                    locale="ru-RU",
+                )
+                page = context.new_page()
+                page.goto(url, timeout=30000, wait_until="networkidle")
+                return page.content()
+            finally:
+                browser.close()
+    except Exception as e:
+        log.error("Ошибка запроса через браузер %s: %s", url, e)
+        return None
+
+
 def _get_json(url: str, referer: str | None = None) -> dict | list | None:
     """Как _get_soup, но для JSON API-эндпоинтов (без HTML-парсинга)."""
     domain = re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
@@ -306,10 +354,21 @@ def parse_zakupki_gov_kg() -> list[dict]:
         return None
 
     def _parse_list(
-        url: str, fresh_session: bool = False, referer: str | None = list_url
+        url: str,
+        fresh_session: bool = False,
+        referer: str | None = list_url,
+        html: str | None = None,
     ) -> dict[str, dict]:
-        """Возвращает {tender_id: {...}} для страницы списка объявлений."""
-        soup = _get_soup(url, referer=referer, fresh_session=fresh_session)
+        """
+        Возвращает {tender_id: {...}} для страницы списка объявлений.
+        Если передан html — парсит его напрямую (не делая запроса),
+        для случая, когда страница уже была получена через браузер.
+        """
+        soup = (
+            BeautifulSoup(html, "html.parser")
+            if html is not None
+            else _get_soup(url, referer=referer, fresh_session=fresh_session)
+        )
         found: dict[str, dict] = {}
         if not soup:
             return found
@@ -358,15 +417,14 @@ def parse_zakupki_gov_kg() -> list[dict]:
         return found
 
     active = _parse_list(list_url)
-    # cid=2 стабильно падает с 500 и с облачного, и с домашнего IP, даже
-    # в отдельной "чистой" сессии без cookies — то есть дело не в IP и
-    # не в разделяемом ViewState между запросами. Единственное заметное
-    # отличие от прямого захода по ссылке в браузере (как это делает
-    # пользователь вручную) — мы всегда подставляли Referer на страницу
-    # первой вкладки, из-за чего сервер мог принимать запрос за
-    # внутренний postback без нужного состояния. Пробуем без Referer,
-    # как при обычном прямом переходе по ссылке/закладке.
-    active_cid2 = _parse_list(list_url_cid2, fresh_session=True, referer=None)
+
+    # cid=2 стабильно падает с 500 при обычном requests-запросе —
+    # проверено с разными IP, сессиями и заголовками (см. комментарий
+    # у _fetch_html_with_browser). Получаем эту вкладку через
+    # headless-браузер; если Playwright недоступен или сам запрос не
+    # удался — просто пропускаем эту вкладку, остальное не страдает.
+    cid2_html = _fetch_html_with_browser(list_url_cid2)
+    active_cid2 = _parse_list(list_url_cid2, html=cid2_html) if cid2_html else {}
     for tender_id, data in active_cid2.items():
         if tender_id not in active:
             active[tender_id] = data
