@@ -305,9 +305,11 @@ def parse_zakupki_gov_kg() -> list[dict]:
                 return key, cell_text[len(label):].lstrip(" :\t").strip()
         return None
 
-    def _parse_list(url: str, fresh_session: bool = False) -> dict[str, dict]:
+    def _parse_list(
+        url: str, fresh_session: bool = False, referer: str | None = list_url
+    ) -> dict[str, dict]:
         """Возвращает {tender_id: {...}} для страницы списка объявлений."""
-        soup = _get_soup(url, referer=list_url, fresh_session=fresh_session)
+        soup = _get_soup(url, referer=referer, fresh_session=fresh_session)
         found: dict[str, dict] = {}
         if not soup:
             return found
@@ -356,13 +358,15 @@ def parse_zakupki_gov_kg() -> list[dict]:
         return found
 
     active = _parse_list(list_url)
-    # cid=2 запрашиваем отдельной "чистой" сессией (без cookies от
-    # запроса обычного списка выше) — сайт на JSF/PrimeFaces, и
-    # серверное ViewState, привязанное к сессии первого запроса,
-    # приводило к 500-й ошибке при запросе второй вкладки в той же
-    # сессии (подтверждено: ошибка повторялась и с облачного, и с
-    # домашнего IP, то есть дело не в блокировке по IP).
-    active_cid2 = _parse_list(list_url_cid2, fresh_session=True)
+    # cid=2 стабильно падает с 500 и с облачного, и с домашнего IP, даже
+    # в отдельной "чистой" сессии без cookies — то есть дело не в IP и
+    # не в разделяемом ViewState между запросами. Единственное заметное
+    # отличие от прямого захода по ссылке в браузере (как это делает
+    # пользователь вручную) — мы всегда подставляли Referer на страницу
+    # первой вкладки, из-за чего сервер мог принимать запрос за
+    # внутренний postback без нужного состояния. Пробуем без Referer,
+    # как при обычном прямом переходе по ссылке/закладке.
+    active_cid2 = _parse_list(list_url_cid2, fresh_session=True, referer=None)
     for tender_id, data in active_cid2.items():
         if tender_id not in active:
             active[tender_id] = data
