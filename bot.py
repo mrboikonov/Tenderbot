@@ -188,7 +188,17 @@ def save_sent_list(db: dict) -> None:
 #   "winner": "название компании-победителя" или None
 #   "participants": ["...", "..."]  или []
 
-def _get_soup(url: str, referer: str | None = None) -> BeautifulSoup | None:
+def _get_soup(
+    url: str, referer: str | None = None, fresh_session: bool = False
+) -> BeautifulSoup | None:
+    """
+    fresh_session=True: использовать отдельную сессию без cookies от
+    предыдущих запросов. Нужно для сайтов на JSF/PrimeFaces (например,
+    zakupki.gov.kg), где серверное ViewState, привязанное к сессии,
+    может конфликтовать между разными "вкладками" списка (cid=...) и
+    приводить к 500-й ошибке, если один и тот же сеанс используется для
+    запроса сразу нескольких вкладок подряд.
+    """
     domain = re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
     verify_ssl = domain not in INSECURE_DOMAINS
 
@@ -196,8 +206,10 @@ def _get_soup(url: str, referer: str | None = None) -> BeautifulSoup | None:
     if referer:
         headers["Referer"] = referer
 
+    client = _build_session() if fresh_session else SESSION
+
     try:
-        resp = SESSION.get(
+        resp = client.get(
             url,
             headers=headers,
             timeout=REQUEST_TIMEOUT,
@@ -209,6 +221,9 @@ def _get_soup(url: str, referer: str | None = None) -> BeautifulSoup | None:
     except requests.RequestException as e:
         log.error("Ошибка запроса %s: %s", url, e)
         return None
+    finally:
+        if fresh_session:
+            client.close()
 
 
 def _get_json(url: str, referer: str | None = None) -> dict | list | None:
@@ -290,9 +305,9 @@ def parse_zakupki_gov_kg() -> list[dict]:
                 return key, cell_text[len(label):].lstrip(" :\t").strip()
         return None
 
-    def _parse_list(url: str) -> dict[str, dict]:
+    def _parse_list(url: str, fresh_session: bool = False) -> dict[str, dict]:
         """Возвращает {tender_id: {...}} для страницы списка объявлений."""
-        soup = _get_soup(url, referer=list_url)
+        soup = _get_soup(url, referer=list_url, fresh_session=fresh_session)
         found: dict[str, dict] = {}
         if not soup:
             return found
@@ -341,11 +356,13 @@ def parse_zakupki_gov_kg() -> list[dict]:
         return found
 
     active = _parse_list(list_url)
-    # Небольшая пауза перед вторым запросом: в одном из тестовых запусков
-    # сервер ответил 500 на cid=2 сразу после первого запроса — похоже
-    # на чувствительность к частым обращениям подряд.
-    time.sleep(2)
-    active_cid2 = _parse_list(list_url_cid2)
+    # cid=2 запрашиваем отдельной "чистой" сессией (без cookies от
+    # запроса обычного списка выше) — сайт на JSF/PrimeFaces, и
+    # серверное ViewState, привязанное к сессии первого запроса,
+    # приводило к 500-й ошибке при запросе второй вкладки в той же
+    # сессии (подтверждено: ошибка повторялась и с облачного, и с
+    # домашнего IP, то есть дело не в блокировке по IP).
+    active_cid2 = _parse_list(list_url_cid2, fresh_session=True)
     for tender_id, data in active_cid2.items():
         if tender_id not in active:
             active[tender_id] = data
