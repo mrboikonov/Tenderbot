@@ -883,6 +883,32 @@
     "title": "Приобретение оргтехники и инструментов",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ad08f4ae8c3654b750e3a03?tab=tender"
   },
+  "goszakupki:6ad0a2bde8c3654b750e3aa2": {
+    "customer": "Учреждение Мырза-Акинский центр общей врачебной практики",
+    "deadline": "2026-10-20 16:10",
+    "deadline_date": "2026-10-20",
+    "first_seen": "2026-10-15T14:45:11.750900+00:00",
+    "id": "goszakupki:6ad0a2bde8c3654b750e3aa2",
+    "notified": true,
+    "published": "2026-10-15 16:04",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Смета түзүүнү сатып алуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad0a2bde8c3654b750e3aa2?tab=tender"
+  },
+  "goszakupki:6ad0c27ae8c3654b750e3b67": {
+    "customer": "Национальная комиссия по государственному языку и языковой политике при Президенте Кыргызской Республики",
+    "deadline": "2026-10-21 09:00",
+    "deadline_date": "2026-10-21",
+    "first_seen": "2026-10-15T14:45:11.750900+00:00",
+    "id": "goszakupki:6ad0c27ae8c3654b750e3b67",
+    "notified": true,
+    "published": "2026-10-15 18:41",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги по ремонту, техническому обслуживанию компьютеров, оргтехники и заправке картриджей .\nКомпьютерлерди, оргтехниканы оңдоо, техникалык жактан тейлөө жана картридждерди толтуруу кызматтары",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad0c27ae8c3654b750e3b67?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
