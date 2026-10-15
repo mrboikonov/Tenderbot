@@ -341,6 +341,10 @@ def parse_zakupki_gov_kg() -> list[dict]:
         return found
 
     active = _parse_list(list_url)
+    # Небольшая пауза перед вторым запросом: в одном из тестовых запусков
+    # сервер ответил 500 на cid=2 сразу после первого запроса — похоже
+    # на чувствительность к частым обращениям подряд.
+    time.sleep(2)
     active_cid2 = _parse_list(list_url_cid2)
     for tender_id, data in active_cid2.items():
         if tender_id not in active:
