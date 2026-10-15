@@ -581,6 +581,38 @@ def parse_goszakupki_okmot_kg() -> list[dict]:
     return results
 
 
+_PROCUREMENT_DEADLINE_RE = re.compile(
+    r"срок\s+подачи[^\d]{0,20}(\d{2}\.\d{2}\.\d{4})", re.IGNORECASE
+)
+_PROCUREMENT_PUBLISHED_RE = re.compile(
+    r"опубликован[^\d]{0,20}(\d{2}\.\d{2}\.\d{4})", re.IGNORECASE
+)
+
+
+def _fetch_procurement_detail(url: str) -> tuple[str, str]:
+    """
+    На странице списка procurement.kg срока подачи нет (там только дата
+    публикации) — он есть только на странице конкретного тендера, в
+    поле "Срок подачи" (проверено вручную 2026-10-15). Поэтому для
+    фильтрации по актуальности заходим на каждую карточку отдельно.
+    Возвращает (deadline, published) как есть в тексте страницы, либо
+    ("", "") если не удалось получить/распознать.
+    """
+    soup = _get_soup(url, referer="https://procurement.kg")
+    if not soup:
+        return "", ""
+    text = soup.get_text(" ", strip=True)
+
+    deadline, published = "", ""
+    m = _PROCUREMENT_DEADLINE_RE.search(text)
+    if m:
+        deadline = m.group(1)
+    m = _PROCUREMENT_PUBLISHED_RE.search(text)
+    if m:
+        published = m.group(1)
+    return deadline, published
+
+
 def parse_procurement_kg() -> list[dict]:
     """
     procurement.kg — проверено на реальных данных 2026-09-15: раздел
@@ -616,6 +648,17 @@ def parse_procurement_kg() -> list[dict]:
             "source": "procurement.kg",
             "status": STATUS_ACTIVE,
         })
+
+    # Срок подачи забираем с каждой отдельной страницы тендера (на
+    # списке его нет). Небольшая пауза между запросами, чтобы не
+    # бомбардировать сайт десятками запросов подряд.
+    for item in results:
+        deadline, published = _fetch_procurement_detail(item["url"])
+        item["deadline"] = deadline
+        if published:
+            item["published"] = published
+        time.sleep(0.3)
+
     return results
 
 
