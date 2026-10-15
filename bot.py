@@ -257,6 +257,13 @@ def parse_zakupki_gov_kg() -> list[dict]:
     """
     base = "https://zakupki.gov.kg"
     list_url = f"{base}/popp/view/order/list.xhtml"
+    # cid=2 — вторая вкладка на сайте, "Закупки объявленные Проектами"
+    # (в отличие от обычных "Государственные закупки", cid=1/без параметра).
+    # Раньше бот её не запрашивал вовсе, из-за чего тендеры, которые
+    # публиковались только в этой вкладке, не попадали в базу и не
+    # отправлялись на почту (обнаружено пользователем вручную 2026-10-14,
+    # тендер №260929604174090 "УСТРОЙСТВО СИСТЕМЫ ОРОШЕНИЯ...").
+    list_url_cid2 = f"{base}/popp/view/order/list.xhtml?cid=2"
     reject_url = f"{base}/popp/view/order/rejectList.xhtml"
 
     LABEL_MAP = {
@@ -334,6 +341,11 @@ def parse_zakupki_gov_kg() -> list[dict]:
         return found
 
     active = _parse_list(list_url)
+    active_cid2 = _parse_list(list_url_cid2)
+    for tender_id, data in active_cid2.items():
+        if tender_id not in active:
+            active[tender_id] = data
+
     cancelled = _parse_list(reject_url)
 
     for tender_id in cancelled:
