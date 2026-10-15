@@ -37,6 +37,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Install Playwright browser (Chromium)
+        # Нужен только для одной вкладки zakupki.gov.kg (cid=2) — она
+        # стабильно отдаёт 500 на обычные requests-запросы (похоже,
+        # сайт как-то отличает их от настоящего браузера), а через
+        # headless-браузер открывается нормально.
+        run: python -m playwright install --with-deps chromium
+
       - name: Run tender bot
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
