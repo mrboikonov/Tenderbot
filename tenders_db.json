@@ -922,6 +922,32 @@
     "title": "Специальные Оргтехника для сотрудников",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ad1a510e8c3654b750e3c56?tab=tender"
   },
+  "goszakupki:6ad2050ce8c3654b750e3e2b": {
+    "customer": "Кыргызский Национальный Академический Драматический театр им. Абдумомунова",
+    "deadline": "2026-10-22 09:00",
+    "deadline_date": "2026-10-22",
+    "first_seen": "2026-10-16T15:35:18.394365+00:00",
+    "id": "goszakupki:6ad2050ce8c3654b750e3e2b",
+    "notified": true,
+    "published": "2026-10-16 17:23",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Косметические средства и материалы для пошива сценических костюмов для постановки\nспектакля Чон Казат (повторно)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad2050ce8c3654b750e3e2b?tab=tender"
+  },
+  "goszakupki:6ad216d4e8c3654b750e3e62": {
+    "customer": "Учреждение Айыл Окмоту Абды Суеркуловского айылного аймака",
+    "deadline": "2026-10-22 16:14",
+    "deadline_date": "2026-10-22",
+    "first_seen": "2026-10-16T15:35:18.394365+00:00",
+    "id": "goszakupki:6ad216d4e8c3654b750e3e62",
+    "notified": true,
+    "published": "2026-10-16 18:35",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Абды Суеркулов айыл аймагына караштуу Торкен айылынын Ашыралиев мектебинин жылуулук системасын орнотууга смета даярдоо кызматын сатып алуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad216d4e8c3654b750e3e62?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
