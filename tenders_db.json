@@ -1555,12 +1555,11 @@
     "url": "https://procurement.kg/tenders/1155402"
   },
   "https://procurement.kg/tenders/1155874": {
-    "deadline": "22.10.2026",
-    "deadline_date": "2026-10-22",
-    "first_seen": "2026-10-16T15:35:59.923407+00:00",
+    "deadline": "",
+    "deadline_date": null,
+    "first_seen": "2026-10-16T15:37:47.491572+00:00",
     "id": "https://procurement.kg/tenders/1155874",
     "notified": true,
-    "published": "16.10.2026",
     "source": "procurement.kg",
     "status": "Активен",
     "title": "Абды Суеркулов айыл аймагына караштуу Торкен айылынын Ашыралиев мектебинин жылуулук системасын орнотууга смета даярдоо кызматын сатып алуу",
