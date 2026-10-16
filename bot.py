@@ -392,22 +392,6 @@ def parse_zakupki_gov_kg() -> list[dict]:
                 return key, cell_text[len(label):].lstrip(" :\t").strip()
         return None
 
-    _DATE_START_RE = re.compile(r"\d{1,2}\.\d{1,2}\.\d{4}|\d{4}-\d{2}-\d{2}")
-
-    def _clean_date_field(text: str) -> str:
-        """
-        Реальная метка на сайте иногда длиннее, чем наш LABEL_MAP
-        (например, "Срок подачи предложений ОТ ПОСТАВЩИКОВ" вместо
-        просто "Срок подачи предложений") — тогда хвост метки
-        ("от поставщиков") остаётся приклеенным к дате. Вместо того,
-        чтобы перечислять все варианты формулировок, просто находим в
-        тексте, где начинается сама дата, и отбрасываем всё до неё.
-        """
-        if not text:
-            return text
-        m = _DATE_START_RE.search(text)
-        return text[m.start():].strip() if m else text
-
     def _parse_list(
         url: str,
         fresh_session: bool = False,
@@ -459,9 +443,6 @@ def parse_zakupki_gov_kg() -> list[dict]:
                             best_text, best_len = stripped, cyr_len
                     if best_text:
                         data["title"] = best_text
-
-            data["deadline"] = _clean_date_field(data["deadline"])
-            data["published"] = _clean_date_field(data["published"])
 
             found[tender_id] = {
                 "id": tender_url,
@@ -768,6 +749,7 @@ def parse_procurement_kg() -> list[dict]:
     # текста просто нет. Поэтому заходим на каждую карточку через
     # headless-браузер (один инстанс на все карточки, чтобы не
     # запускать браузер по новой на каждый тендер — это было бы долго).
+    diagnosed = 0
     with _BrowserSession() as browser:
         for item in results:
             html = browser.fetch(item["url"])
@@ -777,6 +759,21 @@ def parse_procurement_kg() -> list[dict]:
             item["deadline"] = deadline
             if published:
                 item["published"] = published
+
+            # Временная диагностика: если дату не нашли, логируем кусок
+            # реального текста страницы вокруг слова "срок", чтобы
+            # увидеть точную формулировку на сайте (и после этого можно
+            # будет убрать этот блок). Не больше пары тендеров за
+            # прогон, чтобы не засорять лог.
+            if not deadline and html and diagnosed < 2:
+                diagnosed += 1
+                text = BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+                m = re.search(r".{0,60}срок.{0,80}", text, re.IGNORECASE)
+                log.info(
+                    "ДИАГНОСТИКА procurement.kg (%s): текст вокруг 'срок': %r",
+                    item["url"],
+                    m.group(0) if m else "(слово 'срок' на странице не найдено)",
+                )
 
     return results
 
@@ -924,6 +921,29 @@ def _parse_goszakupki_results(tender: dict) -> dict:
     return {"winner": winner, "participants": participants}
 
 
+_DATE_START_RE = re.compile(r"\d{1,2}\.\d{1,2}\.\d{4}|\d{4}-\d{2}-\d{2}")
+
+
+def clean_deadline_display(text: str | None) -> str | None:
+    """
+    Для отображения (в письмах, в отчёте). Некоторые площадки
+    приклеивают к дате хвост метки поля (например, zakupki.gov.kg:
+    "Срок подачи предложений ОТ ПОСТАВЩИКОВ" + дата, и после
+    отрезания только начала метки остаётся "поставщиков21.10.2026").
+    Вместо того чтобы перечислять варианты формулировок — просто
+    находим, где начинается сама дата, и отбрасываем всё до неё.
+    Применяется централизованно в run() для КАЖДОГО тендера на
+    КАЖДОМ прогоне (не только в момент первого обнаружения), чтобы
+    однажды сохранённые "грязные" значения тоже со временем
+    почистились, даже если источник больше не присылает этот тендер
+    в свежем списке.
+    """
+    if not text:
+        return text
+    m = _DATE_START_RE.search(text)
+    return text[m.start():].strip() if m else text
+
+
 def parse_deadline_to_date(raw: str | None) -> str | None:
     """
     Пытается вытащить дату из строки срока подачи заявок (формат на
@@ -1052,6 +1072,7 @@ def run() -> None:
             # Новый тендер
             t["first_seen"] = now
             t["notified"] = False
+            t["deadline"] = clean_deadline_display(t.get("deadline"))
             t["deadline_date"] = parse_deadline_to_date(t.get("deadline"))
             db[tid] = t
             new_tenders.append(t)
@@ -1059,8 +1080,13 @@ def run() -> None:
 
         # Тендер уже известен — обновляем срок на случай, если он
         # изменился (например, продлили приём заявок), и проверяем
-        # изменение статуса
-        existing["deadline"] = t.get("deadline") or existing.get("deadline")
+        # изменение статуса. clean_deadline_display() применяется
+        # каждый раз (а не только при первом обнаружении), чтобы
+        # когда-то сохранённые "грязные" значения тоже со временем
+        # почистились.
+        existing["deadline"] = clean_deadline_display(
+            t.get("deadline") or existing.get("deadline")
+        )
         existing["deadline_date"] = parse_deadline_to_date(existing.get("deadline"))
         old_status = existing.get("status")
         new_status = t["status"]
