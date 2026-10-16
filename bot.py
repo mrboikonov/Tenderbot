@@ -48,6 +48,16 @@ try:
 except ImportError:
     pass
 
+try:
+    # Опционально: нужен только для вкладки cid=2 на zakupki.gov.kg,
+    # см. _fetch_html_with_browser(). Если Playwright или сам браузер
+    # не установлены — просто пропускаем эту одну вкладку, остальной
+    # бот продолжает работать как обычно.
+    from playwright.sync_api import sync_playwright
+    _PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    _PLAYWRIGHT_AVAILABLE = False
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -226,6 +236,83 @@ def _get_soup(
             client.close()
 
 
+class _BrowserSession:
+    """
+    Переиспользуемая сессия headless-браузера (Chromium через
+    Playwright) для сайтов/страниц, которые не отдают нужный контент
+    обычному requests-запросу — либо потому, что контент дорисовывается
+    через JavaScript (SPA), либо потому, что сайт как-то отличает
+    запрос библиотеки requests от запроса настоящего браузера
+    (например, по отпечатку TLS/HTTP) и блокирует именно его.
+
+    Используется как контекстный менеджер, чтобы при запросе МНОГИХ
+    страниц подряд (например, карточек тендеров на procurement.kg)
+    браузер запускался один раз, а не на каждую страницу отдельно —
+    это было бы слишком медленно:
+
+        with _BrowserSession() as browser:
+            html1 = browser.fetch(url1)
+            html2 = browser.fetch(url2)
+
+    Если Playwright или сам браузер не установлены — fetch() просто
+    возвращает None для всех запросов, не прерывая остальную работу
+    бота.
+    """
+
+    def __init__(self) -> None:
+        self._pw = None
+        self._browser = None
+        self._context = None
+
+    def __enter__(self) -> "_BrowserSession":
+        if not _PLAYWRIGHT_AVAILABLE:
+            log.warning("Playwright не установлен — запросы через браузер пропускаются.")
+            return self
+        try:
+            self._pw = sync_playwright().start()
+            self._browser = self._pw.chromium.launch(headless=True)
+            self._context = self._browser.new_context(
+                user_agent=REQUEST_HEADERS["User-Agent"],
+                locale="ru-RU",
+            )
+        except Exception as e:
+            log.error("Не удалось запустить headless-браузер: %s", e)
+            self.close()
+        return self
+
+    def fetch(self, url: str) -> str | None:
+        if self._context is None:
+            return None
+        try:
+            page = self._context.new_page()
+            try:
+                page.goto(url, timeout=30000, wait_until="networkidle")
+                return page.content()
+            finally:
+                page.close()
+        except Exception as e:
+            log.error("Ошибка запроса через браузер %s: %s", url, e)
+            return None
+
+    def close(self) -> None:
+        try:
+            if self._browser:
+                self._browser.close()
+        except Exception:
+            pass
+        try:
+            if self._pw:
+                self._pw.stop()
+        except Exception:
+            pass
+        self._browser = None
+        self._context = None
+        self._pw = None
+
+    def __exit__(self, *exc_info) -> None:
+        self.close()
+
+
 def _get_json(url: str, referer: str | None = None) -> dict | list | None:
     """Как _get_soup, но для JSON API-эндпоинтов (без HTML-парсинга)."""
     domain = re.sub(r"^https?://(www\.)?", "", url).split("/")[0]
@@ -305,9 +392,38 @@ def parse_zakupki_gov_kg() -> list[dict]:
                 return key, cell_text[len(label):].lstrip(" :\t").strip()
         return None
 
-    def _parse_list(url: str, fresh_session: bool = False) -> dict[str, dict]:
-        """Возвращает {tender_id: {...}} для страницы списка объявлений."""
-        soup = _get_soup(url, referer=list_url, fresh_session=fresh_session)
+    _DATE_START_RE = re.compile(r"\d{1,2}\.\d{1,2}\.\d{4}|\d{4}-\d{2}-\d{2}")
+
+    def _clean_date_field(text: str) -> str:
+        """
+        Реальная метка на сайте иногда длиннее, чем наш LABEL_MAP
+        (например, "Срок подачи предложений ОТ ПОСТАВЩИКОВ" вместо
+        просто "Срок подачи предложений") — тогда хвост метки
+        ("от поставщиков") остаётся приклеенным к дате. Вместо того,
+        чтобы перечислять все варианты формулировок, просто находим в
+        тексте, где начинается сама дата, и отбрасываем всё до неё.
+        """
+        if not text:
+            return text
+        m = _DATE_START_RE.search(text)
+        return text[m.start():].strip() if m else text
+
+    def _parse_list(
+        url: str,
+        fresh_session: bool = False,
+        referer: str | None = list_url,
+        html: str | None = None,
+    ) -> dict[str, dict]:
+        """
+        Возвращает {tender_id: {...}} для страницы списка объявлений.
+        Если передан html — парсит его напрямую (не делая запроса),
+        для случая, когда страница уже была получена через браузер.
+        """
+        soup = (
+            BeautifulSoup(html, "html.parser")
+            if html is not None
+            else _get_soup(url, referer=referer, fresh_session=fresh_session)
+        )
         found: dict[str, dict] = {}
         if not soup:
             return found
@@ -344,6 +460,9 @@ def parse_zakupki_gov_kg() -> list[dict]:
                     if best_text:
                         data["title"] = best_text
 
+            data["deadline"] = _clean_date_field(data["deadline"])
+            data["published"] = _clean_date_field(data["published"])
+
             found[tender_id] = {
                 "id": tender_url,
                 "url": tender_url,
@@ -356,13 +475,15 @@ def parse_zakupki_gov_kg() -> list[dict]:
         return found
 
     active = _parse_list(list_url)
-    # cid=2 запрашиваем отдельной "чистой" сессией (без cookies от
-    # запроса обычного списка выше) — сайт на JSF/PrimeFaces, и
-    # серверное ViewState, привязанное к сессии первого запроса,
-    # приводило к 500-й ошибке при запросе второй вкладки в той же
-    # сессии (подтверждено: ошибка повторялась и с облачного, и с
-    # домашнего IP, то есть дело не в блокировке по IP).
-    active_cid2 = _parse_list(list_url_cid2, fresh_session=True)
+
+    # cid=2 стабильно падает с 500 при обычном requests-запросе —
+    # проверено с разными IP, сессиями и заголовками (см. _BrowserSession).
+    # Получаем эту вкладку через headless-браузер; если Playwright
+    # недоступен или сам запрос не удался — просто пропускаем эту
+    # вкладку, остальное не страдает.
+    with _BrowserSession() as browser:
+        cid2_html = browser.fetch(list_url_cid2)
+    active_cid2 = _parse_list(list_url_cid2, html=cid2_html) if cid2_html else {}
     for tender_id, data in active_cid2.items():
         if tender_id not in active:
             active[tender_id] = data
@@ -589,18 +710,9 @@ _PROCUREMENT_PUBLISHED_RE = re.compile(
 )
 
 
-def _fetch_procurement_detail(url: str) -> tuple[str, str]:
-    """
-    На странице списка procurement.kg срока подачи нет (там только дата
-    публикации) — он есть только на странице конкретного тендера, в
-    поле "Срок подачи" (проверено вручную 2026-10-15). Поэтому для
-    фильтрации по актуальности заходим на каждую карточку отдельно.
-    Возвращает (deadline, published) как есть в тексте страницы, либо
-    ("", "") если не удалось получить/распознать.
-    """
-    soup = _get_soup(url, referer="https://procurement.kg")
-    if not soup:
-        return "", ""
+def _extract_procurement_deadline(html: str) -> tuple[str, str]:
+    """Вытаскивает (deadline, published) из HTML страницы тендера."""
+    soup = BeautifulSoup(html, "html.parser")
     text = soup.get_text(" ", strip=True)
 
     deadline, published = "", ""
@@ -650,14 +762,21 @@ def parse_procurement_kg() -> list[dict]:
         })
 
     # Срок подачи забираем с каждой отдельной страницы тендера (на
-    # списке его нет). Небольшая пауза между запросами, чтобы не
-    # бомбардировать сайт десятками запросов подряд.
-    for item in results:
-        deadline, published = _fetch_procurement_detail(item["url"])
-        item["deadline"] = deadline
-        if published:
-            item["published"] = published
-        time.sleep(0.3)
+    # списке его нет). Обычный requests-запрос эту страницу вернул, но
+    # поле "Срок подачи" на ней не нашлось — похоже, детальная страница
+    # дорисовывается через JavaScript (SPA) и в "сыром" HTML этого
+    # текста просто нет. Поэтому заходим на каждую карточку через
+    # headless-браузер (один инстанс на все карточки, чтобы не
+    # запускать браузер по новой на каждый тендер — это было бы долго).
+    with _BrowserSession() as browser:
+        for item in results:
+            html = browser.fetch(item["url"])
+            deadline, published = (
+                _extract_procurement_deadline(html) if html else ("", "")
+            )
+            item["deadline"] = deadline
+            if published:
+                item["published"] = published
 
     return results
 
