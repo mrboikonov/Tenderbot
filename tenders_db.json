@@ -909,6 +909,19 @@
     "title": "Услуги по ремонту, техническому обслуживанию компьютеров, оргтехники и заправке картриджей .\nКомпьютерлерди, оргтехниканы оңдоо, техникалык жактан тейлөө жана картридждерди толтуруу кызматтары",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ad0c27ae8c3654b750e3b67?tab=tender"
   },
+  "goszakupki:6ad1a510e8c3654b750e3c56": {
+    "customer": "Высшая школа правосудия при Верховном суде Кыргызской Республики",
+    "deadline": "2026-10-21 13:30",
+    "deadline_date": "2026-10-21",
+    "first_seen": "2026-10-16T08:56:34.197213+00:00",
+    "id": "goszakupki:6ad1a510e8c3654b750e3c56",
+    "notified": true,
+    "published": "2026-10-16 13:22",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Специальные Оргтехника для сотрудников",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad1a510e8c3654b750e3c56?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline_date": null,
     "first_seen": "2026-09-16T11:58:09.577178+00:00",
