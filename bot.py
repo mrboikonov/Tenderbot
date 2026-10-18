@@ -981,7 +981,9 @@ def clean_deadline_display(text: str | None) -> str | None:
     if not text:
         return text
     m = _DATE_START_RE.search(text)
-    return text[m.start():].strip() if m else text
+    out = text[m.start():].strip() if m else text
+    # "26.10.202611:00:00" -> "26.10.2026 11:00:00"
+    return re.sub(r"(\d{1,2}\.\d{1,2}\.\d{4})(\d{1,2}:\d{2})", r"\1 \2", out)
 
 
 def parse_deadline_to_date(raw: str | None) -> str | None:
@@ -1086,6 +1088,44 @@ def render_tender_html(t: dict) -> str:
 # Основная логика одного прогона
 # ---------------------------------------------------------------------------
 
+def backfill_tenders_kg_deadlines(db: dict, max_per_run: int = 80) -> None:
+    """Дозаполняет срок подачи у старых записей tenders.kg (карточка через залогиненную сессию)."""
+    todo = [
+        t for t in db.values()
+        if t.get("source") == "tenders.kg"
+        and not t.get("deadline")
+        and t.get("deadline_attempts", 0) < 3
+    ][:max_per_run]
+    if not todo:
+        return
+    log.info("Дозаполняю срок подачи для %d старых тендеров tenders.kg...", len(todo))
+    fails = 0
+    diagnosed = 0
+    for t in todo:
+        card = _get_soup(t["url"], referer="https://www.tenders.kg/")
+        if not card:
+            fails += 1
+            if fails >= 3:
+                log.warning("3 сбоя подряд при дозаполнении tenders.kg — прекращаю.")
+                break
+            continue
+        fails = 0
+        text = card.get_text(" ", strip=True)
+        m = _GENERIC_DEADLINE_RE.search(text)
+        if m:
+            t["deadline"] = m.group(1)
+            t["deadline_date"] = parse_deadline_to_date(m.group(1))
+        else:
+            t["deadline_attempts"] = t.get("deadline_attempts", 0) + 1
+            if diagnosed < 2:
+                diagnosed += 1
+                snippets = re.findall(
+                    r".{0,50}(?:срок|оконч|приём|прием).{0,90}", text, re.IGNORECASE
+                )[:3]
+                log.info("ДИАГНОСТИКА tenders.kg backfill (%s): %r", t["url"], snippets)
+        time.sleep(0.3)
+
+
 def backfill_procurement_deadlines(db: dict, max_per_run: int = 40) -> None:
     """
     Дозаполняет срок подачи для старых записей procurement.kg, которые
@@ -1136,6 +1176,8 @@ def run() -> None:
         rec["deadline"] = clean_deadline_display(rec.get("deadline"))
         rec["deadline_date"] = parse_deadline_to_date(rec.get("deadline"))
 
+    if any(t.get("source") == "tenders.kg" for t in found_tenders):
+        backfill_tenders_kg_deadlines(db)
     if any(t.get("source") == "procurement.kg" for t in found_tenders):
         backfill_procurement_deadlines(db)
 
