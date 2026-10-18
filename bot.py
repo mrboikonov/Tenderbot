@@ -286,7 +286,16 @@ class _BrowserSession:
         try:
             page = self._context.new_page()
             try:
-                page.goto(url, timeout=30000, wait_until="networkidle")
+                # "networkidle" ждёт полной тишины в сети, но на
+                # некоторых сайтах (замечено на procurement.kg) всегда
+                # есть фоновый трафик (аналитика, поллинг), и такой
+                # тишины никогда не наступает - запрос тогда висит до
+                # таймаута впустую. "domcontentloaded" срабатывает
+                # сразу после построения DOM, а короткая пауза следом
+                # даёт время JS дорисовать контент, не дожидаясь, пока
+                # сайт замолчит полностью.
+                page.goto(url, timeout=20000, wait_until="domcontentloaded")
+                page.wait_for_timeout(1500)
                 return page.content()
             finally:
                 page.close()
@@ -571,6 +580,32 @@ def parse_tenders_kg() -> list[dict]:
             "source": "tenders.kg",
             "status": STATUS_ACTIVE,
         })
+
+    # На странице списка срока подачи нет — заходим в карточку каждого
+    # тендера (через уже залогиненную SESSION). Точная формулировка поля
+    # на сайте нам пока неизвестна, поэтому ищем по нескольким вариантам
+    # и для первых двух карточек пишем в лог реальный текст вокруг слов
+    # "срок/оконч/приём" — по нему можно будет уточнить регулярку.
+    diagnosed = 0
+    for item in results:
+        card = _get_soup(item["url"], referer=list_url)
+        deadline = ""
+        if card:
+            text = card.get_text(" ", strip=True)
+            m = _GENERIC_DEADLINE_RE.search(text)
+            if m:
+                deadline = m.group(1)
+            elif diagnosed < 2:
+                diagnosed += 1
+                snippets = re.findall(
+                    r".{0,50}(?:срок|оконч|приём|прием).{0,90}", text, re.IGNORECASE
+                )[:3]
+                log.info(
+                    "ДИАГНОСТИКА tenders.kg (%s): срок не найден, текст рядом: %r",
+                    item["url"], snippets,
+                )
+        item["deadline"] = deadline
+        time.sleep(0.3)
     return results
 
 
@@ -683,6 +718,11 @@ def parse_goszakupki_okmot_kg() -> list[dict]:
     return results
 
 
+_GENERIC_DEADLINE_RE = re.compile(
+    r"(?:срок\s+подачи|окончани[ея]\s+прие[мм]а|крайний\s+срок|дата\s+окончания"
+    r"|прие[мм]\s+заявок\s+до|подача\s+заявок\s+до)[^\d]{0,40}(\d{2}\.\d{2}\.\d{4})",
+    re.IGNORECASE,
+)
 _PROCUREMENT_DEADLINE_RE = re.compile(
     r"срок\s+подачи[^\d]{0,20}(\d{2}\.\d{2}\.\d{4})", re.IGNORECASE
 )
@@ -1046,11 +1086,58 @@ def render_tender_html(t: dict) -> str:
 # Основная логика одного прогона
 # ---------------------------------------------------------------------------
 
+def backfill_procurement_deadlines(db: dict, max_per_run: int = 40) -> None:
+    """
+    Дозаполняет срок подачи для старых записей procurement.kg, которые
+    попали в базу до того, как бот научился читать срок с карточки.
+    Вызывается только если procurement.kg в этом запуске реально
+    отдал результаты (т.е. запуск локальный, не из заблокированного
+    облака). deadline_attempts ограничивает число попыток на запись.
+    """
+    todo = [
+        t for t in db.values()
+        if t.get("source") == "procurement.kg"
+        and not t.get("deadline")
+        and t.get("deadline_attempts", 0) < 3
+    ][:max_per_run]
+    if not todo:
+        return
+    log.info("Дозаполняю срок подачи для %d старых тендеров procurement.kg...", len(todo))
+    fails = 0
+    with _BrowserSession() as browser:
+        for t in todo:
+            html = browser.fetch(t["url"])
+            if not html:
+                fails += 1
+                if fails >= 3:
+                    log.warning("3 сбоя подряд при дозаполнении — прекращаю.")
+                    break
+                continue
+            fails = 0
+            deadline, published = _extract_procurement_deadline(html)
+            if deadline:
+                t["deadline"] = deadline
+                t["deadline_date"] = parse_deadline_to_date(deadline)
+                if published:
+                    t["published"] = published
+            else:
+                t["deadline_attempts"] = t.get("deadline_attempts", 0) + 1
+
+
 def run() -> None:
     db = load_db()
     now = datetime.now(timezone.utc).isoformat()
 
     found_tenders = fetch_all_tenders()
+
+    # Миграция: чистим и пересчитываем сроки у ВСЕХ записей в базе
+    # (старые строки бывают "склеенными", напр. "поставщиков21.10.2026").
+    for rec in db.values():
+        rec["deadline"] = clean_deadline_display(rec.get("deadline"))
+        rec["deadline_date"] = parse_deadline_to_date(rec.get("deadline"))
+
+    if any(t.get("source") == "procurement.kg" for t in found_tenders):
+        backfill_procurement_deadlines(db)
 
     new_tenders = []
     cancelled_alerts = []
