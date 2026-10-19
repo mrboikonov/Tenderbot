@@ -948,6 +948,32 @@
     "title": "Абды Суеркулов айыл аймагына караштуу Торкен айылынын Ашыралиев мектебинин жылуулук системасын орнотууга смета даярдоо кызматын сатып алуу",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ad216d4e8c3654b750e3e62?tab=tender"
   },
+  "goszakupki:6ad5e3d70e9c736ce7f0b4a4": {
+    "customer": "Учреждение Айыл окмоту айылного аймака Кетмен-Добо",
+    "deadline": "2026-10-22 16:05",
+    "deadline_date": "2026-10-22",
+    "first_seen": "2026-10-19T10:23:50.321439+00:00",
+    "id": "goszakupki:6ad5e3d70e9c736ce7f0b4a4",
+    "notified": true,
+    "published": "2026-10-19 16:00",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Подготовка сметной документации на капитальный ремонт 3 музеев и 1 ФАП",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad5e3d70e9c736ce7f0b4a4?tab=tender"
+  },
+  "goszakupki:6ad5e5840e9c736ce7f0b4ad": {
+    "customer": "Учреждение Айыл окмоту айылного аймака Кетмен-Добо",
+    "deadline": "2026-10-22 16:00",
+    "deadline_date": "2026-10-22",
+    "first_seen": "2026-10-19T10:23:50.321439+00:00",
+    "id": "goszakupki:6ad5e5840e9c736ce7f0b4ad",
+    "notified": true,
+    "published": "2026-10-19 15:45",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка сметной документации на капитальный ремонт фасада и кровли здания айыл окмоту Кетмен-Добо",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad5e5840e9c736ce7f0b4ad?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
