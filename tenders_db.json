@@ -2919,5 +2919,17 @@
     "status": "Активен",
     "title": "Приобретение мебели, офисного оборудования и хозяйственного инвентаря",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611743232"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611752084": {
+    "customer": "Муниципальная территориальная управление №103",
+    "deadline": "23.10.2026 14:00",
+    "deadline_date": "2026-10-23",
+    "first_seen": "2026-10-19T05:02:05.138718+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611752084",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Поставка и монтаж системы видеонаблюдения в жилом массиве Ак-Ордо города Бишкек (Стимгрант)",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611752084"
   }
 }
