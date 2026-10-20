@@ -1768,6 +1768,42 @@
     "title": "Видеонаблюдение с установкой",
     "url": "https://procurement.kg/tenders/1156394"
   },
+  "https://procurement.kg/tenders/1156758": {
+    "deadline": "26.10.2026",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-10-20T14:51:27.980280+00:00",
+    "id": "https://procurement.kg/tenders/1156758",
+    "notified": true,
+    "published": "20.10.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Страхование сотрудников проекта КОФПИ и служебного автомобиля (тендер-3)",
+    "url": "https://procurement.kg/tenders/1156758"
+  },
+  "https://procurement.kg/tenders/1156786": {
+    "deadline": "23.10.2026",
+    "deadline_date": "2026-10-23",
+    "first_seen": "2026-10-20T14:51:27.980280+00:00",
+    "id": "https://procurement.kg/tenders/1156786",
+    "notified": true,
+    "published": "20.10.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуга по видеопроизводству и проведению конкурса инновационных проектов в рамках проекта «Кыргызский язык — мост дружбы»",
+    "url": "https://procurement.kg/tenders/1156786"
+  },
+  "https://procurement.kg/tenders/1156789": {
+    "deadline": "30.10.2026",
+    "deadline_date": "2026-10-30",
+    "first_seen": "2026-10-20T14:51:27.980280+00:00",
+    "id": "https://procurement.kg/tenders/1156789",
+    "notified": true,
+    "published": "20.10.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "«Подготовка проектно-сметной документации на реконструкцию системы отопления административного здания мэрии города Сулюкта».",
+    "url": "https://procurement.kg/tenders/1156789"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -2636,6 +2672,17 @@
     "status": "Активен",
     "title": "№32304. Приобретение компьютерной техники и оборудования для реализации проекта Erasmus+ D-TIDE-KG",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32304"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32344": {
+    "deadline": "27.10.2026",
+    "deadline_date": "2026-10-27",
+    "first_seen": "2026-10-20T14:51:27.980280+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32344",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32344. Услуги технического надзора за проектом «Строительство селеуловителей на участках «Чон-Чыргайлуу», «Тош-Булак», «Бейшеналиев» и «Жетиген» в г. Нарын в рамках Программы «Укрепление устойчивости города Нарын» (НУРП)",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32344"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
