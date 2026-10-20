@@ -987,6 +987,32 @@
     "title": "Видеонаблюдение с установкой",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ad5e8e80e9c736ce7f0b4c6?tab=tender"
   },
+  "goszakupki:6ad6ee520e9c736ce7f0b698": {
+    "customer": "Департамент транспорта и развития дорожно-транспортной инфраструктуры мэрии г. Бишкек  ",
+    "deadline": "2026-10-23 17:30",
+    "deadline_date": "2026-10-23",
+    "first_seen": "2026-10-20T09:43:11.945947+00:00",
+    "id": "goszakupki:6ad6ee520e9c736ce7f0b698",
+    "notified": true,
+    "published": "2026-10-20 11:07",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Косметический ремонт здания и ремонт отопительной системы",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad6ee520e9c736ce7f0b698?tab=tender"
+  },
+  "goszakupki:6ad72d8e0e9c736ce7f0b79c": {
+    "customer": "Учреждение Центр семейной медицины № 6 г. Бишкек",
+    "deadline": "2026-10-23 15:15",
+    "deadline_date": "2026-10-23",
+    "first_seen": "2026-10-20T09:43:11.945947+00:00",
+    "id": "goszakupki:6ad72d8e0e9c736ce7f0b79c",
+    "notified": true,
+    "published": "2026-10-20 15:06",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуга по проектированию сметного документа и инжиниринга",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad72d8e0e9c736ce7f0b79c?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -2910,6 +2936,18 @@
     "status": "Активен",
     "title": "Приобретение мебели для детских садов",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610782228"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610836696": {
+    "customer": "Отдел социальной защиты , г. Кызыл-Кия",
+    "deadline": "23.10.2026 16:46",
+    "deadline_date": "2026-10-23",
+    "first_seen": "2026-10-20T09:43:11.945947+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610836696",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Смета для отопления",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=610836696"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611102716": {
     "customer": "Национальный центр онкологии и гематологии при Министерстве Здравоохранения КР",
