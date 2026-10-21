@@ -1013,6 +1013,45 @@
     "title": "Услуга по проектированию сметного документа и инжиниринга",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ad72d8e0e9c736ce7f0b79c?tab=tender"
   },
+  "goszakupki:6ad84d110e9c736ce7f0b9b2": {
+    "customer": "Учреждение Департамент капитального строительства",
+    "deadline": "2026-10-26 15:00",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-10-21T09:44:40.300417+00:00",
+    "id": "goszakupki:6ad84d110e9c736ce7f0b9b2",
+    "notified": true,
+    "published": "2026-10-21 11:28",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка проектно-сметной документации на «Строительство пешеходно-смотровой дорожки из легких металлических конструкций к Стелле «Манас» протяженностью 1650 м».",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad84d110e9c736ce7f0b9b2?tab=tender"
+  },
+  "goszakupki:6ad868190e9c736ce7f0ba06": {
+    "customer": "Учреждение Айыл окмоту айылного аймака Кетмен-Добо",
+    "deadline": "2026-10-26 14:00",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-10-21T09:44:40.300417+00:00",
+    "id": "goszakupki:6ad868190e9c736ce7f0ba06",
+    "notified": true,
+    "published": "2026-10-21 13:36",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Установка видеонаблюдения 360 с комплектующими изделиями для школа им.Ж.Тоялиева №41 а/а Кетмен-Добо",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad868190e9c736ce7f0ba06?tab=tender"
+  },
+  "goszakupki:6ad87bbd0e9c736ce7f0ba67": {
+    "customer": "Учреждение Мырза-Акинский центр общей врачебной практики",
+    "deadline": "2026-10-26 15:10",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-10-21T09:44:40.300417+00:00",
+    "id": "goszakupki:6ad87bbd0e9c736ce7f0ba67",
+    "notified": true,
+    "published": "2026-10-21 15:02",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Смета түзүүнү сатып алуу (повтор)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad87bbd0e9c736ce7f0ba67?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -3103,5 +3142,41 @@
     "status": "Активен",
     "title": "Поставка и монтаж системы видеонаблюдения в жилом массиве Ак-Ордо города Бишкек (Стимгрант)",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=611752084"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=612126919": {
+    "customer": "Учебно-воспитательный комплекс школа гимназия № 95",
+    "deadline": "26.10.2026 13:19",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-10-21T09:44:40.300417+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=612126919",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение канцелярских товаров и прочей мебели для СОШ №95 на 2026г",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=612126919"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=613749868": {
+    "customer": "Сузакский районный отдел культуры",
+    "deadline": "26.10.2026 16:59",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-10-21T09:44:40.300417+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=613749868",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "автомобиль, экран для проектора, кондиционер",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=613749868"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=613765232": {
+    "customer": "Учреждение \"Айыл окмоту Тилектешского айылного аймака\"",
+    "deadline": "26.10.2026 15:38",
+    "deadline_date": "2026-10-26",
+    "first_seen": "2026-10-21T09:44:40.300417+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=613765232",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Тилектеш айыл аймагындагы Жаңы-Турмуш маданият үйүнүн кап.ремонтунун жана Сатиев мектебинин кап.ремонтунун сметасын жасоо",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=613765232"
   }
 }
