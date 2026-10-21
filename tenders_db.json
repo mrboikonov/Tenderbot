@@ -1867,6 +1867,30 @@
     "title": "Лот № 1 ТМЦ для оргтехники согласно тех. спецификации и перечню",
     "url": "https://procurement.kg/tenders/1156857"
   },
+  "https://procurement.kg/tenders/1156955": {
+    "deadline": "28.10.2026",
+    "deadline_date": "2026-10-28",
+    "first_seen": "2026-10-21T14:00:04.553512+00:00",
+    "id": "https://procurement.kg/tenders/1156955",
+    "notified": true,
+    "published": "21.10.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "142. Строительные материалы, химическая добавка для бетона, ПГУ ЗУ, насосы, вентиляции, поливной шланг, оконные комплектация, ЖБИ-изделия, электротовары, лакокрасочные материалы, мусорный контейнер (21, 24, 31, 8, Завод-ПМК)",
+    "url": "https://procurement.kg/tenders/1156955"
+  },
+  "https://procurement.kg/tenders/1156977": {
+    "deadline": "27.10.2026",
+    "deadline_date": "2026-10-27",
+    "first_seen": "2026-10-21T14:00:04.553512+00:00",
+    "id": "https://procurement.kg/tenders/1156977",
+    "notified": true,
+    "published": "21.10.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Закупка и установка камер видеонаблюдения",
+    "url": "https://procurement.kg/tenders/1156977"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -2746,6 +2770,28 @@
     "status": "Активен",
     "title": "№32344. Услуги технического надзора за проектом «Строительство селеуловителей на участках «Чон-Чыргайлуу», «Тош-Булак», «Бейшеналиев» и «Жетиген» в г. Нарын в рамках Программы «Укрепление устойчивости города Нарын» (НУРП)",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32344"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32356": {
+    "deadline": "04.11.2026",
+    "deadline_date": "2026-11-04",
+    "first_seen": "2026-10-21T14:00:04.553512+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32356",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32356. Отдел реализации проекта Исламского банка развития SmartEd при Министерстве просвещения Кыргызской Республики объявляет конкурс на замещение вакантной позиции: 1. Водитель – прилагается техническое задание",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32356"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32358": {
+    "deadline": "28.10.2026",
+    "deadline_date": "2026-10-28",
+    "first_seen": "2026-10-21T14:00:04.553512+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32358",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32358. Консультанта по разработке учебно-методического комплекса (УМК) по внедрению человеко-ориентированного проектирования",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32358"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
