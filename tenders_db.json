@@ -1052,6 +1052,58 @@
     "title": "Смета түзүүнү сатып алуу (повтор)",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ad87bbd0e9c736ce7f0ba67?tab=tender"
   },
+  "goszakupki:6ad992a00e9c736ce7f0bbee": {
+    "customer": "Учреждение Айыл окмоту Терек-Сайского айылного аймака",
+    "deadline": "2026-10-27 16:35",
+    "deadline_date": "2026-10-27",
+    "first_seen": "2026-10-22T09:46:00.589527+00:00",
+    "id": "goszakupki:6ad992a00e9c736ce7f0bbee",
+    "notified": true,
+    "published": "2026-10-22 13:32",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Проведение поливной водопроводной линии в с.Кызыл-Токой на ул.Агартуу и Ынтымак (ПРОДОЛЖЕНИЕ РАНЕЕ НАЧАТЫХ РАБОТ ДОП.РАБОТА) Учреждение \"Айыл окмоту Терек-Сайского айылного аймака\"",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad992a00e9c736ce7f0bbee?tab=tender"
+  },
+  "goszakupki:6ad9bc30e2d3860eab65b040": {
+    "customer": "Кыргыз-Ата айыл окмоту",
+    "deadline": "2026-10-28 09:00",
+    "deadline_date": "2026-10-28",
+    "first_seen": "2026-10-22T09:46:00.589527+00:00",
+    "id": "goszakupki:6ad9bc30e2d3860eab65b040",
+    "notified": true,
+    "published": "2026-10-22 13:37",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Кыргыз-Ата айыл өкмөтүнүн кызматкерлерине оргтехника жабдууларын (жабдууларын) сатып алуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad9bc30e2d3860eab65b040?tab=tender"
+  },
+  "goszakupki:6ad9c6c0e2d3860eab65b069": {
+    "customer": "Учреждение Айыл окмоту Т.Балтагуловского айылного аймака",
+    "deadline": "2026-10-27 17:00",
+    "deadline_date": "2026-10-27",
+    "first_seen": "2026-10-22T09:46:00.589527+00:00",
+    "id": "goszakupki:6ad9c6c0e2d3860eab65b069",
+    "notified": true,
+    "published": "2026-10-22 14:23",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Т.Балтагулов айыл өкмөтүнө караштуу айылдарга ВППООНго демилгеленген проектилер үчүн керектелүүчү материалдарды сатып алуу.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad9c6c0e2d3860eab65b069?tab=tender"
+  },
+  "goszakupki:6ad9ce3de2d3860eab65b09d": {
+    "customer": "Узун-Кыр айыл окмоту",
+    "deadline": "2026-10-27 16:00",
+    "deadline_date": "2026-10-27",
+    "first_seen": "2026-10-22T09:46:00.589527+00:00",
+    "id": "goszakupki:6ad9ce3de2d3860eab65b09d",
+    "notified": true,
+    "published": "2026-10-22 15:03",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "На приобретение автономных камер видеонаблюдение на солнечной панели для Узун-Кыр а/а Ысык-Атинского района Чуйской области",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ad9ce3de2d3860eab65b09d?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
