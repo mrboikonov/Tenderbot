@@ -1968,6 +1968,17 @@
     "title": "Башка чыгымдар (Проектно-сметной документации на строительство мини футбольного поля в селе Турк-Абад, С.Атабековского айыл өкмөтү)",
     "url": "https://procurement.kg/tenders/1157456"
   },
+  "https://procurement.kg/tenders/1157889": {
+    "deadline": "",
+    "deadline_date": null,
+    "first_seen": "2026-10-23T03:01:24.428566+00:00",
+    "id": "https://procurement.kg/tenders/1157889",
+    "notified": true,
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг по обслуживанию компьютеров и оргтехники",
+    "url": "https://procurement.kg/tenders/1157889"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -2870,6 +2881,17 @@
     "title": "№32358. Консультанта по разработке учебно-методического комплекса (УМК) по внедрению человеко-ориентированного проектирования",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32358"
   },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32376": {
+    "deadline": "29.10.2026",
+    "deadline_date": "2026-10-29",
+    "first_seen": "2026-10-23T03:01:24.428566+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32376",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32376. ЗАО «Межбанковский Процессинговый Центр» проводит конкурс методом неограниченного участия для приобретения газовых котлов и электрического котла, а также всех комплектующих для реализации теплого пункта согласно проекту с установкой (повторно)",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32376"
+  },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
     "deadline": "22.09.2026 14:00",
@@ -3301,5 +3323,17 @@
     "status": "Активен",
     "title": "Тилектеш айыл аймагындагы Жаңы-Турмуш маданият үйүнүн кап.ремонтунун жана Сатиев мектебинин кап.ремонтунун сметасын жасоо",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=613765232"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=614528240": {
+    "customer": "У-е  Достук айыл окмоту айылного аймака Достук Аламудунского района Чуйской области",
+    "deadline": "28.10.2026 09:00",
+    "deadline_date": "2026-10-28",
+    "first_seen": "2026-10-23T03:01:24.428566+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=614528240",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг по обслуживанию компьютеров и оргтехники",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=614528240"
   }
 }
