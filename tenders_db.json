@@ -1969,11 +1969,12 @@
     "url": "https://procurement.kg/tenders/1157456"
   },
   "https://procurement.kg/tenders/1157889": {
-    "deadline": "",
-    "deadline_date": null,
+    "deadline": "28.10.2026",
+    "deadline_date": "2026-10-28",
     "first_seen": "2026-10-23T03:01:24.428566+00:00",
     "id": "https://procurement.kg/tenders/1157889",
     "notified": true,
+    "published": "23.10.2026",
     "source": "procurement.kg",
     "status": "Активен",
     "title": "Приобретение услуг по обслуживанию компьютеров и оргтехники",
