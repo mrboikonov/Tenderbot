@@ -1182,6 +1182,32 @@
     "title": "Услуга по проектированию сметного документа и инжиниринга",
     "url": "https://goszakupki.okmot.kg/public/order/view/6adb2a1be2d3860eab65b33e?tab=tender"
   },
+  "goszakupki:6adb37eee2d3860eab65b392": {
+    "customer": "Управление Капитального строительства Мэрии г. Ош",
+    "deadline": "2026-10-28 16:45",
+    "deadline_date": "2026-10-28",
+    "first_seen": "2026-10-23T18:55:58.743723+00:00",
+    "id": "goszakupki:6adb37eee2d3860eab65b392",
+    "notified": true,
+    "published": "2026-10-23 16:40",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ош шаарынын Исанов көчөсү №82 дарегинде ачык типтеги футболдук аянтча куруу үчүн долбоордук-сметалык иш кагаздарын иштеп чыгуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6adb37eee2d3860eab65b392?tab=tender"
+  },
+  "goszakupki:6adb3a7de2d3860eab65b3a7": {
+    "customer": "Учреждение Центр семейной медицины № 6 г. Бишкек",
+    "deadline": "2026-10-28 17:30",
+    "deadline_date": "2026-10-28",
+    "first_seen": "2026-10-23T18:55:58.743723+00:00",
+    "id": "goszakupki:6adb3a7de2d3860eab65b3a7",
+    "notified": true,
+    "published": "2026-10-23 16:46",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуга по проектированию сметного документа и инжиниринга",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6adb3a7de2d3860eab65b3a7?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -3435,5 +3461,17 @@
     "status": "Активен",
     "title": "Приобретение услуг по обслуживанию компьютеров и оргтехники",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=614528240"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=614837368": {
+    "customer": "Учреждение  Айыл окмоту айылного аймака Оргочор",
+    "deadline": "29.10.2026 09:00",
+    "deadline_date": "2026-10-29",
+    "first_seen": "2026-10-23T18:55:58.743723+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=614837368",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Услуга по ремонту компьютера и оргтехнику для ДДУ Умай-Эне",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=614837368"
   }
 }
