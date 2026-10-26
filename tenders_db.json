@@ -1208,6 +1208,45 @@
     "title": "Услуга по проектированию сметного документа и инжиниринга",
     "url": "https://goszakupki.okmot.kg/public/order/view/6adb3a7de2d3860eab65b3a7?tab=tender"
   },
+  "goszakupki:6adf0403e2d3860eab65b58b": {
+    "customer": "Ошское региональное управление по градостроительству и архитектуре Государственного агентства архитектуры, строительства и жилищно-коммунального хозяйства при Правительстве Кыргызской Республики",
+    "deadline": "2026-10-29 14:41",
+    "deadline_date": "2026-10-29",
+    "first_seen": "2026-10-26T10:38:35.905007+00:00",
+    "id": "goszakupki:6adf0403e2d3860eab65b58b",
+    "notified": true,
+    "published": "2026-10-26 13:46",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Завершение текущего ремонта организации за 2026 год, также монтаж системы видеонаблюдения  и установка архивных стеллажей",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6adf0403e2d3860eab65b58b?tab=tender"
+  },
+  "goszakupki:6adf11d0e2d3860eab65b5d8": {
+    "customer": "Учреждение ;Территориальная больница Ноокатского района Ошской области&quot;",
+    "deadline": "2026-10-29 15:30",
+    "deadline_date": "2026-10-29",
+    "first_seen": "2026-10-26T10:38:35.905007+00:00",
+    "id": "goszakupki:6adf11d0e2d3860eab65b5d8",
+    "notified": true,
+    "published": "2026-10-26 14:55",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Закупка услуг по ремонту и профилактическое обслуживание оргтехники для ТБ Ноокатского района на 4 квартал 2026-года 1-квартал 2027 год",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6adf11d0e2d3860eab65b5d8?tab=tender"
+  },
+  "goszakupki:6adf1839e2d3860eab65b5f7": {
+    "customer": "Учреждение Департамент капитального строительства",
+    "deadline": "2026-10-30 16:30",
+    "deadline_date": "2026-10-30",
+    "first_seen": "2026-10-26T10:38:35.905007+00:00",
+    "id": "goszakupki:6adf1839e2d3860eab65b5f7",
+    "notified": true,
+    "published": "2026-10-26 15:08",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "На проектирование объекта: «Строительство автодорожного моста и пешеходного перехода через селеотводный канал «Сель-Арык» по улице Ч.Айтматова с выходом на  ул.Манас г. Манас с проведением работ по топографической съемки».",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6adf1839e2d3860eab65b5f7?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
