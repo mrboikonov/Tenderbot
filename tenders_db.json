@@ -3081,6 +3081,17 @@
     "title": "№32376. ЗАО «Межбанковский Процессинговый Центр» проводит конкурс методом неограниченного участия для приобретения газовых котлов и электрического котла, а также всех комплектующих для реализации теплого пункта согласно проекту с установкой (повторно)",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32376"
   },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32425": {
+    "deadline": "09.11.2026",
+    "deadline_date": "2026-11-09",
+    "first_seen": "2026-10-26T14:01:13.525268+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32425",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32425. Услуги по оснащению  зала для проведения тренингов (поставка мебели, оборудования, кондиционера и замена двери) в г. Бишкек.",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32425"
+  },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
     "deadline": "22.09.2026 14:00",
@@ -3548,5 +3559,17 @@
     "status": "Активен",
     "title": "Приобретение услуг инженера-сметчика и технадзора",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=615764197"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=615937147": {
+    "customer": "Учреждение \"Национальная гвардия Вооруженных Сил Кыргызской Республики\"",
+    "deadline": "29.10.2026 18:50",
+    "deadline_date": "2026-10-29",
+    "first_seen": "2026-10-26T14:01:13.525268+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=615937147",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Повторное приобретение настольной музыкальной аппаратуры, комуза, шахмата, проектора и аквариума. Изготовление трибуны для выступления для войсковой части 10127 (260819586992438)",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=615937147"
   }
 }
