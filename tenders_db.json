@@ -1247,6 +1247,19 @@
     "title": "На проектирование объекта: «Строительство автодорожного моста и пешеходного перехода через селеотводный канал «Сель-Арык» по улице Ч.Айтматова с выходом на  ул.Манас г. Манас с проведением работ по топографической съемки».",
     "url": "https://goszakupki.okmot.kg/public/order/view/6adf1839e2d3860eab65b5f7?tab=tender"
   },
+  "goszakupki:6ae0327fe2d3860eab65b781": {
+    "customer": "Учреждение Айыл окмот Тогуз-Булакского айылного аймака",
+    "deadline": "2026-11-02 09:00",
+    "deadline_date": "2026-11-02",
+    "first_seen": "2026-10-27T10:07:25.593101+00:00",
+    "id": "goszakupki:6ae0327fe2d3860eab65b781",
+    "notified": true,
+    "published": "2026-10-27 11:39",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "аткарыла турган жумуштардын смета наркын түзүүгө",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae0327fe2d3860eab65b781?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -3571,5 +3584,17 @@
     "status": "Активен",
     "title": "Повторное приобретение настольной музыкальной аппаратуры, комуза, шахмата, проектора и аквариума. Изготовление трибуны для выступления для войсковой части 10127 (260819586992438)",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=615937147"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=616334401": {
+    "customer": "У-е Центр общеврачебной практики Ак-Суйского района Иссык-Кульской области",
+    "deadline": "30.10.2026 16:30",
+    "deadline_date": "2026-10-30",
+    "first_seen": "2026-10-27T10:07:25.593101+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=616334401",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Установка системы видеонаблюдения В отдаленных  ГСВ  и ФАП",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=616334401"
   }
 }
