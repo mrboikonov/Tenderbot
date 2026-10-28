@@ -1260,6 +1260,32 @@
     "title": "аткарыла турган жумуштардын смета наркын түзүүгө",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ae0327fe2d3860eab65b781?tab=tender"
   },
+  "goszakupki:6ae1b754e2d3860eab65ba82": {
+    "customer": "Учреждение Айыл Окмоту Абды Суеркуловского айылного аймака",
+    "deadline": "2026-11-02 17:53",
+    "deadline_date": "2026-11-02",
+    "first_seen": "2026-10-28T10:54:22.884459+00:00",
+    "id": "goszakupki:6ae1b754e2d3860eab65ba82",
+    "notified": true,
+    "published": "2026-10-28 14:58",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Абды Суеркулов айыл аймагына караштуу Торкен айылынын Ашыралиев мектебинин жылуулук системасын орнотууга смета даярдоо кызматын сатып алуу",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae1b754e2d3860eab65ba82?tab=tender"
+  },
+  "goszakupki:6ae1c95fe2d3860eab65badb": {
+    "customer": "Учреждение \"Министерство здравоохранения Кыргызской Республики\"",
+    "deadline": "2026-11-02 17:00",
+    "deadline_date": "2026-11-02",
+    "first_seen": "2026-10-28T10:54:22.884459+00:00",
+    "id": "goszakupki:6ae1c95fe2d3860eab65badb",
+    "notified": true,
+    "published": "2026-10-28 16:13",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Закупка услуг по проведению тренинга \"Эксплуатация ЛОР оборудования\" и \"Инфекционного контроля\", в рамках проекта ПОР-ДФ-повторные торги",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae1c95fe2d3860eab65badb?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -2621,6 +2647,17 @@
     "status": "Активен",
     "title": "Тендер на поставку \"Оснащение оргтехникой ЦОН г.Кадамжай\"",
     "url": "https://www.aris.kg/tenders/view/2819"
+  },
+  "https://www.aris.kg/tenders/view/2820": {
+    "deadline": "08.12.2026 11:00:00",
+    "deadline_date": "2026-12-08",
+    "first_seen": "2026-10-28T10:54:22.884459+00:00",
+    "id": "https://www.aris.kg/tenders/view/2820",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Приглашение к участию в торгах в рамках Проекта ПРЭР по контракту \"Строительство объектов Государственного природного парка \"Кара-Шоро\"",
+    "url": "https://www.aris.kg/tenders/view/2820"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline": "21.09.2026",
