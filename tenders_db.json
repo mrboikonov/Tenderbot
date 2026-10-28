@@ -1273,6 +1273,19 @@
     "title": "Абды Суеркулов айыл аймагына караштуу Торкен айылынын Ашыралиев мектебинин жылуулук системасын орнотууга смета даярдоо кызматын сатып алуу",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ae1b754e2d3860eab65ba82?tab=tender"
   },
+  "goszakupki:6ae1c374e2d3860eab65bac4": {
+    "customer": "Муниципальное учреждение Центр реинтеграции детей, находящихся в трудной жизненной ситуации Айданек  Департамента социального развития мэрии города Бишкек",
+    "deadline": "2026-11-13 11:00",
+    "deadline_date": "2026-11-13",
+    "first_seen": "2026-10-28T20:08:12.313646+00:00",
+    "id": "goszakupki:6ae1c374e2d3860eab65bac4",
+    "notified": true,
+    "published": "2026-10-28 17:35",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение услуги по техподдержке видеонаблюдения",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae1c374e2d3860eab65bac4?tab=tender"
+  },
   "goszakupki:6ae1c95fe2d3860eab65badb": {
     "customer": "Учреждение \"Министерство здравоохранения Кыргызской Республики\"",
     "deadline": "2026-11-02 17:00",
@@ -1285,6 +1298,19 @@
     "status": "Активен",
     "title": "Закупка услуг по проведению тренинга \"Эксплуатация ЛОР оборудования\" и \"Инфекционного контроля\", в рамках проекта ПОР-ДФ-повторные торги",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ae1c95fe2d3860eab65badb?tab=tender"
+  },
+  "goszakupki:6ae1ddf2e2d3860eab65bb3a": {
+    "customer": "Учреждение Айыл окмоту айылного аймака Кетмен-Добо",
+    "deadline": "2026-11-03 09:00",
+    "deadline_date": "2026-11-03",
+    "first_seen": "2026-10-28T20:08:12.313646+00:00",
+    "id": "goszakupki:6ae1ddf2e2d3860eab65bb3a",
+    "notified": true,
+    "published": "2026-10-28 17:37",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Установка видеонаблюдения 360 с комплектующими изделиями для школа им.Ж.Тоялиева №41 а/а Кетмен-Добо",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae1ddf2e2d3860eab65bb3a?tab=tender"
   },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
