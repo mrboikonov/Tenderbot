@@ -3730,5 +3730,17 @@
     "status": "Активен",
     "title": "Установка системы видеонаблюдения В отдаленных  ГСВ  и ФАП",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=616334401"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=617485192": {
+    "customer": "Учреждение \"Айыл окмоту Айры-Тамского айылного аймака\"",
+    "deadline": "04.11.2026 09:42",
+    "deadline_date": "2026-11-04",
+    "first_seen": "2026-10-29T20:06:36.351764+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=617485192",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Айры-Там айыл аймагындагы жасалуучу жумуштарга ПСД (проектно-сметной документации) жасатуу",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=617485192"
   }
 }
