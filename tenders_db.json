@@ -1338,6 +1338,19 @@
     "title": "услуги сметчика",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ae2cb88e2d3860eab65bb9c?tab=tender"
   },
+  "goszakupki:6ae41e8de2d3860eab65bd5c": {
+    "customer": "Национальная комиссия по государственному языку и языковой политике при Президенте Кыргызской Республики",
+    "deadline": "2026-11-05 10:35",
+    "deadline_date": "2026-11-05",
+    "first_seen": "2026-10-30T11:05:44.431075+00:00",
+    "id": "goszakupki:6ae41e8de2d3860eab65bd5c",
+    "notified": true,
+    "published": "2026-10-30 11:09",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Компьютерлерди, оргтехниканы оңдоо, техникалык жактан тейлөө жана картридждерди толтуруу кызматтары\nУслуги по ремонту, техническому обслуживанию компьютеров, оргтехники и заправке картриджей",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae41e8de2d3860eab65bd5c?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
