@@ -3781,5 +3781,17 @@
     "status": "Активен",
     "title": "Айры-Там айыл аймагындагы жасалуучу жумуштарга ПСД (проектно-сметной документации) жасатуу",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=617485192"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=618941017": {
+    "customer": "Учреждение \"Айыл окмот Кенешского айылного аймака\"",
+    "deadline": "06.11.2026 09:00",
+    "deadline_date": "2026-11-06",
+    "first_seen": "2026-11-02T23:02:04.048517+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=618941017",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Кеңеш айыл аймагынын КОТКОР айылындагы унаа жолуна асфальт төшөө жана курулуш иштери үчүн долбоорлоо-сметалык документацияны (ДСД) жана инженердик-изилдөө жумуштарынын сметасын даярдоого",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=618941017"
   }
 }
