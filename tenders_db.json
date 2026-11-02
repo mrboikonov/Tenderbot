@@ -1351,6 +1351,32 @@
     "title": "Компьютерлерди, оргтехниканы оңдоо, техникалык жактан тейлөө жана картридждерди толтуруу кызматтары\nУслуги по ремонту, техническому обслуживанию компьютеров, оргтехники и заправке картриджей",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ae41e8de2d3860eab65bd5c?tab=tender"
   },
+  "goszakupki:6ae85a696f841e439da47d2d": {
+    "customer": "У-е Сокулукский районный Центр профилактики заболеваний и государственного санитарно-эпидемиологического надзора с возложениями функции координации деятельности службы по области",
+    "deadline": "2026-11-05 17:10",
+    "deadline_date": "2026-11-05",
+    "first_seen": "2026-11-02T12:57:24.193978+00:00",
+    "id": "goszakupki:6ae85a696f841e439da47d2d",
+    "notified": true,
+    "published": "2026-11-02 16:53",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуга по проектированию сметного документа и инжиниринга",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae85a696f841e439da47d2d?tab=tender"
+  },
+  "goszakupki:6ae8620f6f841e439da47d43": {
+    "customer": "Ошская городская клиническая больница ",
+    "deadline": "2026-11-05 18:12",
+    "deadline_date": "2026-11-05",
+    "first_seen": "2026-11-02T12:57:24.193978+00:00",
+    "id": "goszakupki:6ae8620f6f841e439da47d43",
+    "notified": true,
+    "published": "2026-11-02 16:31",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение услуги по установке камеры видеонаблюдение и ремонта холодильников.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae8620f6f841e439da47d43?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
