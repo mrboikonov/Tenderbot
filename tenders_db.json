@@ -1377,6 +1377,45 @@
     "title": "Приобретение услуги по установке камеры видеонаблюдение и ремонта холодильников.",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ae8620f6f841e439da47d43?tab=tender"
   },
+  "goszakupki:6ae994526f841e439da47eb3": {
+    "customer": "Узун-Кыр айыл окмоту",
+    "deadline": "2026-11-06 15:00",
+    "deadline_date": "2026-11-06",
+    "first_seen": "2026-11-03T12:29:26.045782+00:00",
+    "id": "goszakupki:6ae994526f841e439da47eb3",
+    "notified": true,
+    "published": "2026-11-03 14:27",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "На приобретение автономных камер видеонаблюдение на солнечной панели для Узун-Кыр а/а Ысык-Атинского района Чуйской области",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae994526f841e439da47eb3?tab=tender"
+  },
+  "goszakupki:6ae9a782555f240c5940d02f": {
+    "customer": "Департамент профилактики заболеваний и государственного санитарно-эпидемиологического надзора",
+    "deadline": "2026-11-06 16:00",
+    "deadline_date": "2026-11-06",
+    "first_seen": "2026-11-03T12:29:26.045782+00:00",
+    "id": "goszakupki:6ae9a782555f240c5940d02f",
+    "notified": true,
+    "published": "2026-11-03 15:40",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение товаров в рамках проекта ЮНИСЕФ \"Регулирование маркетинга нездоровых продуктов и сладких напитков\"",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae9a782555f240c5940d02f?tab=tender"
+  },
+  "goszakupki:6ae9b15f555f240c5940d054": {
+    "customer": "Учреждение Чуйский областной центр общеврачебной практики",
+    "deadline": "2026-11-06 16:20",
+    "deadline_date": "2026-11-06",
+    "first_seen": "2026-11-03T12:29:26.045782+00:00",
+    "id": "goszakupki:6ae9b15f555f240c5940d054",
+    "notified": true,
+    "published": "2026-11-03 16:09",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение услугу сметчика",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6ae9b15f555f240c5940d054?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -2749,6 +2788,17 @@
     "status": "Активен",
     "title": "Приглашение к участию в торгах в рамках Проекта ПРЭР по контракту \"Строительство объектов Государственного природного парка \"Кара-Шоро\"",
     "url": "https://www.aris.kg/tenders/view/2820"
+  },
+  "https://www.aris.kg/tenders/view/2842": {
+    "deadline": "17.11.2026 18:00:00",
+    "deadline_date": "2026-11-17",
+    "first_seen": "2026-11-03T12:29:26.045782+00:00",
+    "id": "https://www.aris.kg/tenders/view/2842",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Запрос на выражение заинтересованности в рамках Проекта НПИС по контракту \"Разработка ПСД и ведение авторского надзора на отобранных эконмических объектахв Ошской, Джалал-Абадской, Нарынской, Таласской областях\"",
+    "url": "https://www.aris.kg/tenders/view/2842"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline": "21.09.2026",
