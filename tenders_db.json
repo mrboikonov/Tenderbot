@@ -4001,5 +4001,17 @@
     "status": "Активен",
     "title": "Покупка щебень (с услугой планировки, грейдирования, катка, полива улиц ж/м Ак-Ордо) МТУ №109.",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=619008518"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=619341434": {
+    "customer": "Учреждение  Айыл окмоту айылного аймака Оргочор",
+    "deadline": "19.11.2026 17:59",
+    "deadline_date": "2026-11-19",
+    "first_seen": "2026-11-04T21:06:47.494995+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=619341434",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Установка видеонаблюдение для сш.Ы.Сооронбаев",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=619341434"
   }
 }
