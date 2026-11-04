@@ -1416,6 +1416,45 @@
     "title": "Приобретение услугу сметчика",
     "url": "https://goszakupki.okmot.kg/public/order/view/6ae9b15f555f240c5940d054?tab=tender"
   },
+  "goszakupki:6aead6c978f0ba7604c3bc38": {
+    "customer": "Учреждение Главное управление по обеспечению безопасности дорожного движения Министерства внутренних дел Кыргызской Республики",
+    "deadline": "2026-11-09 16:00",
+    "deadline_date": "2026-11-09",
+    "first_seen": "2026-11-04T12:39:51.035241+00:00",
+    "id": "goszakupki:6aead6c978f0ba7604c3bc38",
+    "notified": true,
+    "published": "2026-11-04 14:02",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг по техническому обслуживанию, диагностике и ремонту оргтехники, заправке и восстановлению картриджей по южному региону ГУОБДД МВД Кыргызской Республики",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aead6c978f0ba7604c3bc38?tab=tender"
+  },
+  "goszakupki:6aeae9b778f0ba7604c3bc7b": {
+    "customer": "Учреждение Айыл окмот Тогуз-Булакского айылного аймака",
+    "deadline": "2026-11-09 14:16",
+    "deadline_date": "2026-11-09",
+    "first_seen": "2026-11-04T12:39:51.035241+00:00",
+    "id": "goszakupki:6aeae9b778f0ba7604c3bc7b",
+    "notified": true,
+    "published": "2026-11-04 15:04",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ай-Көл, Кара-Булак, Миң-Жыгач айылдарынын көчөлөрүн капиталдык оңдоодон өткөрүү, асфальттоо үчүн рабочий проектисин даярдоо",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aeae9b778f0ba7604c3bc7b?tab=tender"
+  },
+  "goszakupki:6aeaea1778f0ba7604c3bc80": {
+    "customer": "Сельская управа  Жаны-Алай ",
+    "deadline": "2026-11-09 15:17",
+    "deadline_date": "2026-11-09",
+    "first_seen": "2026-11-04T12:39:51.035241+00:00",
+    "id": "goszakupki:6aeaea1778f0ba7604c3bc80",
+    "notified": true,
+    "published": "2026-11-04 14:36",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Жаңы-Алай айыл өкмөтү \"Услуг по подготовке эскизного проекта и проектной документации на строительство детского сада- 90 мест в селе Жаңы-Арык и строительство допольнительного корпуса 150уч.мест СШ И.Умарова в селе Жаңы-Алай \" 2026г",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aeaea1778f0ba7604c3bc80?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
