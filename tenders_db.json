@@ -2327,6 +2327,78 @@
     "title": "Покупка оргтехники",
     "url": "https://procurement.kg/tenders/1158784"
   },
+  "https://procurement.kg/tenders/1159617": {
+    "deadline": "11.11.2026",
+    "deadline_date": "2026-11-11",
+    "first_seen": "2026-11-04T04:53:27.139850+00:00",
+    "id": "https://procurement.kg/tenders/1159617",
+    "notified": true,
+    "published": "04.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение офисной мебели, перегородки и электротранспортного средства (ПОВТОРНО)",
+    "url": "https://procurement.kg/tenders/1159617"
+  },
+  "https://procurement.kg/tenders/1159618": {
+    "deadline": "11.11.2026",
+    "deadline_date": "2026-11-11",
+    "first_seen": "2026-11-04T04:53:27.139850+00:00",
+    "id": "https://procurement.kg/tenders/1159618",
+    "notified": true,
+    "published": "04.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение офисного оборудования, мебели и канцелярских товаров",
+    "url": "https://procurement.kg/tenders/1159618"
+  },
+  "https://procurement.kg/tenders/1159621": {
+    "deadline": "18.11.2026",
+    "deadline_date": "2026-11-18",
+    "first_seen": "2026-11-04T04:53:27.139850+00:00",
+    "id": "https://procurement.kg/tenders/1159621",
+    "notified": true,
+    "published": "04.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "«Подготовка проектно-сметной документации на реконструкцию системы отопления административного здания мэрии города Сулюкта».",
+    "url": "https://procurement.kg/tenders/1159621"
+  },
+  "https://procurement.kg/tenders/1159625": {
+    "deadline": "13.11.2026",
+    "deadline_date": "2026-11-13",
+    "first_seen": "2026-11-04T04:53:27.139850+00:00",
+    "id": "https://procurement.kg/tenders/1159625",
+    "notified": true,
+    "published": "04.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "По разработке проектно-сметной документации по замене выключателей 220кВ",
+    "url": "https://procurement.kg/tenders/1159625"
+  },
+  "https://procurement.kg/tenders/1159626": {
+    "deadline": "10.11.2026",
+    "deadline_date": "2026-11-10",
+    "first_seen": "2026-11-04T04:53:27.139850+00:00",
+    "id": "https://procurement.kg/tenders/1159626",
+    "notified": true,
+    "published": "04.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение лицензий ПО для управления системой наружного видеонаблюдения (СНВН) и ПО ИИ ассистент кибер защиты (планируемая сумма закупки указана с учетом НДС 12% и НсП 1%)",
+    "url": "https://procurement.kg/tenders/1159626"
+  },
+  "https://procurement.kg/tenders/1159633": {
+    "deadline": "09.11.2026",
+    "deadline_date": "2026-11-09",
+    "first_seen": "2026-11-04T04:53:27.139850+00:00",
+    "id": "https://procurement.kg/tenders/1159633",
+    "notified": true,
+    "published": "04.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Организация двухдневного семинара в г. Бишкек в рамках проекта КОФПИ",
+    "url": "https://procurement.kg/tenders/1159633"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -3327,6 +3399,17 @@
     "status": "Активен",
     "title": "№32457. Поставка мебели для проектных школ",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32457"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32534": {
+    "deadline": "11.11.2026",
+    "deadline_date": "2026-11-11",
+    "first_seen": "2026-11-04T04:53:27.139850+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32534",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32534. Приобретение офисной и лабораторной мебели",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32534"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
