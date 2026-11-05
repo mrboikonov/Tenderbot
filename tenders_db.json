@@ -2475,6 +2475,18 @@
     "title": "150. Мебель, шкафы, флагшток, флаг, урна металлическая (21)",
     "url": "https://procurement.kg/tenders/1159800"
   },
+  "https://procurement.kg/tenders/1159968": {
+    "deadline": "10.11.2026",
+    "deadline_date": "2026-11-10",
+    "first_seen": "2026-11-05T14:00:04.354073+00:00",
+    "id": "https://procurement.kg/tenders/1159968",
+    "notified": false,
+    "published": "05.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Косметический ремонт подъездов  многоквартирного дома",
+    "url": "https://procurement.kg/tenders/1159968"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -3486,6 +3498,39 @@
     "status": "Активен",
     "title": "№32534. Приобретение офисной и лабораторной мебели",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32534"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32565": {
+    "deadline": "10.11.2026",
+    "deadline_date": "2026-11-10",
+    "first_seen": "2026-11-05T14:00:04.354073+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32565",
+    "notified": false,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32565. Запрос котировок: №1133 от 05.11.2026г на мебель в целях изучения рынка",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32565"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32571": {
+    "deadline": "10.11.2026",
+    "deadline_date": "2026-11-10",
+    "first_seen": "2026-11-05T14:00:04.354073+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32571",
+    "notified": false,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32571. Техника и мебель в БЦ СФИТ Тамчи для HR-отдела",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32571"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32573": {
+    "deadline": "16.11.2026",
+    "deadline_date": "2026-11-16",
+    "first_seen": "2026-11-05T14:00:04.354073+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32573",
+    "notified": false,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32573. Установка водяного насоса «Гидротаран Рогозина ГТ-270» для подачи воды из реки Актерек с целью обеспечения водопоев джейранов и последующего полива пастбищ и кустарников для улучшения кормовой базы и условий обитания животных.",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32573"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
