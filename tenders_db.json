@@ -1533,6 +1533,32 @@
     "title": "Услуги руководителя творческого проекта",
     "url": "https://goszakupki.okmot.kg/public/order/view/6aedc1e1cf4a722f258eaae8?tab=tender"
   },
+  "goszakupki:6aedc8d6cf4a722f258eaaf1": {
+    "customer": "У-е Сокулукский районный Центр профилактики заболеваний и государственного санитарно-эпидемиологического надзора с возложениями функции координации деятельности службы по области",
+    "deadline": "2026-11-12 09:00",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T20:44:37.658128+00:00",
+    "id": "goszakupki:6aedc8d6cf4a722f258eaaf1",
+    "notified": true,
+    "published": "2026-11-06 18:37",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуга по проектированию сметного документа и инжиниринга (повторно)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aedc8d6cf4a722f258eaaf1?tab=tender"
+  },
+  "goszakupki:6aedca41cf4a722f258eaaf6": {
+    "customer": "Учреждение Центр семейной медицины № 6 г. Бишкек",
+    "deadline": "2026-11-12 08:00",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T20:44:37.658128+00:00",
+    "id": "goszakupki:6aedca41cf4a722f258eaaf6",
+    "notified": true,
+    "published": "2026-11-06 18:40",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуга по проектированию сметного документа и инжиниринга (повторно)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aedca41cf4a722f258eaaf6?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
