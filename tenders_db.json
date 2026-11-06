@@ -2487,6 +2487,18 @@
     "title": "Косметический ремонт подъездов  многоквартирного дома",
     "url": "https://procurement.kg/tenders/1159968"
   },
+  "https://procurement.kg/tenders/1162537": {
+    "deadline": "11.11.2026",
+    "deadline_date": "2026-11-11",
+    "first_seen": "2026-11-06T04:35:25.652623+00:00",
+    "id": "https://procurement.kg/tenders/1162537",
+    "notified": true,
+    "published": "06.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуги сметчика по составлению сметы для ремонта радильного дома №2",
+    "url": "https://procurement.kg/tenders/1162537"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -4083,5 +4095,17 @@
     "status": "Активен",
     "title": "Установка видеонаблюдение для сш.Ы.Сооронбаев",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=619341434"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=619897848": {
+    "customer": "Узгенское механизированное лесное хозяйство",
+    "deadline": "11.11.2026 10:38",
+    "deadline_date": "2026-11-11",
+    "first_seen": "2026-11-06T04:35:25.652623+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=619897848",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение канцелярских товаров, офисной мебели и пренадлежностей",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=619897848"
   }
 }
