@@ -2564,6 +2564,54 @@
     "title": "Услуги сметчика по составлению сметы для ремонта радильного дома №2",
     "url": "https://procurement.kg/tenders/1162537"
   },
+  "https://procurement.kg/tenders/1162922": {
+    "deadline": "11.11.2026",
+    "deadline_date": "2026-11-11",
+    "first_seen": "2026-11-06T14:15:49.431828+00:00",
+    "id": "https://procurement.kg/tenders/1162922",
+    "notified": true,
+    "published": "06.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуги руководителя творческого проекта",
+    "url": "https://procurement.kg/tenders/1162922"
+  },
+  "https://procurement.kg/tenders/1162931": {
+    "deadline": "12.11.2026",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T14:15:49.431828+00:00",
+    "id": "https://procurement.kg/tenders/1162931",
+    "notified": true,
+    "published": "06.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуг по подготовке сметы (ПСД)дет сада",
+    "url": "https://procurement.kg/tenders/1162931"
+  },
+  "https://procurement.kg/tenders/1162943": {
+    "deadline": "12.11.2026",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T14:15:49.431828+00:00",
+    "id": "https://procurement.kg/tenders/1162943",
+    "notified": true,
+    "published": "06.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуга по проектированию сметного документа и инжиниринга (повторно)",
+    "url": "https://procurement.kg/tenders/1162943"
+  },
+  "https://procurement.kg/tenders/1162944": {
+    "deadline": "12.11.2026",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T14:15:49.431828+00:00",
+    "id": "https://procurement.kg/tenders/1162944",
+    "notified": true,
+    "published": "06.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуга по проектированию сметного документа и инжиниринга (повторно)",
+    "url": "https://procurement.kg/tenders/1162944"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -4195,5 +4243,29 @@
     "status": "Активен",
     "title": "Приобретение кухонное оборудование кухонная мебель",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620015780"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620033493": {
+    "customer": "Таласская областная стомотологическая поликлиника",
+    "deadline": "12.11.2026 09:00",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T14:15:49.431828+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620033493",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Ремонт и техобслуживание оргтехники",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620033493"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620036824": {
+    "customer": "Таласская областная стомотологическая поликлиника",
+    "deadline": "12.11.2026 09:00",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T14:15:49.431828+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620036824",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Стоматологическое оборудование и мебель",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620036824"
   }
 }
