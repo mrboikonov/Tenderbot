@@ -1468,6 +1468,71 @@
     "title": "Косметический ремонт подъездов  многоквартирного дома",
     "url": "https://goszakupki.okmot.kg/public/order/view/6aec662bcf4a722f258ea8c5?tab=tender"
   },
+  "goszakupki:6aed8a1ccf4a722f258eaa18": {
+    "customer": "Нарынский областной центр семейной медицины",
+    "deadline": "2026-11-12 09:00",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T12:35:54.446850+00:00",
+    "id": "goszakupki:6aed8a1ccf4a722f258eaa18",
+    "notified": true,
+    "published": "2026-11-06 14:39",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение медицинской мебели",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aed8a1ccf4a722f258eaa18?tab=tender"
+  },
+  "goszakupki:6aed8effcf4a722f258eaa28": {
+    "customer": "Учреждение Айыл окмот Доболунского айылного аймака",
+    "deadline": "2026-11-11 16:25",
+    "deadline_date": "2026-11-11",
+    "first_seen": "2026-11-06T12:35:54.446850+00:00",
+    "id": "goszakupki:6aed8effcf4a722f258eaa28",
+    "notified": true,
+    "published": "2026-11-06 14:38",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка проектно-сметной документации с получением  заключения экспертизы по объекту: «Строительство новой сети электроснабжения 10/0,4 кВ на участке «Капчыгай ДЭУ», с.Эки-Нарын, Доболунского а/а",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aed8effcf4a722f258eaa28?tab=tender"
+  },
+  "goszakupki:6aed9015cf4a722f258eaa2d": {
+    "customer": "Учреждение Айыл окмот Тогуз-Булакского айылного аймака",
+    "deadline": "2026-11-12 09:00",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T12:35:54.446850+00:00",
+    "id": "goszakupki:6aed9015cf4a722f258eaa2d",
+    "notified": true,
+    "published": "2026-11-06 14:59",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "аткарыла турган жумуштардын смета наркын түзүүгө",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aed9015cf4a722f258eaa2d?tab=tender"
+  },
+  "goszakupki:6aed9f67cf4a722f258eaa75": {
+    "customer": "Учреждение Департамент капитального строительства",
+    "deadline": "2026-11-12 16:00",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-06T12:35:54.446850+00:00",
+    "id": "goszakupki:6aed9f67cf4a722f258eaa75",
+    "notified": true,
+    "published": "2026-11-06 15:39",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Подготовка проектно-сметной документации (ПСД) на Установка пункт отделение милиции расположенный на своем земельном участке по улице ул.Абдурахманова в г. Манас.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aed9f67cf4a722f258eaa75?tab=tender"
+  },
+  "goszakupki:6aedc1e1cf4a722f258eaae8": {
+    "customer": "Учреждение Кыргызский государственный театр кукол имени Мусы Жангазиева",
+    "deadline": "2026-11-11 18:30",
+    "deadline_date": "2026-11-11",
+    "first_seen": "2026-11-06T12:35:54.446850+00:00",
+    "id": "goszakupki:6aedc1e1cf4a722f258eaae8",
+    "notified": true,
+    "published": "2026-11-06 18:19",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги руководителя творческого проекта",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6aedc1e1cf4a722f258eaae8?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -2972,6 +3037,17 @@
     "title": "Запрос на выражение заинтересованности в рамках Проекта НПИС по контракту \"Разработка ПСД и ведение авторского надзора на отобранных эконмических объектахв Ошской, Джалал-Абадской, Нарынской, Таласской областях\"",
     "url": "https://www.aris.kg/tenders/view/2842"
   },
+  "https://www.aris.kg/tenders/view/2843": {
+    "deadline": "20.11.2026 18:00:00",
+    "deadline_date": "2026-11-20",
+    "first_seen": "2026-11-06T12:35:54.446850+00:00",
+    "id": "https://www.aris.kg/tenders/view/2843",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Специальное уведомление о закупках в рамках Проекта Адм. пул по контракту \"Ассистент Исполнительного директора АРИС\"",
+    "url": "https://www.aris.kg/tenders/view/2843"
+  },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -4107,5 +4183,17 @@
     "status": "Активен",
     "title": "Приобретение канцелярских товаров, офисной мебели и пренадлежностей",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=619897848"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620015780": {
+    "customer": "Учреждение \"Ноокатский районный Центр профилактики заболеваний и государственного санитарно- эпидемиологического надзора\"",
+    "deadline": "11.11.2026 17:03",
+    "deadline_date": "2026-11-11",
+    "first_seen": "2026-11-06T12:35:54.446850+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620015780",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение кухонное оборудование кухонная мебель",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620015780"
   }
 }
