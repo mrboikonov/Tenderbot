@@ -2638,6 +2638,30 @@
     "title": "Услуга по проектированию сметного документа и инжиниринга (повторно)",
     "url": "https://procurement.kg/tenders/1162944"
   },
+  "https://procurement.kg/tenders/1162960": {
+    "deadline": "12.11.2026",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-07T05:44:28.375156+00:00",
+    "id": "https://procurement.kg/tenders/1162960",
+    "notified": true,
+    "published": "06.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Ремонт и техобслуживание оргтехники",
+    "url": "https://procurement.kg/tenders/1162960"
+  },
+  "https://procurement.kg/tenders/1162963": {
+    "deadline": "12.11.2026",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-07T05:44:28.375156+00:00",
+    "id": "https://procurement.kg/tenders/1162963",
+    "notified": true,
+    "published": "06.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Стоматологическое оборудование и мебель",
+    "url": "https://procurement.kg/tenders/1162963"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
