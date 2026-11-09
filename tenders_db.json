@@ -1598,6 +1598,19 @@
     "title": "разработка ПСД  пот проекту «Реабилитация системы чистой питьевой воды в селе Кызыл-Суу Кеминского района Чуйской области Кыргызской Республики путем устройства каптажных сооружений в трех местах».",
     "url": "https://goszakupki.okmot.kg/public/order/view/6af17696cf4a722f258eac0f?tab=tender"
   },
+  "goszakupki:6af21b79cf4a722f258ead6d": {
+    "customer": "Учреждение \"Дорожно-эксплуатационное учреждение №040 Департамента дорожного хозяйства при Министерстве транспорта и коммуникаций КР\"",
+    "deadline": "2026-11-13 09:00",
+    "deadline_date": "2026-11-13",
+    "first_seen": "2026-11-09T23:43:44.211339+00:00",
+    "id": "goszakupki:6af21b79cf4a722f258ead6d",
+    "notified": true,
+    "published": "2026-11-10 01:28",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Закупка оргтехники",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af21b79cf4a722f258ead6d?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
