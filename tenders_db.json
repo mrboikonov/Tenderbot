@@ -1572,6 +1572,32 @@
     "title": "Закупка услуг по разработке проектно-сметной документации, включая выполнение инженерно-геологических изысканий и топографической съёмки, по объекту: Строительство административного здания \tСО МВД Кыргызской Республики г. Балыкчы Иссык-Кульской области.",
     "url": "https://goszakupki.okmot.kg/public/order/view/6af0500dcf4a722f258eab22?tab=tender"
   },
+  "goszakupki:6af16f16cf4a722f258eac04": {
+    "customer": "Департамент профилактики заболеваний и государственного санитарно-эпидемиологического надзора",
+    "deadline": "2026-11-12 13:30",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-09T13:28:58.602326+00:00",
+    "id": "goszakupki:6af16f16cf4a722f258eac04",
+    "notified": true,
+    "published": "2026-11-09 13:00",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение товаров в рамках проекта ЮНИСЕФ \"Регулирование маркетинга нездоровых продуктов и сладких напитков\"",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af16f16cf4a722f258eac04?tab=tender"
+  },
+  "goszakupki:6af17696cf4a722f258eac0f": {
+    "customer": "Чым Коргонский айыл окмоту",
+    "deadline": "2026-11-12 14:10",
+    "deadline_date": "2026-11-12",
+    "first_seen": "2026-11-09T13:28:58.602326+00:00",
+    "id": "goszakupki:6af17696cf4a722f258eac0f",
+    "notified": true,
+    "published": "2026-11-09 14:03",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "разработка ПСД  пот проекту «Реабилитация системы чистой питьевой воды в селе Кызыл-Суу Кеминского района Чуйской области Кыргызской Республики путем устройства каптажных сооружений в трех местах».",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af17696cf4a722f258eac0f?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
