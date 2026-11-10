@@ -1611,6 +1611,32 @@
     "title": "Закупка оргтехники",
     "url": "https://goszakupki.okmot.kg/public/order/view/6af21b79cf4a722f258ead6d?tab=tender"
   },
+  "goszakupki:6af2c38ccf4a722f258eae7f": {
+    "customer": "Учреждение Ошское областное управление капитального строительства Департамента жилищно-гражданского строительства при Государственном агентстве архитектуры, строительства и жилищно-коммунального хозяйства при Правительстве Кыргызской Республики",
+    "deadline": "2026-11-13 15:00",
+    "deadline_date": "2026-11-13",
+    "first_seen": "2026-11-10T13:11:17.720350+00:00",
+    "id": "goszakupki:6af2c38ccf4a722f258eae7f",
+    "notified": true,
+    "published": "2026-11-10 13:44",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Закупка услуг по проектированию школ на 150 уч. мест в Алайском районе, а так же школ на 225 учебных мест в Чон-Алайском и Араванском районах Ошской области",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af2c38ccf4a722f258eae7f?tab=tender"
+  },
+  "goszakupki:6af2fb8ecf4a722f258eaf6b": {
+    "customer": "Главное управление финансово-хозяйственного обеспечения Министерства внутренних дел Кыргызской Республики",
+    "deadline": "2026-11-25 11:15",
+    "deadline_date": "2026-11-25",
+    "first_seen": "2026-11-10T13:11:17.720350+00:00",
+    "id": "goszakupki:6af2fb8ecf4a722f258eaf6b",
+    "notified": true,
+    "published": "2026-11-10 17:57",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Закупка камер кругового видеонаблюдения с комплектующими и пусконаладочными работами",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af2fb8ecf4a722f258eaf6b?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -3221,6 +3247,17 @@
     "status": "Активен",
     "title": "Специальное уведомление о закупках в рамках Проекта Адм. пул по контракту \"Ассистент Исполнительного директора АРИС\"",
     "url": "https://www.aris.kg/tenders/view/2843"
+  },
+  "https://www.aris.kg/tenders/view/2844": {
+    "deadline": "25.11.2026 12:00:00",
+    "deadline_date": "2026-11-25",
+    "first_seen": "2026-11-10T13:11:17.720350+00:00",
+    "id": "https://www.aris.kg/tenders/view/2844",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на \"Проведение итоговой конференции в рамках реализуемых проектов АРИС с 9 по 11 декабря 2026 года в Иссык-Кульской области\"",
+    "url": "https://www.aris.kg/tenders/view/2844"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline": "21.09.2026",
