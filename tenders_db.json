@@ -1637,6 +1637,19 @@
     "title": "Закупка камер кругового видеонаблюдения с комплектующими и пусконаладочными работами",
     "url": "https://goszakupki.okmot.kg/public/order/view/6af2fb8ecf4a722f258eaf6b?tab=tender"
   },
+  "goszakupki:6af4320ff5c5d6748b458e72": {
+    "customer": "Учреждение Айыл окмот Тогуз-Булакского айылного аймака",
+    "deadline": "2026-11-16 17:30",
+    "deadline_date": "2026-11-16",
+    "first_seen": "2026-11-11T12:17:35.655196+00:00",
+    "id": "goszakupki:6af4320ff5c5d6748b458e72",
+    "notified": true,
+    "published": "2026-11-11 16:53",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Ай-Көл, Кара-Булак, Миң-Жыгач айылдарынын көчөлөрүн капиталдык оңдоодон өткөрүү, асфальттоо үчүн рабочий проектисин даярдоо",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af4320ff5c5d6748b458e72?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
