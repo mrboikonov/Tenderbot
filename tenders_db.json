@@ -2789,6 +2789,42 @@
     "title": "Приобретение оргтехники (цены указаны с учетом всех налогов, в том числе НДС)",
     "url": "https://procurement.kg/tenders/1163384"
   },
+  "https://procurement.kg/tenders/1163495": {
+    "deadline": "16.11.2026",
+    "deadline_date": "2026-11-16",
+    "first_seen": "2026-11-11T14:00:05.583231+00:00",
+    "id": "https://procurement.kg/tenders/1163495",
+    "notified": true,
+    "published": "11.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Ай-Көл, Кара-Булак, Миң-Жыгач айылдарынын көчөлөрүн капиталдык оңдоодон өткөрүү, асфальттоо үчүн рабочий проектисин даярдоо",
+    "url": "https://procurement.kg/tenders/1163495"
+  },
+  "https://procurement.kg/tenders/1163502": {
+    "deadline": "18.11.2026",
+    "deadline_date": "2026-11-18",
+    "first_seen": "2026-11-11T14:00:05.583231+00:00",
+    "id": "https://procurement.kg/tenders/1163502",
+    "notified": true,
+    "published": "11.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Лот № 1 ТМЦ для оргтехники согласно тех. спецификации и перечню (повторный)",
+    "url": "https://procurement.kg/tenders/1163502"
+  },
+  "https://procurement.kg/tenders/1163507": {
+    "deadline": "20.11.2026",
+    "deadline_date": "2026-11-20",
+    "first_seen": "2026-11-11T14:00:05.583231+00:00",
+    "id": "https://procurement.kg/tenders/1163507",
+    "notified": true,
+    "published": "11.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Лот № 1 Комплекс работ по проектированию, бурению и обустройству эксплуатационной термальной скважины «под ключ» на территории «Кыргызалтын Резорт» согласно техническому заданию.",
+    "url": "https://procurement.kg/tenders/1163507"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -4488,5 +4524,17 @@
     "status": "Активен",
     "title": "Стоматологическое оборудование и мебель",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620036824"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620842940": {
+    "customer": "Сейдикумский айыл Окмоту Сейдикумского айылного аймака",
+    "deadline": "17.11.2026 09:00",
+    "deadline_date": "2026-11-17",
+    "first_seen": "2026-11-11T14:00:05.583231+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620842940",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Сайдыкум айыл аймагындагы Аркалык айылына волейбол аянтчасынын проектилик-сметалык документерин жасоо",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620842940"
   }
 }
