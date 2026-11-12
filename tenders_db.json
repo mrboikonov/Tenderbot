@@ -1650,6 +1650,32 @@
     "title": "Ай-Көл, Кара-Булак, Миң-Жыгач айылдарынын көчөлөрүн капиталдык оңдоодон өткөрүү, асфальттоо үчүн рабочий проектисин даярдоо",
     "url": "https://goszakupki.okmot.kg/public/order/view/6af4320ff5c5d6748b458e72?tab=tender"
   },
+  "goszakupki:6af57360f5c5d6748b45906e": {
+    "customer": "Центр общеврачебной практики имени Ч. Орозова",
+    "deadline": "2026-11-17 15:05",
+    "deadline_date": "2026-11-17",
+    "first_seen": "2026-11-12T13:26:37.310897+00:00",
+    "id": "goszakupki:6af57360f5c5d6748b45906e",
+    "notified": true,
+    "published": "2026-11-12 14:15",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг по разработке проектно-сметной документации (ПСД)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af57360f5c5d6748b45906e?tab=tender"
+  },
+  "goszakupki:6af57e94f5c5d6748b4590a9": {
+    "customer": "Айыл окмоту Биримдикского айылного аймака",
+    "deadline": "2026-11-18 10:00",
+    "deadline_date": "2026-11-18",
+    "first_seen": "2026-11-12T13:26:37.310897+00:00",
+    "id": "goszakupki:6af57e94f5c5d6748b4590a9",
+    "notified": true,
+    "published": "2026-11-12 15:12",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Подготовка проектной и сметной документации для реконструкции футбольного поля в селе Ак-Добо Бакай-Атинского района.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af57e94f5c5d6748b4590a9?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -4548,5 +4574,17 @@
     "status": "Активен",
     "title": "Сайдыкум айыл аймагындагы Аркалык айылына волейбол аянтчасынын проектилик-сметалык документерин жасоо",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620842940"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621036911": {
+    "customer": "Айыл окмоту Бакай-Атинского айылного аймака",
+    "deadline": "18.11.2026 09:00",
+    "deadline_date": "2026-11-18",
+    "first_seen": "2026-11-12T13:26:37.310897+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621036911",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение услуги сметчика",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621036911"
   }
 }
