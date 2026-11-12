@@ -4586,5 +4586,17 @@
     "status": "Активен",
     "title": "Приобретение услуги сметчика",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621036911"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621053170": {
+    "customer": "Учреждения Кунтуйский  айыл окмоту.,  Кунтуйского айылного округа",
+    "deadline": "18.11.2026 09:00",
+    "deadline_date": "2026-11-18",
+    "first_seen": "2026-11-12T21:47:01.624178+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621053170",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Услуга на выполнение рабочего проекта по электроснабжению муниципальных объектов",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621053170"
   }
 }
