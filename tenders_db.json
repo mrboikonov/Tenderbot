@@ -4648,5 +4648,17 @@
     "status": "Активен",
     "title": "Услуга на выполнение рабочего проекта по электроснабжению муниципальных объектов",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621053170"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621408613": {
+    "customer": "Учреждение “Айыл окмоту Ак-Жолского айылного аймака”",
+    "deadline": "19.11.2026 09:00",
+    "deadline_date": "2026-11-19",
+    "first_seen": "2026-11-13T21:16:15.636897+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621408613",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Ак-Жол айыл аймагынын Ак-Жол айылындагы мектептерге смета жана ПСД даярдоо, экспертизасы менен",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621408613"
   }
 }
