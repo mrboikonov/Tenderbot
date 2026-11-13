@@ -1676,6 +1676,45 @@
     "title": "Подготовка проектной и сметной документации для реконструкции футбольного поля в селе Ак-Добо Бакай-Атинского района.",
     "url": "https://goszakupki.okmot.kg/public/order/view/6af57e94f5c5d6748b4590a9?tab=tender"
   },
+  "goszakupki:6af6bf67f5c5d6748b4592b2": {
+    "customer": "Айыл окмоту Чолпонбайского айылного аймака",
+    "deadline": "2026-11-18 14:42",
+    "deadline_date": "2026-11-18",
+    "first_seen": "2026-11-13T12:43:21.718572+00:00",
+    "id": "goszakupki:6af6bf67f5c5d6748b4592b2",
+    "notified": true,
+    "published": "2026-11-13 13:51",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Покупка услуг по состовлению рабочего проекта и сметной документации по объекту \"Спорт комплекс и парковая зона с игровой детской площадкой в с Чолпонбай",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af6bf67f5c5d6748b4592b2?tab=tender"
+  },
+  "goszakupki:6af6c30af5c5d6748b4592c6": {
+    "customer": "Управление капитального строительства при мэрии города Бишкек",
+    "deadline": "2026-11-18 16:00",
+    "deadline_date": "2026-11-18",
+    "first_seen": "2026-11-13T12:43:21.718572+00:00",
+    "id": "goszakupki:6af6c30af5c5d6748b4592c6",
+    "notified": true,
+    "published": "2026-11-13 15:14",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Разработка рабочего проекта: \"Дополнительный корпус к общеобразовательной школе №98 в ж/м Алтын-Ордо\"",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af6c30af5c5d6748b4592c6?tab=tender"
+  },
+  "goszakupki:6af6ea8ef5c5d6748b45937e": {
+    "customer": "Учреждение \"Дорожно-эксплуатационное учреждение №11 Департамента дорожного хозяйство при Министерстве транспорта и коммуникации КР\"",
+    "deadline": "2026-11-18 17:00",
+    "deadline_date": "2026-11-18",
+    "first_seen": "2026-11-13T12:43:21.718572+00:00",
+    "id": "goszakupki:6af6ea8ef5c5d6748b45937e",
+    "notified": true,
+    "published": "2026-11-13 16:57",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги по техническому обслуживанию, ремонту компьютерной и оргтехники, заправке картриджей.",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6af6ea8ef5c5d6748b45937e?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
@@ -3357,6 +3396,17 @@
     "status": "Активен",
     "title": "Тендер на \"Проведение итоговой конференции в рамках реализуемых проектов АРИС с 9 по 11 декабря 2026 года в Иссык-Кульской области\"",
     "url": "https://www.aris.kg/tenders/view/2844"
+  },
+  "https://www.aris.kg/tenders/view/2847": {
+    "deadline": "16.11.2026 09:00:00",
+    "deadline_date": "2026-11-16",
+    "first_seen": "2026-11-13T12:43:21.718572+00:00",
+    "id": "https://www.aris.kg/tenders/view/2847",
+    "notified": true,
+    "source": "aris.kg",
+    "status": "Активен",
+    "title": "Тендер на поставку \"Приобретение материалов для системы капельного орошения, сельскохозяйственной техники, электрического грузового трицикла и минерального удобрения для бенефициара ЦДС „ТЛЦ — Свежее яблоко“ — фермера Назирова С.\"",
+    "url": "https://www.aris.kg/tenders/view/2847"
   },
   "https://www.tenders.kg/Announcements_view.php?editid1=31828": {
     "deadline": "21.09.2026",
