@@ -2903,11 +2903,12 @@
     "url": "https://procurement.kg/tenders/1163520"
   },
   "https://procurement.kg/tenders/1165400": {
-    "deadline": "",
-    "deadline_date": null,
+    "deadline": "19.11.2026",
+    "deadline_date": "2026-11-19",
     "first_seen": "2026-11-14T11:51:49.245122+00:00",
     "id": "https://procurement.kg/tenders/1165400",
     "notified": true,
+    "published": "14.11.2026",
     "source": "procurement.kg",
     "status": "Активен",
     "title": "Ак-Жол айыл аймагынын Ак-Жол айылындагы мектептерге смета жана ПСД даярдоо, экспертизасы менен",
