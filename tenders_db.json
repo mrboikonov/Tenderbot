@@ -3014,6 +3014,18 @@
     "title": "Система автополива территории ЦОМиД им А.Ташиева.",
     "url": "https://procurement.kg/tenders/1165428"
   },
+  "https://procurement.kg/tenders/1165926": {
+    "deadline": "20.11.2026",
+    "deadline_date": "2026-11-20",
+    "first_seen": "2026-11-16T15:06:37.894449+00:00",
+    "id": "https://procurement.kg/tenders/1165926",
+    "notified": true,
+    "published": "16.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг сметчика и технадзора",
+    "url": "https://procurement.kg/tenders/1165926"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -4158,6 +4170,28 @@
     "title": "№32695. Закупка транспортной услуги по перевозке участников мероприятия в рамках проекта ОФ СКСЖА",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32695"
   },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32706": {
+    "deadline": "20.11.2026",
+    "deadline_date": "2026-11-20",
+    "first_seen": "2026-11-16T15:06:37.894449+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32706",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32706. Поставка материалов, прокладка трасс и кабеля, монтаж розеток и кросса, маркировка, сертификационное тестирование, исполнительная документация. Не входят (отдельные проекты, но лотки закладываются с запасом под них): СКУД, охранно-пожарная сигнализация, электроснабжение, активное оборудование.",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32706"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32707": {
+    "deadline": "26.11.2026",
+    "deadline_date": "2026-11-26",
+    "first_seen": "2026-11-16T15:06:37.894449+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32707",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32707. ЗАПРОС ЦЕНОВОГО ПРЕДЛОЖЕНИЯ (ЗЦП) Название Проекта: Совместный проект ИБР/ИФСР/ГПЦО Smart-Ed по улучшению доступа к возможностям инклюзивного обучения и его качества для всех детей в Кыргызской Республике № Контракта: KGZ-1030/CATERING/RFQ/2026/3 \"Выездной кейтеринг на 09 декабря 2026 г.\"",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32707"
+  },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
     "deadline": "22.09.2026 14:00",
@@ -4817,5 +4851,17 @@
     "status": "Активен",
     "title": "Ак-Жол айыл аймагынын Ак-Жол айылындагы мектептерге смета жана ПСД даярдоо, экспертизасы менен",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=621408613"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622460161": {
+    "customer": "Тонский районный отдел культуры",
+    "deadline": "20.11.2026 09:00",
+    "deadline_date": "2026-11-20",
+    "first_seen": "2026-11-16T15:06:37.894449+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622460161",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг сметчика и технадзора",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622460161"
   }
 }
