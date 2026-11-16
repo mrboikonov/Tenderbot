@@ -2926,6 +2926,42 @@
     "title": "Материалы и комплектующие для производства мебели",
     "url": "https://procurement.kg/tenders/1165408"
   },
+  "https://procurement.kg/tenders/1165425": {
+    "deadline": "20.11.2026",
+    "deadline_date": "2026-11-20",
+    "first_seen": "2026-11-16T04:01:41.004510+00:00",
+    "id": "https://procurement.kg/tenders/1165425",
+    "notified": true,
+    "published": "16.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Установка видеонаблюдения для детского сада Балалык айылного аймака Балбай Тюпмского района",
+    "url": "https://procurement.kg/tenders/1165425"
+  },
+  "https://procurement.kg/tenders/1165426": {
+    "deadline": "19.11.2026",
+    "deadline_date": "2026-11-19",
+    "first_seen": "2026-11-16T04:01:41.004510+00:00",
+    "id": "https://procurement.kg/tenders/1165426",
+    "notified": true,
+    "published": "16.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг по установке видеонаблюдения с материалами.",
+    "url": "https://procurement.kg/tenders/1165426"
+  },
+  "https://procurement.kg/tenders/1165428": {
+    "deadline": "19.11.2026",
+    "deadline_date": "2026-11-19",
+    "first_seen": "2026-11-16T04:01:41.004510+00:00",
+    "id": "https://procurement.kg/tenders/1165428",
+    "notified": true,
+    "published": "16.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Система автополива территории ЦОМиД им А.Ташиева.",
+    "url": "https://procurement.kg/tenders/1165428"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -4669,6 +4705,18 @@
     "status": "Активен",
     "title": "Стоматологическое оборудование и мебель",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620036824"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620776317": {
+    "customer": "Мэрия города Балыкчы",
+    "deadline": "19.11.2026 14:32",
+    "deadline_date": "2026-11-19",
+    "first_seen": "2026-11-16T04:01:41.004510+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620776317",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "на разработку проектно-сметной документации по объекту: «Реконструкция закрытой коллекторно-дренажной системы для понижения уровня грунтовых вод населенного пункта села Ак - Өлөң г. Балыкчы Иссык-Кульской области.",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620776317"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=620842940": {
     "customer": "Сейдикумский айыл Окмоту Сейдикумского айылного аймака",
