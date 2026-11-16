@@ -1715,6 +1715,58 @@
     "title": "Услуги по техническому обслуживанию, ремонту компьютерной и оргтехники, заправке картриджей.",
     "url": "https://goszakupki.okmot.kg/public/order/view/6af6ea8ef5c5d6748b45937e?tab=tender"
   },
+  "goszakupki:6afad35ff5c5d6748b45956f": {
+    "customer": "У-е Отдел реализации лесных проектов Лесной службы при Министерстве чрезвычайных ситуаций КР",
+    "deadline": "2026-11-30 17:00",
+    "deadline_date": "2026-11-30",
+    "first_seen": "2026-11-16T13:14:27.948091+00:00",
+    "id": "goszakupki:6afad35ff5c5d6748b45956f",
+    "notified": true,
+    "published": "2026-11-16 16:10",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Привлечение эксперта по лесному хозяйству в рамках проекта КОФПИ (Тендер-2)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6afad35ff5c5d6748b45956f?tab=tender"
+  },
+  "goszakupki:6afad634f5c5d6748b459581": {
+    "customer": "Учреждение Главное управление по обеспечению безопасности дорожного движения Министерства внутренних дел Кыргызской Республики",
+    "deadline": "2026-11-20 10:00",
+    "deadline_date": "2026-11-20",
+    "first_seen": "2026-11-16T13:14:27.948091+00:00",
+    "id": "goszakupki:6afad634f5c5d6748b459581",
+    "notified": true,
+    "published": "2026-11-16 16:29",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг по техническому обслуживанию, диагностике и ремонту оргтехники, заправке и восстановлению картриджей по южному региону ГУОБДД МВД Кыргызской Республики",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6afad634f5c5d6748b459581?tab=tender"
+  },
+  "goszakupki:6afad7a5f5c5d6748b45958f": {
+    "customer": "Муниципальное учреждение Управление образования Октябрьского района мэрии города Бишкек",
+    "deadline": "2026-11-19 16:29",
+    "deadline_date": "2026-11-19",
+    "first_seen": "2026-11-16T13:14:27.948091+00:00",
+    "id": "goszakupki:6afad7a5f5c5d6748b45958f",
+    "notified": true,
+    "published": "2026-11-16 16:26",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Услуги составления проектно-сметной документации для я/с \"Баластан\" и школ Октябрьского района (ПОВТОР)",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6afad7a5f5c5d6748b45958f?tab=tender"
+  },
+  "goszakupki:6afae7c0f5c5d6748b4595e3": {
+    "customer": "Учреждение Департамент капитального строительства",
+    "deadline": "2026-11-20 11:00",
+    "deadline_date": "2026-11-20",
+    "first_seen": "2026-11-16T13:14:27.948091+00:00",
+    "id": "goszakupki:6afae7c0f5c5d6748b4595e3",
+    "notified": true,
+    "published": "2026-11-16 17:41",
+    "source": "goszakupki.okmot.kg",
+    "status": "Активен",
+    "title": "Подготовка проектно сметной документации (ПСД) «Строительство комплексной детской игровой площадки и мини фудбольной поля\" на территории много этажного жилого дома по пер.Токтогула 7 г.Манас",
+    "url": "https://goszakupki.okmot.kg/public/order/view/6afae7c0f5c5d6748b4595e3?tab=tender"
+  },
   "https://procurement.kg/tenders/1145305": {
     "deadline": "21.09.2026",
     "deadline_date": "2026-09-21",
