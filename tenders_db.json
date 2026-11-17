@@ -3026,6 +3026,30 @@
     "title": "Приобретение услуг сметчика и технадзора",
     "url": "https://procurement.kg/tenders/1165926"
   },
+  "https://procurement.kg/tenders/1166405": {
+    "deadline": "20.11.2026",
+    "deadline_date": "2026-11-20",
+    "first_seen": "2026-11-17T14:00:11.437995+00:00",
+    "id": "https://procurement.kg/tenders/1166405",
+    "notified": true,
+    "published": "17.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение дизельного топлива (ГСМ) по талонам в рамках проекта CS-FOR",
+    "url": "https://procurement.kg/tenders/1166405"
+  },
+  "https://procurement.kg/tenders/1166416": {
+    "deadline": "23.11.2026",
+    "deadline_date": "2026-11-23",
+    "first_seen": "2026-11-17T14:00:11.437995+00:00",
+    "id": "https://procurement.kg/tenders/1166416",
+    "notified": true,
+    "published": "17.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Үч-Дөбө-Алай айыл өкмөтүнө караштуу Көлдүк айылына жаңыдан куруулучу спорт залдын  ПСД (проектик сметалык документтерин) жана керектүү документерин даярдоо  (өнүктүрүү фонд)",
+    "url": "https://procurement.kg/tenders/1166416"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -4191,6 +4215,17 @@
     "status": "Активен",
     "title": "№32707. ЗАПРОС ЦЕНОВОГО ПРЕДЛОЖЕНИЯ (ЗЦП) Название Проекта: Совместный проект ИБР/ИФСР/ГПЦО Smart-Ed по улучшению доступа к возможностям инклюзивного обучения и его качества для всех детей в Кыргызской Республике № Контракта: KGZ-1030/CATERING/RFQ/2026/3 \"Выездной кейтеринг на 09 декабря 2026 г.\"",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32707"
+  },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32730": {
+    "deadline": "02.12.2026",
+    "deadline_date": "2026-12-02",
+    "first_seen": "2026-11-17T14:00:11.437995+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32730",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32730. Специалист по укреплению систем сообществ, реализации проектов Государственного социального заказа и устойчивости услуг для ЛЖВ и КГН",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32730"
   },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
