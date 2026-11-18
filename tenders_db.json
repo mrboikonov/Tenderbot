@@ -3050,6 +3050,18 @@
     "title": "Үч-Дөбө-Алай айыл өкмөтүнө караштуу Көлдүк айылына жаңыдан куруулучу спорт залдын  ПСД (проектик сметалык документтерин) жана керектүү документерин даярдоо  (өнүктүрүү фонд)",
     "url": "https://procurement.kg/tenders/1166416"
   },
+  "https://procurement.kg/tenders/1166467": {
+    "deadline": "23.11.2026",
+    "deadline_date": "2026-11-23",
+    "first_seen": "2026-11-18T04:00:04.723987+00:00",
+    "id": "https://procurement.kg/tenders/1166467",
+    "notified": true,
+    "published": "18.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Запчасти на трактор МТЗ-80, ГАЗ-52, ГАЗ-53",
+    "url": "https://procurement.kg/tenders/1166467"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -4227,6 +4239,17 @@
     "title": "№32730. Специалист по укреплению систем сообществ, реализации проектов Государственного социального заказа и устойчивости услуг для ЛЖВ и КГН",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32730"
   },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32734": {
+    "deadline": "24.11.2026",
+    "deadline_date": "2026-11-24",
+    "first_seen": "2026-11-18T04:00:04.723987+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32734",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32734. Устройство локальной вычислительной сети, поставка и монтаж сетевого оборудования и восстановление системы видеонаблюдения в объектах КГМА (СУНКЦ и уч.корпуч №4).",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32734"
+  },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
     "deadline": "22.09.2026 14:00",
@@ -4898,5 +4921,41 @@
     "status": "Активен",
     "title": "Приобретение услуг сметчика и технадзора",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622460161"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622497696": {
+    "customer": "Учреждение  Айыл окмоту айылного аймака Кызыл-Суу",
+    "deadline": "23.11.2026 11:00",
+    "deadline_date": "2026-11-23",
+    "first_seen": "2026-11-18T04:00:04.723987+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622497696",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение оборудования для системы видеонаблюдения для ДДУ Арча,Наристе,Бакыт",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622497696"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622498870": {
+    "customer": "Учреждение  Айыл окмоту айылного аймака Кызыл-Суу",
+    "deadline": "23.11.2026 12:00",
+    "deadline_date": "2026-11-23",
+    "first_seen": "2026-11-18T04:00:04.723987+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622498870",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение оборудования для системы видеонаблюдения для терретории городка",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622498870"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622794173": {
+    "customer": "Кызыл-Тууйский айыл окмоту Кызыл-Тууйского айылного аймака",
+    "deadline": "23.11.2026 10:42",
+    "deadline_date": "2026-11-23",
+    "first_seen": "2026-11-18T04:00:04.723987+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622794173",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "\"Балалык\" балдар бакчасына навес куруу учун сметалык документтерди даярдоо",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=622794173"
   }
 }
