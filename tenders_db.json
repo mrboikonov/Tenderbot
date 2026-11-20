@@ -3122,6 +3122,30 @@
     "title": "Покупка услуг по консультанта для строительных объектов и проектов",
     "url": "https://procurement.kg/tenders/1166944"
   },
+  "https://procurement.kg/tenders/1167509": {
+    "deadline": "25.11.2026",
+    "deadline_date": "2026-11-25",
+    "first_seen": "2026-11-20T11:12:55.838000+00:00",
+    "id": "https://procurement.kg/tenders/1167509",
+    "notified": true,
+    "published": "20.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Услуги по организации и техсопровождению церемонии открытия семенохранилища в рамках проекта AFoCO",
+    "url": "https://procurement.kg/tenders/1167509"
+  },
+  "https://procurement.kg/tenders/1167535": {
+    "deadline": "25.11.2026",
+    "deadline_date": "2026-11-25",
+    "first_seen": "2026-11-20T11:12:55.838000+00:00",
+    "id": "https://procurement.kg/tenders/1167535",
+    "notified": true,
+    "published": "20.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение камеры видеонаблюдения",
+    "url": "https://procurement.kg/tenders/1167535"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -4343,6 +4367,17 @@
     "title": "№32744. Конкурс на оказание услуги полевого специалиста для  проекта «Инклюзивное сообщество для детей c инвалидностью. Продолжение»",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32744"
   },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32792": {
+    "deadline": "30.11.2026",
+    "deadline_date": "2026-11-30",
+    "first_seen": "2026-11-20T11:12:55.838000+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32792",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32792. Аудит проекта",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32792"
+  },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
     "deadline": "22.09.2026 14:00",
@@ -5074,5 +5109,17 @@
     "status": "Активен",
     "title": "Приобретение орг техники и мебели",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=623720083"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=624347098": {
+    "customer": "Фрунзенский айыл окмоту",
+    "deadline": "25.11.2026 17:05",
+    "deadline_date": "2026-11-25",
+    "first_seen": "2026-11-20T11:12:55.838000+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=624347098",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение услуг по ремонту систем видеонаблюдения в школах",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=624347098"
   }
 }
