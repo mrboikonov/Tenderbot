@@ -3158,6 +3158,30 @@
     "title": "Подготовка проектно сметной документации (ПСД) «Строительство комплексной детской игровой площадки и мини фудбольной поля\" на территории много этажного жилого дома по пер.Токтогула 7 г.Манас",
     "url": "https://procurement.kg/tenders/1167580"
   },
+  "https://procurement.kg/tenders/1168631": {
+    "deadline": "27.11.2026",
+    "deadline_date": "2026-11-27",
+    "first_seen": "2026-11-24T04:58:29.062760+00:00",
+    "id": "https://procurement.kg/tenders/1168631",
+    "notified": true,
+    "published": "24.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Жоош айыл өкмөтүндө болуп жаткан иштерге смета жасатууга жана башка кошумча кызматтарга",
+    "url": "https://procurement.kg/tenders/1168631"
+  },
+  "https://procurement.kg/tenders/1168635": {
+    "deadline": "27.11.2026",
+    "deadline_date": "2026-11-27",
+    "first_seen": "2026-11-24T04:58:29.062760+00:00",
+    "id": "https://procurement.kg/tenders/1168635",
+    "notified": true,
+    "published": "24.11.2026",
+    "source": "procurement.kg",
+    "status": "Активен",
+    "title": "Приобретение оборудования и выполнение работ по установке системы видеонаблюдения",
+    "url": "https://procurement.kg/tenders/1168635"
+  },
   "https://www.aris.kg/tenders/view/2291": {
     "deadline": "18.08.2025 18:00:00",
     "deadline_date": "2025-08-18",
@@ -5133,5 +5157,17 @@
     "status": "Активен",
     "title": "Приобретение услуг по ремонту систем видеонаблюдения в школах",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=624347098"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=625885337": {
+    "customer": "Отдел культуры Араванского района",
+    "deadline": "27.11.2026 11:00",
+    "deadline_date": "2026-11-27",
+    "first_seen": "2026-11-24T04:58:29.062760+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=625885337",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение видеопроектора и электрического конвектора.",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=625885337"
   }
 }
