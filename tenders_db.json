@@ -4414,6 +4414,17 @@
     "title": "№32792. Аудит проекта",
     "url": "https://www.tenders.kg/Announcements_view.php?editid1=32792"
   },
+  "https://www.tenders.kg/Announcements_view.php?editid1=32832": {
+    "deadline": "04.12.2026",
+    "deadline_date": "2026-12-04",
+    "first_seen": "2026-11-25T04:16:53.739989+00:00",
+    "id": "https://www.tenders.kg/Announcements_view.php?editid1=32832",
+    "notified": true,
+    "source": "tenders.kg",
+    "status": "Активен",
+    "title": "№32832. Конкурс на поставку мебели, предметов интерьера, техники и оборудования.",
+    "url": "https://www.tenders.kg/Announcements_view.php?editid1=32832"
+  },
   "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=596386490": {
     "customer": "\"Мэрия города Шопокова\"",
     "deadline": "22.09.2026 14:00",
@@ -5169,5 +5180,17 @@
     "status": "Активен",
     "title": "Приобретение видеопроектора и электрического конвектора.",
     "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=625885337"
+  },
+  "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=626420028": {
+    "customer": "Профессиональный лицей № 90 Государственного агентства по профессионально-техническому образованию",
+    "deadline": "30.11.2026 09:30",
+    "deadline_date": "2026-11-30",
+    "first_seen": "2026-11-25T04:16:53.739989+00:00",
+    "id": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=626420028",
+    "notified": true,
+    "source": "zakupki.gov.kg",
+    "status": "Активен",
+    "title": "Приобретение оборудования, инвентаря и мебели для оснащения учебных классов (парикмахерского дела и кулинарии)",
+    "url": "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=626420028"
   }
 }
